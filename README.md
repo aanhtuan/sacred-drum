@@ -4,7 +4,7 @@ SacredDrum là game 2D top-down action adventure, đồ họa pixel art, lấy c
 
 ## Level 1 map prototype
 
-Scene `Assets/Scenes/Level1_CanhDong.unity`: map top-down 88×56 tile, palette 16×16, ruộng, suối/cầu, collision và marker cho ba đèn/cổng/mảnh trống. Xem [thiết kế và kiểm chứng](Docs/Level1_Map_Design.md), [nguồn asset và giấy phép](Docs/AssetLicenses.md). Chưa có Player Controller hoặc gameplay thắp đèn/mở cổng.
+Scene `Assets/Scenes/Level1_CanhDong.unity`: map top-down 88×56 tile theo ảnh tham chiếu Level 1, đường uốn qua ruộng vàng, nhà tranh, tre, cây tán lớn, suối/cầu và bệ trống; có collision cùng marker cho ba đèn/cổng/mảnh trống. Terrain 16×16, prop atlas PPU64. Bản blockout giữ trong `Assets/Scenes/Archive/Level1_CanhDong_Blockout.unity`. Xem [thiết kế và kiểm chứng](Docs/Level1_Map_Design.md), [nguồn asset và giấy phép](Docs/AssetLicenses.md). Chưa có Player Controller hoặc gameplay thắp đèn/mở cổng.
 
 ## Thiết lập nền tảng Sprint 0
 

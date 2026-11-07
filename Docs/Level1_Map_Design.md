@@ -1,5 +1,17 @@
 # Level 1 — Cánh đồng bị lãng quên
 
+## Bản visual theo ảnh tham chiếu
+
+Cập nhật theo yêu cầu Project Owner ngày 07/11/2026, chỉ lấy dải **Level 1 — Cánh đồng** trong ảnh: nhà tranh/bụi tre bên trái, đường đất uốn qua ruộng vàng, suối và cầu ở giữa, cờ đỏ và khu trống bên phải. Giữ map prototype 88×56 top-down; không coi kích thước hoặc trạng thái hoàn thành ghi trong ảnh là kết quả kiểm thử của project.
+
+- Scene đang dùng vẫn là `Assets/Scenes/Level1_CanhDong.unity`, GUID giữ nguyên.
+- Bản blockout trước được lưu qua Unity tại `Assets/Scenes/Archive/Level1_CanhDong_Blockout.unity`.
+- Art cây, nhà tranh, tre, rơm, đá, đèn, cờ và bệ trống: tám sprite riêng slice từ atlas RGBA tạo bằng built-in image_gen, không dùng ảnh concept làm nền phẳng. Xem [prompt và nguồn tạo](ReferenceArtPrompt.md).
+- Terrain native: 29 Tile assets mới gồm cỏ, đất, lúa, nước/bờ, bờ đất dạng khối, rào, đá lát và 16 mask nối đường. Nền vẫn là Tilemap 16×16/PPU16. Atlas prop có PPU64 và padding trong suốt, không phải sheet tile 16×16.
+- Nhà/cây/đá blockout cũ được giữ trong scene nhưng tắt cả group và collider. Art mới nằm dưới `Environment/ReferenceDressing`, với collider thân cây, footprint nhà/đá/bệ phù hợp.
+- Luồng khám phá và các tọa độ đèn/cổng/mảnh trống giữ nguyên. Trước cổng có ba đèn; cổng đóng vẫn chặn mảnh trống.
+- Ảnh mới: [overview trong Unity](Screenshots/Level1_Reference_Overview.png), [camera trong Play Mode](Screenshots/Level1_Reference_PlayMode.png). Ảnh ở phần cuối là bằng chứng của blockout trước.
+
 ## Mục tiêu và phạm vi
 
 Prototype map top-down cho Guardian of the Sacred Drum. Minh xuất phát ở đường làng, khám phá hai bờ ruộng, tiếp cận ba đèn dầu, vượt cầu và đến cổng dẫn vào khu mảnh trống đầu tiên.
@@ -37,7 +49,12 @@ Level1_CanhDong
 │   ├── Bridges [Grid]
 │   │   └── WoodenBridge
 │   │       └── BridgeRails
-│   └── Buildings
+│   ├── Buildings [blockout, inactive]
+│   └── ReferenceDressing
+│       ├── Trees
+│       ├── Bamboo
+│       ├── HutsAndHay
+│       └── Landmarks
 ├── Gameplay
 │   ├── PlayerSpawn
 │   ├── Lamp_01
@@ -55,7 +72,7 @@ Level1_CanhDong
     └── North
 ```
 
-Hierarchy export từ Editor: [Hierarchy.json](Verification/Hierarchy.json), 88 GameObject. Foreground hiện để trống để dành cho canopy; Environment/Fences là group dự phòng, fence hiện nằm trên Obstacles Tilemap.
+Hierarchy export từ Editor: [Hierarchy.json](Verification/Hierarchy.json), 143 GameObject (gồm các group blockout đã tắt). Foreground hiện để trống để dành cho canopy; Environment/Fences là group dự phòng, fence hiện nằm trên Obstacles Tilemap.
 
 ## Tilemap và thứ tự hiển thị
 
@@ -64,11 +81,11 @@ Dùng Sorting Layer Default cùng Sorting Order rõ ràng; không sửa TagManag
 | Tilemap / đối tượng | Sorting Order | Số ô có tile | Collision |
 | --- | ---: | ---: | --- |
 | Ground | 0 | 4928 | Không |
-| Paths | 10 | 814 | Không |
+| Paths | 10 | 633 | Không |
 | Water | 20 | 312 | Qua WaterCollision child |
 | WoodenBridge | 25 | 44 | Deck đi qua được |
-| GroundDecoration | 30 | 191 | Không |
-| Obstacles | 40 | 641 | TilemapCollider2D + CompositeCollider2D |
+| GroundDecoration | 30 | 753 | Không |
+| Obstacles | 40 | 672 | TilemapCollider2D + CompositeCollider2D |
 | BridgeRails | 45 | 22 | TilemapCollider2D + CompositeCollider2D |
 | Trees / Rocks / Buildings | 50 | SpriteRenderer | Collider thân cây, đá và footprint nhà |
 | Gameplay markers | 55 | SpriteRenderer | Trigger hoặc gate solid tùy đối tượng |
@@ -89,20 +106,20 @@ Composite dùng Rigidbody2D Static, geometry Polygons và `compositeOperation=Me
 | EnemySpawn_01 | (35.5, 33.5) | Sân chiến đấu bờ tây; marker Bóng Rơm |
 | EnemySpawn_02 | (58.5, 33.5) | Sân chiến đấu bờ đông; marker Bóng Rơm |
 
-1. Xuất phát ở phía tây, theo đường chính X=7..76, Y=26..29.
+1. Xuất phát ở phía tây (8.5,27.5), đường đất uốn qua (18,33), (23,34), (30,32), rồi về đầu cầu (40,27.5). Một nhánh dẫn vào nhà tranh tại (14,43).
 2. Hai nhánh ngắn dẫn đến Lamp_01 phía bắc và Lamp_02 phía nam. Mỗi nhánh có đích rõ ràng, không có đường cụt trang trí vô nghĩa.
-3. Sân chiến đấu thứ nhất ở X=31..39, Y=30..36, giữ ít vật cản.
+3. Sân chiến đấu thứ nhất ở X=32..39, Y=30..35, giữ ít vật cản.
 4. Cầu gỗ X=40..50, Y=26..29 vượt dòng suối chạy dọc map; hai lan can ngăn rời cầu sang nước.
-5. Từ bờ đông, nhánh phía nam dẫn đến Lamp_03, sân thứ hai tại X=53..64, Y=30..36.
+5. Từ bờ đông, đường uốn qua (56,25), (62,27), (67,32), rồi đến cổng. Nhánh phía nam dẫn đến Lamp_03, sân thứ hai tại X=54..62, Y=30..35.
 6. Nhánh phía bắc bên phải dẫn đến LockedGate. Sân mảnh trống được rào kín X=67..83, Y=37..51; lỗ mở duy nhất X=73..76 nằm dưới gate collider.
 
 Cả ba đèn ở ngoài khu cổng. Khi cổng đóng, không có đường vòng vào mảnh trống. Test mở cổng chỉ tạm tắt collider để kiểm chứng layout rồi khôi phục; chưa có logic liên kết ba đèn với cổng.
 
 ## Art direction và palette
 
-Cỏ xanh, đường đất nâu cam, hàng cây trồng vàng đại diện ruộng lúa, nước xanh dịu. Marker đèn màu cam vàng đặt trên bệ đá; icon mảnh trống màu đồng. Nhà nhỏ, cây thưa, fence và ruộng tạo bối cảnh prototype nông thôn; đây chưa phải art Việt cổ hoàn thiện.
+Cỏ xanh, đường đất vàng nâu uốn theo các đoạn spline tuyến tính, mảng lúa vàng, nước xanh lam ngọc. Đèn dầu màu cam vàng đặt trên bệ đá; mảnh trống được thể hiện bằng bệ trống đồng. Nhà tranh, bụi tre, cây tán lớn và cờ đỏ tạo bối cảnh gần ảnh tham chiếu; art này chưa phải tái hiện văn hóa Việt cổ đã được khảo cứu.
 
-Tile Palette: `Assets/Art/Environment/CanhDong/Palettes/Level1_CanhDong_Palette.prefab`. Sáu Tilemap con xếp từ trên xuống: Ground, Paths, Water, Vegetation, Structures, Decorations; số tile mẫu lần lượt 5, 10, 4, 9, 10, 8. Trong Tile Palette window chọn palette này; Active Tilemap chọn `Ground` hoặc map muốn vẽ. Palette được chọn không tự quyết định nơi vẽ. Có thể cuộn/pan hoặc Frame All để xem các nhóm dưới viewport.
+Tile Palette: `Assets/Art/Environment/CanhDong/Palettes/Level1_Reference_Palette.prefab`. Sáu Tilemap con xếp từ trên xuống: Ground, Paths, Water, Vegetation, Structures, Decorations; số tile mẫu lần lượt 3, 16, 3, 3, 4, 2. Palette blockout cũ được giữ nguyên. Trong Tile Palette window chọn palette này; Active Tilemap chọn `Ground` hoặc map muốn vẽ. Palette được chọn không tự quyết định nơi vẽ. Có thể cuộn/pan hoặc Frame All để xem các nhóm dưới viewport.
 
 Nguồn và các art cần thay thế: [AssetLicenses.md](AssetLicenses.md).
 
@@ -111,7 +128,7 @@ Nguồn và các art cần thay thế: [AssetLicenses.md](AssetLicenses.md).
 | Kiểm tra | Kết quả | Bằng chứng |
 | --- | --- | --- |
 | MCP đọc đúng SacredDrum và scene | PASS | Project root, editor state, hierarchy đọc trực tiếp |
-| Import PPU/Point/Uncompressed/no mipmaps, slice 16×16 | PASS | [ImportSettings.json](Verification/ImportSettings.json), 14 PNG |
+| Import PPU/Point/Uncompressed/no mipmaps, slice 16×16 | PASS | [ImportSettings.json](Verification/ImportSettings.json), 44 PNG, kiểm tra riêng PPU16 terrain và PPU64 props |
 | Palette hợp lệ và đủ sáu nhóm | PASS | ImportSettings.json; prefab có GridPalette subasset |
 | Scene lưu và mở lại | PASS | MCP load và scene path được xác nhận khi bàn giao |
 | Ba đèn tiếp cận được khi cổng đóng | PASS | [EditModeGeometry.json](Verification/EditModeGeometry.json) và [PlayModeGeometry.json](Verification/PlayModeGeometry.json) |
@@ -142,10 +159,10 @@ Khi tạo script Editor có một lỗi compile `BoundsInt.PositionEnumerator.Wh
 - Cần Player thật để đánh giá cảm giác điều khiển, khoảng trống chiến đấu và tốc độ khám phá; không có nhân vật điều khiển trong scene này.
 - Cây/props đang có sorting order cố định, chưa có Y-sort cho Player hoặc canopy che/hiện theo vị trí; Foreground dành sẵn cho bước đó.
 - Chưa có animation nước, VFX đèn, âm thanh hay nhạc. Các icon đèn chỉ là marker, không thể hiện trạng thái gameplay đã thắp.
-- Art lúa, mái tranh, tre, đèn và hoa văn Đông Sơn cần thiết kế riêng trước bản hoàn thiện.
+- Đã thêm art theo tham chiếu cho nhà tranh, tre, đèn và bệ trống; vẫn cần review art đồng bộ pixel density và tính chính xác văn hóa trước bản hoàn thiện.
 - Không sửa Build Profiles/danh sách scene build gốc. Mở scene trực tiếp để xem map.
 
-## Ảnh thực tế
+## Ảnh blockout trước khi cập nhật visual
 
 - [Tổng thể camera](Screenshots/Level1_Overview.png).
 - [Camera render trong Play Mode](Screenshots/Level1_PlayMode.png).

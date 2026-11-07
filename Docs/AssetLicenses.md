@@ -54,7 +54,7 @@ Hai ZIP: **373371 bytes**; sau giải nén tổng **282 file**. Archive gốc, b
 
 Đây là placeholder pixel đơn giản tạo trong dự án, không tải từ bên thứ ba hoặc dùng concept image làm tileset. Việc đưa chúng vào repository được thực hiện theo yêu cầu xây map và push của Project Owner. Không có hạn chế phân phối từ nguồn asset ngoài dự án.
 
-Tổng import: **14 PNG**, gồm hai sheet nguồn và 12 placeholder; **80 Tile assets**, một Tile Palette prefab. Không có file lớn cần thêm pattern Git LFS; file lớn nhất là scene text khoảng 2,2 MiB. Không thay đổi chính sách LFS hiện có.
+Tổng import ở bản blockout đầu: **14 PNG**, gồm hai sheet nguồn và 12 placeholder; **80 Tile assets**, một Tile Palette prefab. Không có file lớn cần thêm pattern Git LFS; file lớn nhất là scene text khoảng 2,2 MiB. Không thay đổi chính sách LFS hiện có.
 
 ## Art cần thay thế trước bản hoàn thiện
 
@@ -63,3 +63,13 @@ Tổng import: **14 PNG**, gồm hai sheet nguồn và 12 placeholder; **80 Tile
 - Hàng rào gỗ cần thay bằng hàng rào tre có art thống nhất.
 - Đèn dầu, cổng, bệ đá và mảnh trống cần sprite riêng; icon mảnh trống chưa tái hiện hoa văn Đông Sơn khảo cứu.
 - Không sử dụng nhận diện thương hiệu, logo Kenney hoặc asset trả phí.
+
+
+## Cập nhật art theo ảnh tham chiếu của Project Owner
+
+- Atlas: `Assets/Art/Environment/CanhDong/ReferenceArt/CanhDong_ReferenceProps.png` — 1536×1024 RGBA, tám sprite có alpha trong suốt, tạo bằng **built-in image_gen** theo tham chiếu do người dùng gửi.
+- Đây là art tạo mới cho SacredDrum, **không phải asset Kenney và không gán giấy phép CC0 của Kenney cho atlas này**. Không tải thêm pack bên thứ ba. Prompt và nguồn output lưu tại [ReferenceArtPrompt.md](ReferenceArtPrompt.md).
+- File output gốc được giữ ngoài project; chỉ copy vào project rồi slice bằng Sprite Editor API, không chỉnh sửa pixel hoặc meta thủ công. Các rect trim padding trong từng ô atlas; PPU64, Point, Uncompressed, mipmaps tắt.
+- `ReferenceTiles/` có 29 texture 16×16 và 29 Tile assets được tạo trong Unity bằng công cụ Editor của dự án, cùng pipeline procedural-native với placeholder trước. Nền/đường/nước không phải một ảnh concept ghép phẳng.
+- Tổng texture được kiểm tra trong CanhDong hiện là **44 PNG**: 14 trước đó + 1 atlas mới + 29 terrain native. Tổng Tile assets: 109. Các nguồn cũ được giữ để dùng cho scene archive.
+- Nhà tranh, tre, đèn, cờ và bệ trống nay có sprite theo hướng art tham chiếu; còn cần review tính chính xác văn hóa, tỷ lệ và pixel density trước bản hoàn thiện. Icon trống không phải bản phục dựng khảo cổ.

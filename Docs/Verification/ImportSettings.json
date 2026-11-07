@@ -1,187 +1,560 @@
 {
   "status": "PASS",
+  "revision": "reference-inspired",
   "textures": [
     {
       "path": "Assets/Art/Environment/CanhDong/Props/BankEast.png",
-      "textureType": "Sprite",
-      "spriteMode": "Single",
+      "type": "Sprite",
+      "mode": "Single",
       "ppu": 16.0,
+      "expectedPpu": 16,
       "filter": "Point",
       "compression": "Uncompressed",
       "mipmaps": false,
       "spriteCount": 1,
-      "all16x16": true
+      "native16x16": true
     },
     {
       "path": "Assets/Art/Environment/CanhDong/Props/BankWest.png",
-      "textureType": "Sprite",
-      "spriteMode": "Single",
+      "type": "Sprite",
+      "mode": "Single",
       "ppu": 16.0,
+      "expectedPpu": 16,
       "filter": "Point",
       "compression": "Uncompressed",
       "mipmaps": false,
       "spriteCount": 1,
-      "all16x16": true
+      "native16x16": true
     },
     {
       "path": "Assets/Art/Environment/CanhDong/Props/Boundary.png",
-      "textureType": "Sprite",
-      "spriteMode": "Single",
+      "type": "Sprite",
+      "mode": "Single",
       "ppu": 16.0,
+      "expectedPpu": 16,
       "filter": "Point",
       "compression": "Uncompressed",
       "mipmaps": false,
       "spriteCount": 1,
-      "all16x16": true
+      "native16x16": true
     },
     {
       "path": "Assets/Art/Environment/CanhDong/Props/Bridge.png",
-      "textureType": "Sprite",
-      "spriteMode": "Single",
+      "type": "Sprite",
+      "mode": "Single",
       "ppu": 16.0,
+      "expectedPpu": 16,
       "filter": "Point",
       "compression": "Uncompressed",
       "mipmaps": false,
       "spriteCount": 1,
-      "all16x16": true
+      "native16x16": true
     },
     {
       "path": "Assets/Art/Environment/CanhDong/Props/BronzeFragment.png",
-      "textureType": "Sprite",
-      "spriteMode": "Single",
+      "type": "Sprite",
+      "mode": "Single",
       "ppu": 16.0,
+      "expectedPpu": 16,
       "filter": "Point",
       "compression": "Uncompressed",
       "mipmaps": false,
       "spriteCount": 1,
-      "all16x16": true
+      "native16x16": true
     },
     {
       "path": "Assets/Art/Environment/CanhDong/Props/EnemySpawn.png",
-      "textureType": "Sprite",
-      "spriteMode": "Single",
+      "type": "Sprite",
+      "mode": "Single",
       "ppu": 16.0,
+      "expectedPpu": 16,
       "filter": "Point",
       "compression": "Uncompressed",
       "mipmaps": false,
       "spriteCount": 1,
-      "all16x16": true
+      "native16x16": true
     },
     {
       "path": "Assets/Art/Environment/CanhDong/Props/Fence.png",
-      "textureType": "Sprite",
-      "spriteMode": "Single",
+      "type": "Sprite",
+      "mode": "Single",
       "ppu": 16.0,
+      "expectedPpu": 16,
       "filter": "Point",
       "compression": "Uncompressed",
       "mipmaps": false,
       "spriteCount": 1,
-      "all16x16": true
+      "native16x16": true
     },
     {
       "path": "Assets/Art/Environment/CanhDong/Props/Gate.png",
-      "textureType": "Sprite",
-      "spriteMode": "Single",
+      "type": "Sprite",
+      "mode": "Single",
       "ppu": 16.0,
+      "expectedPpu": 16,
       "filter": "Point",
       "compression": "Uncompressed",
       "mipmaps": false,
       "spriteCount": 1,
-      "all16x16": true
+      "native16x16": true
     },
     {
       "path": "Assets/Art/Environment/CanhDong/Props/OilLamp.png",
-      "textureType": "Sprite",
-      "spriteMode": "Single",
+      "type": "Sprite",
+      "mode": "Single",
       "ppu": 16.0,
+      "expectedPpu": 16,
       "filter": "Point",
       "compression": "Uncompressed",
       "mipmaps": false,
       "spriteCount": 1,
-      "all16x16": true
+      "native16x16": true
     },
     {
       "path": "Assets/Art/Environment/CanhDong/Props/Spawn.png",
-      "textureType": "Sprite",
-      "spriteMode": "Single",
+      "type": "Sprite",
+      "mode": "Single",
       "ppu": 16.0,
+      "expectedPpu": 16,
       "filter": "Point",
       "compression": "Uncompressed",
       "mipmaps": false,
       "spriteCount": 1,
-      "all16x16": true
+      "native16x16": true
     },
     {
       "path": "Assets/Art/Environment/CanhDong/Props/StoneFloor.png",
-      "textureType": "Sprite",
-      "spriteMode": "Single",
+      "type": "Sprite",
+      "mode": "Single",
       "ppu": 16.0,
+      "expectedPpu": 16,
       "filter": "Point",
       "compression": "Uncompressed",
       "mipmaps": false,
       "spriteCount": 1,
-      "all16x16": true
+      "native16x16": true
     },
     {
       "path": "Assets/Art/Environment/CanhDong/Props/Water.png",
-      "textureType": "Sprite",
-      "spriteMode": "Single",
+      "type": "Sprite",
+      "mode": "Single",
       "ppu": 16.0,
+      "expectedPpu": 16,
       "filter": "Point",
       "compression": "Uncompressed",
       "mipmaps": false,
       "spriteCount": 1,
-      "all16x16": true
+      "native16x16": true
+    },
+    {
+      "path": "Assets/Art/Environment/CanhDong/ReferenceArt/CanhDong_ReferenceProps.png",
+      "type": "Sprite",
+      "mode": "Multiple",
+      "ppu": 64.0,
+      "expectedPpu": 64,
+      "filter": "Point",
+      "compression": "Uncompressed",
+      "mipmaps": false,
+      "spriteCount": 8,
+      "native16x16": null
+    },
+    {
+      "path": "Assets/Art/Environment/CanhDong/ReferenceTiles/BankEast.png",
+      "type": "Sprite",
+      "mode": "Single",
+      "ppu": 16.0,
+      "expectedPpu": 16,
+      "filter": "Point",
+      "compression": "Uncompressed",
+      "mipmaps": false,
+      "spriteCount": 1,
+      "native16x16": true
+    },
+    {
+      "path": "Assets/Art/Environment/CanhDong/ReferenceTiles/BankWest.png",
+      "type": "Sprite",
+      "mode": "Single",
+      "ppu": 16.0,
+      "expectedPpu": 16,
+      "filter": "Point",
+      "compression": "Uncompressed",
+      "mipmaps": false,
+      "spriteCount": 1,
+      "native16x16": true
+    },
+    {
+      "path": "Assets/Art/Environment/CanhDong/ReferenceTiles/Boundary.png",
+      "type": "Sprite",
+      "mode": "Single",
+      "ppu": 16.0,
+      "expectedPpu": 16,
+      "filter": "Point",
+      "compression": "Uncompressed",
+      "mipmaps": false,
+      "spriteCount": 1,
+      "native16x16": true
+    },
+    {
+      "path": "Assets/Art/Environment/CanhDong/ReferenceTiles/Fence.png",
+      "type": "Sprite",
+      "mode": "Single",
+      "ppu": 16.0,
+      "expectedPpu": 16,
+      "filter": "Point",
+      "compression": "Uncompressed",
+      "mipmaps": false,
+      "spriteCount": 1,
+      "native16x16": true
+    },
+    {
+      "path": "Assets/Art/Environment/CanhDong/ReferenceTiles/Flowers.png",
+      "type": "Sprite",
+      "mode": "Single",
+      "ppu": 16.0,
+      "expectedPpu": 16,
+      "filter": "Point",
+      "compression": "Uncompressed",
+      "mipmaps": false,
+      "spriteCount": 1,
+      "native16x16": true
+    },
+    {
+      "path": "Assets/Art/Environment/CanhDong/ReferenceTiles/Grass.png",
+      "type": "Sprite",
+      "mode": "Single",
+      "ppu": 16.0,
+      "expectedPpu": 16,
+      "filter": "Point",
+      "compression": "Uncompressed",
+      "mipmaps": false,
+      "spriteCount": 1,
+      "native16x16": true
+    },
+    {
+      "path": "Assets/Art/Environment/CanhDong/ReferenceTiles/GrassDetail.png",
+      "type": "Sprite",
+      "mode": "Single",
+      "ppu": 16.0,
+      "expectedPpu": 16,
+      "filter": "Point",
+      "compression": "Uncompressed",
+      "mipmaps": false,
+      "spriteCount": 1,
+      "native16x16": true
+    },
+    {
+      "path": "Assets/Art/Environment/CanhDong/ReferenceTiles/Path0.png",
+      "type": "Sprite",
+      "mode": "Single",
+      "ppu": 16.0,
+      "expectedPpu": 16,
+      "filter": "Point",
+      "compression": "Uncompressed",
+      "mipmaps": false,
+      "spriteCount": 1,
+      "native16x16": true
+    },
+    {
+      "path": "Assets/Art/Environment/CanhDong/ReferenceTiles/Path1.png",
+      "type": "Sprite",
+      "mode": "Single",
+      "ppu": 16.0,
+      "expectedPpu": 16,
+      "filter": "Point",
+      "compression": "Uncompressed",
+      "mipmaps": false,
+      "spriteCount": 1,
+      "native16x16": true
+    },
+    {
+      "path": "Assets/Art/Environment/CanhDong/ReferenceTiles/Path2.png",
+      "type": "Sprite",
+      "mode": "Single",
+      "ppu": 16.0,
+      "expectedPpu": 16,
+      "filter": "Point",
+      "compression": "Uncompressed",
+      "mipmaps": false,
+      "spriteCount": 1,
+      "native16x16": true
+    },
+    {
+      "path": "Assets/Art/Environment/CanhDong/ReferenceTiles/Path3.png",
+      "type": "Sprite",
+      "mode": "Single",
+      "ppu": 16.0,
+      "expectedPpu": 16,
+      "filter": "Point",
+      "compression": "Uncompressed",
+      "mipmaps": false,
+      "spriteCount": 1,
+      "native16x16": true
+    },
+    {
+      "path": "Assets/Art/Environment/CanhDong/ReferenceTiles/Path4.png",
+      "type": "Sprite",
+      "mode": "Single",
+      "ppu": 16.0,
+      "expectedPpu": 16,
+      "filter": "Point",
+      "compression": "Uncompressed",
+      "mipmaps": false,
+      "spriteCount": 1,
+      "native16x16": true
+    },
+    {
+      "path": "Assets/Art/Environment/CanhDong/ReferenceTiles/Path5.png",
+      "type": "Sprite",
+      "mode": "Single",
+      "ppu": 16.0,
+      "expectedPpu": 16,
+      "filter": "Point",
+      "compression": "Uncompressed",
+      "mipmaps": false,
+      "spriteCount": 1,
+      "native16x16": true
+    },
+    {
+      "path": "Assets/Art/Environment/CanhDong/ReferenceTiles/Path6.png",
+      "type": "Sprite",
+      "mode": "Single",
+      "ppu": 16.0,
+      "expectedPpu": 16,
+      "filter": "Point",
+      "compression": "Uncompressed",
+      "mipmaps": false,
+      "spriteCount": 1,
+      "native16x16": true
+    },
+    {
+      "path": "Assets/Art/Environment/CanhDong/ReferenceTiles/Path7.png",
+      "type": "Sprite",
+      "mode": "Single",
+      "ppu": 16.0,
+      "expectedPpu": 16,
+      "filter": "Point",
+      "compression": "Uncompressed",
+      "mipmaps": false,
+      "spriteCount": 1,
+      "native16x16": true
+    },
+    {
+      "path": "Assets/Art/Environment/CanhDong/ReferenceTiles/Path8.png",
+      "type": "Sprite",
+      "mode": "Single",
+      "ppu": 16.0,
+      "expectedPpu": 16,
+      "filter": "Point",
+      "compression": "Uncompressed",
+      "mipmaps": false,
+      "spriteCount": 1,
+      "native16x16": true
+    },
+    {
+      "path": "Assets/Art/Environment/CanhDong/ReferenceTiles/Path9.png",
+      "type": "Sprite",
+      "mode": "Single",
+      "ppu": 16.0,
+      "expectedPpu": 16,
+      "filter": "Point",
+      "compression": "Uncompressed",
+      "mipmaps": false,
+      "spriteCount": 1,
+      "native16x16": true
+    },
+    {
+      "path": "Assets/Art/Environment/CanhDong/ReferenceTiles/Path10.png",
+      "type": "Sprite",
+      "mode": "Single",
+      "ppu": 16.0,
+      "expectedPpu": 16,
+      "filter": "Point",
+      "compression": "Uncompressed",
+      "mipmaps": false,
+      "spriteCount": 1,
+      "native16x16": true
+    },
+    {
+      "path": "Assets/Art/Environment/CanhDong/ReferenceTiles/Path11.png",
+      "type": "Sprite",
+      "mode": "Single",
+      "ppu": 16.0,
+      "expectedPpu": 16,
+      "filter": "Point",
+      "compression": "Uncompressed",
+      "mipmaps": false,
+      "spriteCount": 1,
+      "native16x16": true
+    },
+    {
+      "path": "Assets/Art/Environment/CanhDong/ReferenceTiles/Path12.png",
+      "type": "Sprite",
+      "mode": "Single",
+      "ppu": 16.0,
+      "expectedPpu": 16,
+      "filter": "Point",
+      "compression": "Uncompressed",
+      "mipmaps": false,
+      "spriteCount": 1,
+      "native16x16": true
+    },
+    {
+      "path": "Assets/Art/Environment/CanhDong/ReferenceTiles/Path13.png",
+      "type": "Sprite",
+      "mode": "Single",
+      "ppu": 16.0,
+      "expectedPpu": 16,
+      "filter": "Point",
+      "compression": "Uncompressed",
+      "mipmaps": false,
+      "spriteCount": 1,
+      "native16x16": true
+    },
+    {
+      "path": "Assets/Art/Environment/CanhDong/ReferenceTiles/Path14.png",
+      "type": "Sprite",
+      "mode": "Single",
+      "ppu": 16.0,
+      "expectedPpu": 16,
+      "filter": "Point",
+      "compression": "Uncompressed",
+      "mipmaps": false,
+      "spriteCount": 1,
+      "native16x16": true
+    },
+    {
+      "path": "Assets/Art/Environment/CanhDong/ReferenceTiles/Path15.png",
+      "type": "Sprite",
+      "mode": "Single",
+      "ppu": 16.0,
+      "expectedPpu": 16,
+      "filter": "Point",
+      "compression": "Uncompressed",
+      "mipmaps": false,
+      "spriteCount": 1,
+      "native16x16": true
+    },
+    {
+      "path": "Assets/Art/Environment/CanhDong/ReferenceTiles/Rice.png",
+      "type": "Sprite",
+      "mode": "Single",
+      "ppu": 16.0,
+      "expectedPpu": 16,
+      "filter": "Point",
+      "compression": "Uncompressed",
+      "mipmaps": false,
+      "spriteCount": 1,
+      "native16x16": true
+    },
+    {
+      "path": "Assets/Art/Environment/CanhDong/ReferenceTiles/Soil.png",
+      "type": "Sprite",
+      "mode": "Single",
+      "ppu": 16.0,
+      "expectedPpu": 16,
+      "filter": "Point",
+      "compression": "Uncompressed",
+      "mipmaps": false,
+      "spriteCount": 1,
+      "native16x16": true
+    },
+    {
+      "path": "Assets/Art/Environment/CanhDong/ReferenceTiles/Stone.png",
+      "type": "Sprite",
+      "mode": "Single",
+      "ppu": 16.0,
+      "expectedPpu": 16,
+      "filter": "Point",
+      "compression": "Uncompressed",
+      "mipmaps": false,
+      "spriteCount": 1,
+      "native16x16": true
+    },
+    {
+      "path": "Assets/Art/Environment/CanhDong/ReferenceTiles/Terrace.png",
+      "type": "Sprite",
+      "mode": "Single",
+      "ppu": 16.0,
+      "expectedPpu": 16,
+      "filter": "Point",
+      "compression": "Uncompressed",
+      "mipmaps": false,
+      "spriteCount": 1,
+      "native16x16": true
+    },
+    {
+      "path": "Assets/Art/Environment/CanhDong/ReferenceTiles/Tuft.png",
+      "type": "Sprite",
+      "mode": "Single",
+      "ppu": 16.0,
+      "expectedPpu": 16,
+      "filter": "Point",
+      "compression": "Uncompressed",
+      "mipmaps": false,
+      "spriteCount": 1,
+      "native16x16": true
+    },
+    {
+      "path": "Assets/Art/Environment/CanhDong/ReferenceTiles/Water.png",
+      "type": "Sprite",
+      "mode": "Single",
+      "ppu": 16.0,
+      "expectedPpu": 16,
+      "filter": "Point",
+      "compression": "Uncompressed",
+      "mipmaps": false,
+      "spriteCount": 1,
+      "native16x16": true
     },
     {
       "path": "Assets/Art/Environment/CanhDong/Tilesets/Kenney_TinyFarm.png",
-      "textureType": "Sprite",
-      "spriteMode": "Multiple",
+      "type": "Sprite",
+      "mode": "Multiple",
       "ppu": 16.0,
+      "expectedPpu": 16,
       "filter": "Point",
       "compression": "Uncompressed",
       "mipmaps": false,
       "spriteCount": 132,
-      "all16x16": true
+      "native16x16": true
     },
     {
       "path": "Assets/Art/Environment/CanhDong/Tilesets/Kenney_TinyTown.png",
-      "textureType": "Sprite",
-      "spriteMode": "Multiple",
+      "type": "Sprite",
+      "mode": "Multiple",
       "ppu": 16.0,
+      "expectedPpu": 16,
       "filter": "Point",
       "compression": "Uncompressed",
       "mipmaps": false,
       "spriteCount": 132,
-      "all16x16": true
+      "native16x16": true
     }
   ],
   "paletteGroups": [
     {
       "name": "Ground",
-      "occupiedCells": 5
+      "occupied": 3
     },
     {
       "name": "Paths",
-      "occupiedCells": 10
+      "occupied": 16
     },
     {
       "name": "Water",
-      "occupiedCells": 4
+      "occupied": 3
     },
     {
       "name": "Vegetation",
-      "occupiedCells": 9
+      "occupied": 3
     },
     {
       "name": "Structures",
-      "occupiedCells": 10
+      "occupied": 4
     },
     {
       "name": "Decorations",
-      "occupiedCells": 8
+      "occupied": 2
     }
-  ],
-  "sceneSaved": true,
-  "temporaryProbeAbsent": true
+  ]
 }

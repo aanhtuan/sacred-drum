@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "originalFileCount": 333,
+  "authorizedChangedFiles": [
+    "Assets/Scenes/Level1_CanhDong.unity"
+  ],
+  "otherOriginalFilesUnchanged": true,
+  "sceneGuidPreserved": true,
+  "blockoutBackup": "Assets/Scenes/Archive/Level1_CanhDong_Blockout.unity"
+}

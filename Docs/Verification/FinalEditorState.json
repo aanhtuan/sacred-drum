@@ -4,5 +4,6 @@
   "playing": false,
   "compiling": false,
   "gateClosed": true,
-  "paletteValid": true
+  "revision": "reference-inspired",
+  "objects": 143
 }
