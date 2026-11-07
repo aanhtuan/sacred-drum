@@ -1,0 +1,187 @@
+{
+  "status": "PASS",
+  "textures": [
+    {
+      "path": "Assets/Art/Environment/CanhDong/Props/BankEast.png",
+      "textureType": "Sprite",
+      "spriteMode": "Single",
+      "ppu": 16.0,
+      "filter": "Point",
+      "compression": "Uncompressed",
+      "mipmaps": false,
+      "spriteCount": 1,
+      "all16x16": true
+    },
+    {
+      "path": "Assets/Art/Environment/CanhDong/Props/BankWest.png",
+      "textureType": "Sprite",
+      "spriteMode": "Single",
+      "ppu": 16.0,
+      "filter": "Point",
+      "compression": "Uncompressed",
+      "mipmaps": false,
+      "spriteCount": 1,
+      "all16x16": true
+    },
+    {
+      "path": "Assets/Art/Environment/CanhDong/Props/Boundary.png",
+      "textureType": "Sprite",
+      "spriteMode": "Single",
+      "ppu": 16.0,
+      "filter": "Point",
+      "compression": "Uncompressed",
+      "mipmaps": false,
+      "spriteCount": 1,
+      "all16x16": true
+    },
+    {
+      "path": "Assets/Art/Environment/CanhDong/Props/Bridge.png",
+      "textureType": "Sprite",
+      "spriteMode": "Single",
+      "ppu": 16.0,
+      "filter": "Point",
+      "compression": "Uncompressed",
+      "mipmaps": false,
+      "spriteCount": 1,
+      "all16x16": true
+    },
+    {
+      "path": "Assets/Art/Environment/CanhDong/Props/BronzeFragment.png",
+      "textureType": "Sprite",
+      "spriteMode": "Single",
+      "ppu": 16.0,
+      "filter": "Point",
+      "compression": "Uncompressed",
+      "mipmaps": false,
+      "spriteCount": 1,
+      "all16x16": true
+    },
+    {
+      "path": "Assets/Art/Environment/CanhDong/Props/EnemySpawn.png",
+      "textureType": "Sprite",
+      "spriteMode": "Single",
+      "ppu": 16.0,
+      "filter": "Point",
+      "compression": "Uncompressed",
+      "mipmaps": false,
+      "spriteCount": 1,
+      "all16x16": true
+    },
+    {
+      "path": "Assets/Art/Environment/CanhDong/Props/Fence.png",
+      "textureType": "Sprite",
+      "spriteMode": "Single",
+      "ppu": 16.0,
+      "filter": "Point",
+      "compression": "Uncompressed",
+      "mipmaps": false,
+      "spriteCount": 1,
+      "all16x16": true
+    },
+    {
+      "path": "Assets/Art/Environment/CanhDong/Props/Gate.png",
+      "textureType": "Sprite",
+      "spriteMode": "Single",
+      "ppu": 16.0,
+      "filter": "Point",
+      "compression": "Uncompressed",
+      "mipmaps": false,
+      "spriteCount": 1,
+      "all16x16": true
+    },
+    {
+      "path": "Assets/Art/Environment/CanhDong/Props/OilLamp.png",
+      "textureType": "Sprite",
+      "spriteMode": "Single",
+      "ppu": 16.0,
+      "filter": "Point",
+      "compression": "Uncompressed",
+      "mipmaps": false,
+      "spriteCount": 1,
+      "all16x16": true
+    },
+    {
+      "path": "Assets/Art/Environment/CanhDong/Props/Spawn.png",
+      "textureType": "Sprite",
+      "spriteMode": "Single",
+      "ppu": 16.0,
+      "filter": "Point",
+      "compression": "Uncompressed",
+      "mipmaps": false,
+      "spriteCount": 1,
+      "all16x16": true
+    },
+    {
+      "path": "Assets/Art/Environment/CanhDong/Props/StoneFloor.png",
+      "textureType": "Sprite",
+      "spriteMode": "Single",
+      "ppu": 16.0,
+      "filter": "Point",
+      "compression": "Uncompressed",
+      "mipmaps": false,
+      "spriteCount": 1,
+      "all16x16": true
+    },
+    {
+      "path": "Assets/Art/Environment/CanhDong/Props/Water.png",
+      "textureType": "Sprite",
+      "spriteMode": "Single",
+      "ppu": 16.0,
+      "filter": "Point",
+      "compression": "Uncompressed",
+      "mipmaps": false,
+      "spriteCount": 1,
+      "all16x16": true
+    },
+    {
+      "path": "Assets/Art/Environment/CanhDong/Tilesets/Kenney_TinyFarm.png",
+      "textureType": "Sprite",
+      "spriteMode": "Multiple",
+      "ppu": 16.0,
+      "filter": "Point",
+      "compression": "Uncompressed",
+      "mipmaps": false,
+      "spriteCount": 132,
+      "all16x16": true
+    },
+    {
+      "path": "Assets/Art/Environment/CanhDong/Tilesets/Kenney_TinyTown.png",
+      "textureType": "Sprite",
+      "spriteMode": "Multiple",
+      "ppu": 16.0,
+      "filter": "Point",
+      "compression": "Uncompressed",
+      "mipmaps": false,
+      "spriteCount": 132,
+      "all16x16": true
+    }
+  ],
+  "paletteGroups": [
+    {
+      "name": "Ground",
+      "occupiedCells": 5
+    },
+    {
+      "name": "Paths",
+      "occupiedCells": 10
+    },
+    {
+      "name": "Water",
+      "occupiedCells": 4
+    },
+    {
+      "name": "Vegetation",
+      "occupiedCells": 9
+    },
+    {
+      "name": "Structures",
+      "occupiedCells": 10
+    },
+    {
+      "name": "Decorations",
+      "occupiedCells": 8
+    }
+  ],
+  "sceneSaved": true,
+  "temporaryProbeAbsent": true
+}

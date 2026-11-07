@@ -1,0 +1,15 @@
+{
+  "archives": [
+    {
+      "archive": "/home/atuna/Documents/Game/AssetDownloads/Level1/Original/kenney_tiny-farm.zip",
+      "bytes": 191128,
+      "sha256": "a06f75f312c27eff15a2288475612e6f6699411be7259d408323cd15a790decc"
+    },
+    {
+      "archive": "/home/atuna/Documents/Game/AssetDownloads/Level1/Original/kenney_tiny-town.zip",
+      "bytes": 182243,
+      "sha256": "9768692dccff1d706408a5aedd6ca4f6cd1409506cbc84cb2f862919764be977"
+    }
+  ],
+  "extractedFiles": 282
+}

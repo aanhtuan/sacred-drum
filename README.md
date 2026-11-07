@@ -2,7 +2,11 @@
 
 SacredDrum là game 2D top-down action adventure, đồ họa pixel art, lấy cảm hứng từ văn hóa Việt cổ và trống đồng Đông Sơn. Ngôn ngữ lập trình: C#. Môi trường phát triển: Linux. Nền tảng đích: Windows x64.
 
-## Trạng thái Sprint 0
+## Level 1 map prototype
+
+Scene `Assets/Scenes/Level1_CanhDong.unity`: map top-down 88×56 tile, palette 16×16, ruộng, suối/cầu, collision và marker cho ba đèn/cổng/mảnh trống. Xem [thiết kế và kiểm chứng](Docs/Level1_Map_Design.md), [nguồn asset và giấy phép](Docs/AssetLicenses.md). Chưa có Player Controller hoặc gameplay thắp đèn/mở cổng.
+
+## Thiết lập nền tảng Sprint 0
 
 Đã thiết lập cấu trúc, Git/Git LFS, GitHub và kiểm thử Unity MCP thực tế. Chưa triển khai gameplay. Xem [báo cáo kiểm chứng](docs/SPRINT_0_REPORT.md).
 

@@ -1,0 +1,664 @@
+[
+  {
+    "path": "Main Camera",
+    "components": [
+      "Transform",
+      "Camera",
+      "AudioListener",
+      "UniversalAdditionalCameraData"
+    ]
+  },
+  {
+    "path": "Global Light 2D",
+    "components": [
+      "Transform",
+      "Light2D"
+    ]
+  },
+  {
+    "path": "Grid",
+    "components": [
+      "Transform",
+      "Grid"
+    ]
+  },
+  {
+    "path": "Grid/Ground",
+    "components": [
+      "Transform",
+      "Tilemap",
+      "TilemapRenderer"
+    ]
+  },
+  {
+    "path": "Grid/Paths",
+    "components": [
+      "Transform",
+      "Tilemap",
+      "TilemapRenderer"
+    ]
+  },
+  {
+    "path": "Grid/Water",
+    "components": [
+      "Transform",
+      "Tilemap",
+      "TilemapRenderer"
+    ]
+  },
+  {
+    "path": "Grid/Water/WaterCollision",
+    "components": [
+      "Transform",
+      "Tilemap",
+      "Rigidbody2D",
+      "TilemapCollider2D",
+      "CompositeCollider2D"
+    ]
+  },
+  {
+    "path": "Grid/GroundDecoration",
+    "components": [
+      "Transform",
+      "Tilemap",
+      "TilemapRenderer"
+    ]
+  },
+  {
+    "path": "Grid/Obstacles",
+    "components": [
+      "Transform",
+      "Tilemap",
+      "TilemapRenderer",
+      "Rigidbody2D",
+      "TilemapCollider2D",
+      "CompositeCollider2D"
+    ]
+  },
+  {
+    "path": "Grid/Foreground",
+    "components": [
+      "Transform",
+      "Tilemap",
+      "TilemapRenderer"
+    ]
+  },
+  {
+    "path": "Environment",
+    "components": [
+      "Transform"
+    ]
+  },
+  {
+    "path": "Environment/Trees",
+    "components": [
+      "Transform"
+    ]
+  },
+  {
+    "path": "Environment/Trees/Tree_12",
+    "components": [
+      "Transform",
+      "SpriteRenderer",
+      "BoxCollider2D"
+    ]
+  },
+  {
+    "path": "Environment/Trees/Tree_21",
+    "components": [
+      "Transform",
+      "SpriteRenderer",
+      "BoxCollider2D"
+    ]
+  },
+  {
+    "path": "Environment/Trees/Tree_32",
+    "components": [
+      "Transform",
+      "SpriteRenderer",
+      "BoxCollider2D"
+    ]
+  },
+  {
+    "path": "Environment/Trees/Tree_36",
+    "components": [
+      "Transform",
+      "SpriteRenderer",
+      "BoxCollider2D"
+    ]
+  },
+  {
+    "path": "Environment/Trees/Tree_39",
+    "components": [
+      "Transform",
+      "SpriteRenderer",
+      "BoxCollider2D"
+    ]
+  },
+  {
+    "path": "Environment/Trees/Tree_42",
+    "components": [
+      "Transform",
+      "SpriteRenderer",
+      "BoxCollider2D"
+    ]
+  },
+  {
+    "path": "Environment/Trees/Tree_54",
+    "components": [
+      "Transform",
+      "SpriteRenderer",
+      "BoxCollider2D"
+    ]
+  },
+  {
+    "path": "Environment/Trees/Tree_55",
+    "components": [
+      "Transform",
+      "SpriteRenderer",
+      "BoxCollider2D"
+    ]
+  },
+  {
+    "path": "Environment/Trees/Tree_62",
+    "components": [
+      "Transform",
+      "SpriteRenderer",
+      "BoxCollider2D"
+    ]
+  },
+  {
+    "path": "Environment/Trees/Tree_71",
+    "components": [
+      "Transform",
+      "SpriteRenderer",
+      "BoxCollider2D"
+    ]
+  },
+  {
+    "path": "Environment/Trees/Tree_82",
+    "components": [
+      "Transform",
+      "SpriteRenderer",
+      "BoxCollider2D"
+    ]
+  },
+  {
+    "path": "Environment/Trees/Tree_84",
+    "components": [
+      "Transform",
+      "SpriteRenderer",
+      "BoxCollider2D"
+    ]
+  },
+  {
+    "path": "Environment/Trees/Tree_86",
+    "components": [
+      "Transform",
+      "SpriteRenderer",
+      "BoxCollider2D"
+    ]
+  },
+  {
+    "path": "Environment/Trees/Tree_89",
+    "components": [
+      "Transform",
+      "SpriteRenderer",
+      "BoxCollider2D"
+    ]
+  },
+  {
+    "path": "Environment/Trees/Tree_97",
+    "components": [
+      "Transform",
+      "SpriteRenderer",
+      "BoxCollider2D"
+    ]
+  },
+  {
+    "path": "Environment/Trees/Tree_102",
+    "components": [
+      "Transform",
+      "SpriteRenderer",
+      "BoxCollider2D"
+    ]
+  },
+  {
+    "path": "Environment/Trees/Tree_104",
+    "components": [
+      "Transform",
+      "SpriteRenderer",
+      "BoxCollider2D"
+    ]
+  },
+  {
+    "path": "Environment/Trees/Tree_107",
+    "components": [
+      "Transform",
+      "SpriteRenderer",
+      "BoxCollider2D"
+    ]
+  },
+  {
+    "path": "Environment/Trees/Tree_110",
+    "components": [
+      "Transform",
+      "SpriteRenderer",
+      "BoxCollider2D"
+    ]
+  },
+  {
+    "path": "Environment/Trees/Tree_111",
+    "components": [
+      "Transform",
+      "SpriteRenderer",
+      "BoxCollider2D"
+    ]
+  },
+  {
+    "path": "Environment/Trees/Tree_116",
+    "components": [
+      "Transform",
+      "SpriteRenderer",
+      "BoxCollider2D"
+    ]
+  },
+  {
+    "path": "Environment/Trees/Tree_122",
+    "components": [
+      "Transform",
+      "SpriteRenderer",
+      "BoxCollider2D"
+    ]
+  },
+  {
+    "path": "Environment/Trees/Tree_135",
+    "components": [
+      "Transform",
+      "SpriteRenderer",
+      "BoxCollider2D"
+    ]
+  },
+  {
+    "path": "Environment/Trees/Tree_142",
+    "components": [
+      "Transform",
+      "SpriteRenderer",
+      "BoxCollider2D"
+    ]
+  },
+  {
+    "path": "Environment/Trees/Tree_146",
+    "components": [
+      "Transform",
+      "SpriteRenderer",
+      "BoxCollider2D"
+    ]
+  },
+  {
+    "path": "Environment/Trees/Tree_149",
+    "components": [
+      "Transform",
+      "SpriteRenderer",
+      "BoxCollider2D"
+    ]
+  },
+  {
+    "path": "Environment/Rocks",
+    "components": [
+      "Transform"
+    ]
+  },
+  {
+    "path": "Environment/Rocks/FieldRock",
+    "components": [
+      "Transform",
+      "SpriteRenderer",
+      "BoxCollider2D"
+    ]
+  },
+  {
+    "path": "Environment/Rocks/FieldRock",
+    "components": [
+      "Transform",
+      "SpriteRenderer",
+      "BoxCollider2D"
+    ]
+  },
+  {
+    "path": "Environment/Rocks/FieldRock",
+    "components": [
+      "Transform",
+      "SpriteRenderer",
+      "BoxCollider2D"
+    ]
+  },
+  {
+    "path": "Environment/Rocks/FieldRock",
+    "components": [
+      "Transform",
+      "SpriteRenderer",
+      "BoxCollider2D"
+    ]
+  },
+  {
+    "path": "Environment/Rocks/FieldRock",
+    "components": [
+      "Transform",
+      "SpriteRenderer",
+      "BoxCollider2D"
+    ]
+  },
+  {
+    "path": "Environment/Fences",
+    "components": [
+      "Transform"
+    ]
+  },
+  {
+    "path": "Environment/Bridges",
+    "components": [
+      "Transform",
+      "Grid"
+    ]
+  },
+  {
+    "path": "Environment/Bridges/WoodenBridge",
+    "components": [
+      "Transform",
+      "Tilemap",
+      "TilemapRenderer"
+    ]
+  },
+  {
+    "path": "Environment/Bridges/WoodenBridge/BridgeRails",
+    "components": [
+      "Transform",
+      "Tilemap",
+      "TilemapRenderer",
+      "Rigidbody2D",
+      "TilemapCollider2D",
+      "CompositeCollider2D"
+    ]
+  },
+  {
+    "path": "Environment/Buildings",
+    "components": [
+      "Transform"
+    ]
+  },
+  {
+    "path": "Environment/Buildings/RuralHut_Placeholder",
+    "components": [
+      "Transform",
+      "BoxCollider2D"
+    ]
+  },
+  {
+    "path": "Environment/Buildings/RuralHut_Placeholder/HutTile",
+    "components": [
+      "Transform",
+      "SpriteRenderer"
+    ]
+  },
+  {
+    "path": "Environment/Buildings/RuralHut_Placeholder/HutTile",
+    "components": [
+      "Transform",
+      "SpriteRenderer"
+    ]
+  },
+  {
+    "path": "Environment/Buildings/RuralHut_Placeholder/HutTile",
+    "components": [
+      "Transform",
+      "SpriteRenderer"
+    ]
+  },
+  {
+    "path": "Environment/Buildings/RuralHut_Placeholder/HutTile",
+    "components": [
+      "Transform",
+      "SpriteRenderer"
+    ]
+  },
+  {
+    "path": "Environment/Buildings/RuralHut_Placeholder/HutTile",
+    "components": [
+      "Transform",
+      "SpriteRenderer"
+    ]
+  },
+  {
+    "path": "Environment/Buildings/RuralHut_Placeholder/HutTile",
+    "components": [
+      "Transform",
+      "SpriteRenderer"
+    ]
+  },
+  {
+    "path": "Environment/Buildings/RuralHut_Placeholder/HutTile",
+    "components": [
+      "Transform",
+      "SpriteRenderer"
+    ]
+  },
+  {
+    "path": "Environment/Buildings/RuralHut_Placeholder/HutTile",
+    "components": [
+      "Transform",
+      "SpriteRenderer"
+    ]
+  },
+  {
+    "path": "Environment/Buildings/RuralHut_Placeholder/HutTile",
+    "components": [
+      "Transform",
+      "SpriteRenderer"
+    ]
+  },
+  {
+    "path": "Environment/Buildings/RuralHut_Placeholder",
+    "components": [
+      "Transform",
+      "BoxCollider2D"
+    ]
+  },
+  {
+    "path": "Environment/Buildings/RuralHut_Placeholder/HutTile",
+    "components": [
+      "Transform",
+      "SpriteRenderer"
+    ]
+  },
+  {
+    "path": "Environment/Buildings/RuralHut_Placeholder/HutTile",
+    "components": [
+      "Transform",
+      "SpriteRenderer"
+    ]
+  },
+  {
+    "path": "Environment/Buildings/RuralHut_Placeholder/HutTile",
+    "components": [
+      "Transform",
+      "SpriteRenderer"
+    ]
+  },
+  {
+    "path": "Environment/Buildings/RuralHut_Placeholder/HutTile",
+    "components": [
+      "Transform",
+      "SpriteRenderer"
+    ]
+  },
+  {
+    "path": "Environment/Buildings/RuralHut_Placeholder/HutTile",
+    "components": [
+      "Transform",
+      "SpriteRenderer"
+    ]
+  },
+  {
+    "path": "Environment/Buildings/RuralHut_Placeholder/HutTile",
+    "components": [
+      "Transform",
+      "SpriteRenderer"
+    ]
+  },
+  {
+    "path": "Environment/Buildings/RuralHut_Placeholder/HutTile",
+    "components": [
+      "Transform",
+      "SpriteRenderer"
+    ]
+  },
+  {
+    "path": "Environment/Buildings/RuralHut_Placeholder/HutTile",
+    "components": [
+      "Transform",
+      "SpriteRenderer"
+    ]
+  },
+  {
+    "path": "Environment/Buildings/RuralHut_Placeholder/HutTile",
+    "components": [
+      "Transform",
+      "SpriteRenderer"
+    ]
+  },
+  {
+    "path": "Gameplay",
+    "components": [
+      "Transform"
+    ]
+  },
+  {
+    "path": "Gameplay/PlayerSpawn",
+    "components": [
+      "Transform",
+      "SpriteRenderer"
+    ]
+  },
+  {
+    "path": "Gameplay/Lamp_01",
+    "components": [
+      "Transform",
+      "SpriteRenderer",
+      "CircleCollider2D"
+    ]
+  },
+  {
+    "path": "Gameplay/Lamp_02",
+    "components": [
+      "Transform",
+      "SpriteRenderer",
+      "CircleCollider2D"
+    ]
+  },
+  {
+    "path": "Gameplay/Lamp_03",
+    "components": [
+      "Transform",
+      "SpriteRenderer",
+      "CircleCollider2D"
+    ]
+  },
+  {
+    "path": "Gameplay/LockedGate",
+    "components": [
+      "Transform",
+      "BoxCollider2D"
+    ]
+  },
+  {
+    "path": "Gameplay/LockedGate/GatePanel_1",
+    "components": [
+      "Transform",
+      "SpriteRenderer"
+    ]
+  },
+  {
+    "path": "Gameplay/LockedGate/GatePanel_2",
+    "components": [
+      "Transform",
+      "SpriteRenderer"
+    ]
+  },
+  {
+    "path": "Gameplay/LockedGate/GatePanel_3",
+    "components": [
+      "Transform",
+      "SpriteRenderer"
+    ]
+  },
+  {
+    "path": "Gameplay/LockedGate/GatePanel_4",
+    "components": [
+      "Transform",
+      "SpriteRenderer"
+    ]
+  },
+  {
+    "path": "Gameplay/DrumFragment_01",
+    "components": [
+      "Transform",
+      "SpriteRenderer",
+      "CircleCollider2D"
+    ]
+  },
+  {
+    "path": "Gameplay/EnemySpawnPoints",
+    "components": [
+      "Transform"
+    ]
+  },
+  {
+    "path": "Gameplay/EnemySpawnPoints/EnemySpawn_01",
+    "components": [
+      "Transform",
+      "SpriteRenderer"
+    ]
+  },
+  {
+    "path": "Gameplay/EnemySpawnPoints/EnemySpawn_02",
+    "components": [
+      "Transform",
+      "SpriteRenderer"
+    ]
+  },
+  {
+    "path": "LevelBounds",
+    "components": [
+      "Transform"
+    ]
+  },
+  {
+    "path": "LevelBounds/West",
+    "components": [
+      "Transform",
+      "BoxCollider2D"
+    ]
+  },
+  {
+    "path": "LevelBounds/East",
+    "components": [
+      "Transform",
+      "BoxCollider2D"
+    ]
+  },
+  {
+    "path": "LevelBounds/South",
+    "components": [
+      "Transform",
+      "BoxCollider2D"
+    ]
+  },
+  {
+    "path": "LevelBounds/North",
+    "components": [
+      "Transform",
+      "BoxCollider2D"
+    ]
+  }
+]
