@@ -213,7 +213,9 @@ namespace SacredDrum.EditorTools
             }
             foreach(var p in decor.cellBounds.allPositionsWithin)if(decor.GetTile(p)==T("Farm_070"))decor.SetTile(p,T("Farm_067"));
             // Choose terrain edges from the union of corridors, so junctions don't contain grass seams.
-            var cells=new HashSet<Vector3Int>(paths.cellBounds.allPositionsWithin.Where(p=>paths.HasTile(p)&&paths.GetTile(p)!=T("StoneFloor")));
+            var cells=new HashSet<Vector3Int>();
+            foreach(var p in paths.cellBounds.allPositionsWithin)
+                if(paths.HasTile(p)&&paths.GetTile(p)!=T("StoneFloor"))cells.Add(p);
             foreach(var p in cells) {
                 int col=!cells.Contains(p+Vector3Int.left)?0:!cells.Contains(p+Vector3Int.right)?2:1;
                 int row=!cells.Contains(p+Vector3Int.up)?0:!cells.Contains(p+Vector3Int.down)?2:1;
