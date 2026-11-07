@@ -21,21 +21,9 @@
   "fragmentBlockedByClosedGate": true,
   "fragmentReachableAfterOpeningGate": true,
   "noGroundCollider": true,
-  "closedReachableCells": 3699,
-  "openedReachableCells": 3893,
+  "closedReachableCells": 3804,
+  "openedReachableCells": 3997,
   "tilemaps": [
-    {
-      "name": "GroundDecoration",
-      "tiles": 3,
-      "occupiedCells": 753,
-      "collider": false
-    },
-    {
-      "name": "Ground",
-      "tiles": 3,
-      "occupiedCells": 4928,
-      "collider": false
-    },
     {
       "name": "Foreground",
       "tiles": 0,
@@ -43,28 +31,40 @@
       "collider": false
     },
     {
-      "name": "Obstacles",
-      "tiles": 3,
-      "occupiedCells": 672,
+      "name": "WaterCollision",
+      "tiles": 0,
+      "occupiedCells": 0,
       "collider": true
+    },
+    {
+      "name": "PathShoulders",
+      "tiles": 230,
+      "occupiedCells": 396,
+      "collider": false
+    },
+    {
+      "name": "RiverBanks",
+      "tiles": 113,
+      "occupiedCells": 282,
+      "collider": false
+    },
+    {
+      "name": "WoodenBridge",
+      "tiles": 1,
+      "occupiedCells": 44,
+      "collider": false
+    },
+    {
+      "name": "ObjectivePads",
+      "tiles": 67,
+      "occupiedCells": 145,
+      "collider": false
     },
     {
       "name": "Paths",
-      "tiles": 10,
-      "occupiedCells": 633,
+      "tiles": 238,
+      "occupiedCells": 358,
       "collider": false
-    },
-    {
-      "name": "Water",
-      "tiles": 3,
-      "occupiedCells": 312,
-      "collider": false
-    },
-    {
-      "name": "WaterCollision",
-      "tiles": 1,
-      "occupiedCells": 288,
-      "collider": true
     },
     {
       "name": "BridgeRails",
@@ -73,9 +73,57 @@
       "collider": true
     },
     {
-      "name": "WoodenBridge",
-      "tiles": 1,
-      "occupiedCells": 44,
+      "name": "RiverShoulders",
+      "tiles": 111,
+      "occupiedCells": 336,
+      "collider": false
+    },
+    {
+      "name": "Water",
+      "tiles": 109,
+      "occupiedCells": 246,
+      "collider": false
+    },
+    {
+      "name": "Farmland",
+      "tiles": 204,
+      "occupiedCells": 642,
+      "collider": false
+    },
+    {
+      "name": "CombatMargins",
+      "tiles": 33,
+      "occupiedCells": 138,
+      "collider": false
+    },
+    {
+      "name": "Obstacles",
+      "tiles": 2,
+      "occupiedCells": 616,
+      "collider": true
+    },
+    {
+      "name": "GroundDecoration",
+      "tiles": 275,
+      "occupiedCells": 571,
+      "collider": false
+    },
+    {
+      "name": "CombatClearings",
+      "tiles": 33,
+      "occupiedCells": 122,
+      "collider": false
+    },
+    {
+      "name": "FieldBanks",
+      "tiles": 244,
+      "occupiedCells": 758,
+      "collider": false
+    },
+    {
+      "name": "Ground",
+      "tiles": 2,
+      "occupiedCells": 4928,
       "collider": false
     }
   ]

@@ -60,7 +60,8 @@
       "Tilemap",
       "Rigidbody2D",
       "TilemapCollider2D",
-      "CompositeCollider2D"
+      "CompositeCollider2D",
+      "PolygonCollider2D"
     ]
   },
   {
@@ -86,6 +87,78 @@
   },
   {
     "path": "Grid/Foreground",
+    "active": true,
+    "components": [
+      "Transform",
+      "Tilemap",
+      "TilemapRenderer"
+    ]
+  },
+  {
+    "path": "Grid/PathShoulders",
+    "active": true,
+    "components": [
+      "Transform",
+      "Tilemap",
+      "TilemapRenderer"
+    ]
+  },
+  {
+    "path": "Grid/CombatClearings",
+    "active": true,
+    "components": [
+      "Transform",
+      "Tilemap",
+      "TilemapRenderer"
+    ]
+  },
+  {
+    "path": "Grid/CombatMargins",
+    "active": true,
+    "components": [
+      "Transform",
+      "Tilemap",
+      "TilemapRenderer"
+    ]
+  },
+  {
+    "path": "Grid/ObjectivePads",
+    "active": true,
+    "components": [
+      "Transform",
+      "Tilemap",
+      "TilemapRenderer"
+    ]
+  },
+  {
+    "path": "Grid/RiverBanks",
+    "active": true,
+    "components": [
+      "Transform",
+      "Tilemap",
+      "TilemapRenderer"
+    ]
+  },
+  {
+    "path": "Grid/RiverShoulders",
+    "active": true,
+    "components": [
+      "Transform",
+      "Tilemap",
+      "TilemapRenderer"
+    ]
+  },
+  {
+    "path": "Grid/Farmland",
+    "active": true,
+    "components": [
+      "Transform",
+      "Tilemap",
+      "TilemapRenderer"
+    ]
+  },
+  {
+    "path": "Grid/FieldBanks",
     "active": true,
     "components": [
       "Transform",

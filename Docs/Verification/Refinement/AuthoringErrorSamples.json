@@ -1,0 +1,41 @@
+{
+  "success": true,
+  "message": "Retrieved 5 log entries.",
+  "data": [
+    {
+      "type": "Error",
+      "message": "Not allowed to override geometry on sprite 'Path15_3082B4B5848078CC_pixelmesh'",
+      "file": "Assets/Editor/Level1/Level1LayoutRefinement.cs",
+      "line": 53,
+      "stackTrace": null
+    },
+    {
+      "type": "Error",
+      "message": "Not allowed to override geometry on sprite 'Path15_81ECDC0387FBD05E_pixelmesh'",
+      "file": "Assets/Editor/Level1/Level1LayoutRefinement.cs",
+      "line": 53,
+      "stackTrace": null
+    },
+    {
+      "type": "Error",
+      "message": "Not allowed to override geometry on sprite 'Path15_ED3937EB57002E6A_pixelmesh'",
+      "file": "Assets/Editor/Level1/Level1LayoutRefinement.cs",
+      "line": 53,
+      "stackTrace": null
+    },
+    {
+      "type": "Error",
+      "message": "Not allowed to override geometry on sprite 'Path15_C1098F3C82B86847_pixelmesh'",
+      "file": "Assets/Editor/Level1/Level1LayoutRefinement.cs",
+      "line": 53,
+      "stackTrace": null
+    },
+    {
+      "type": "Error",
+      "message": "Not allowed to override geometry on sprite 'Path15_06F267AC2BE34479_pixelmesh'",
+      "file": "Assets/Editor/Level1/Level1LayoutRefinement.cs",
+      "line": 53,
+      "stackTrace": null
+    }
+  ]
+}

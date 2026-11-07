@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "mode": "PlayMode",
+  "probeRadius": 0.35,
+  "waterStops": true,
+  "bridgeCrosses": true,
+  "closedGateStops": true,
+  "openGateCrosses": true,
+  "boundaryStops": true,
+  "waterX": 40.3529778,
+  "bridgeX": 52.50005,
+  "closedGateY": 36.6450081,
+  "openGateY": 41.9998779,
+  "boundaryX": 2.35500121
+}

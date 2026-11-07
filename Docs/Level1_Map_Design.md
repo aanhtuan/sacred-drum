@@ -1,5 +1,7 @@
 # Level 1 — Cánh đồng bị lãng quên
 
+**Bản hiện hành:** xem [Visual & Level Design Refinement](Level1_Refinement_Report.md) cho đường/ruộng/sông, vị trí spawn/đèn và kiểm chứng mới nhất. Các mục mô tả visual theo ảnh tham chiếu bên dưới ghi lại bản trước refinement; source art của bản đó vẫn được giữ nguyên.
+
 ## Bản visual theo ảnh tham chiếu
 
 Cập nhật theo yêu cầu Project Owner ngày 07/11/2026, chỉ lấy dải **Level 1 — Cánh đồng** trong ảnh: nhà tranh/bụi tre bên trái, đường đất uốn qua ruộng vàng, suối và cầu ở giữa, cờ đỏ và khu trống bên phải. Giữ map prototype 88×56 top-down; không coi kích thước hoặc trạng thái hoàn thành ghi trong ảnh là kết quả kiểm thử của project.

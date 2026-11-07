@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "message": "Retrieved 1 log entries.",
+  "data": [
+    {
+      "type": "Warning",
+      "message": "Account API did not become accessible within 30 seconds. This may be due to network issues or editor focus.",
+      "file": "./Library/PackageCache/com.unity.ai.assistant@890548b66362/Modules/Unity.AI.Toolkit.Accounts/Services/States/ApiAccessibleState.cs",
+      "line": 46,
+      "stackTrace": null
+    }
+  ]
+}

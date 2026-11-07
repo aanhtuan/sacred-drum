@@ -1,0 +1,42 @@
+{
+  "status": "PASS",
+  "lamps": [
+    {
+      "name": "Lamp_01",
+      "x": 23.5,
+      "y": 37.5,
+      "clearApproaches": 16
+    },
+    {
+      "name": "Lamp_02",
+      "x": 29.5,
+      "y": 13.5,
+      "clearApproaches": 16
+    },
+    {
+      "name": "Lamp_03",
+      "x": 62.5,
+      "y": 18.5,
+      "clearApproaches": 16
+    }
+  ],
+  "arenas": [
+    {
+      "x": 34.5,
+      "y": 30.5,
+      "radius": 3.0,
+      "clear": true
+    },
+    {
+      "x": 58.5,
+      "y": 29.5,
+      "radius": 3.0,
+      "clear": true
+    }
+  ],
+  "spawnToHut": 2.06155276,
+  "riverCollision": 2,
+  "mainRoadWidth": 2.6,
+  "sideRoadWidth": 1.9,
+  "edgePixelSize": 0.0625
+}

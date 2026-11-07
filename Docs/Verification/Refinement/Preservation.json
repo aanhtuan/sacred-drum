@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "baselineFiles": 454,
+  "changedExistingFiles": [
+    "Assets/Scenes/Level1_CanhDong.unity"
+  ],
+  "allOriginalTexturesAndMetaUnchanged": true,
+  "originalGameObjects": 143,
+  "gameObjectsAfter": 151,
+  "deletedOriginalGameObjects": 0
+}

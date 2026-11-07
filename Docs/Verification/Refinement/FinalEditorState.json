@@ -1,0 +1,122 @@
+{
+  "scene": "Assets/Scenes/Level1_CanhDong.unity",
+  "saved": true,
+  "playing": false,
+  "compiling": false,
+  "gateClosed": true,
+  "simulationMode": "FixedUpdate",
+  "bakedTiles": 1615,
+  "pointTextures": true,
+  "trees": [
+    {
+      "name": "CanopyTree_1",
+      "x": 4.5,
+      "y": 46.0
+    },
+    {
+      "name": "CanopyTree_2",
+      "x": 8.0,
+      "y": 48.0
+    },
+    {
+      "name": "CanopyTree_3",
+      "x": 10.5,
+      "y": 49.0
+    },
+    {
+      "name": "CanopyTree_4",
+      "x": 24.5,
+      "y": 47.0
+    },
+    {
+      "name": "CanopyTree_5",
+      "x": 28.0,
+      "y": 49.0
+    },
+    {
+      "name": "CanopyTree_6",
+      "x": 35.6,
+      "y": 48.0
+    },
+    {
+      "name": "CanopyTree_7",
+      "x": 50.0,
+      "y": 44.0
+    },
+    {
+      "name": "CanopyTree_8",
+      "x": 56.85,
+      "y": 4.23
+    },
+    {
+      "name": "CanopyTree_9",
+      "x": 56.0,
+      "y": 48.0
+    },
+    {
+      "name": "CanopyTree_10",
+      "x": 83.0,
+      "y": 46.0
+    },
+    {
+      "name": "CanopyTree_11",
+      "x": 85.0,
+      "y": 42.0
+    },
+    {
+      "name": "CanopyTree_12",
+      "x": 84.5,
+      "y": 36.0
+    },
+    {
+      "name": "CanopyTree_13",
+      "x": 5.0,
+      "y": 6.0
+    },
+    {
+      "name": "CanopyTree_14",
+      "x": 9.0,
+      "y": 4.5
+    },
+    {
+      "name": "CanopyTree_15",
+      "x": 42.8,
+      "y": 39.1
+    },
+    {
+      "name": "CanopyTree_16",
+      "x": 33.0,
+      "y": 5.0
+    },
+    {
+      "name": "CanopyTree_17",
+      "x": 36.0,
+      "y": 7.0
+    },
+    {
+      "name": "CanopyTree_18",
+      "x": 5.7,
+      "y": 22.5
+    },
+    {
+      "name": "CanopyTree_19",
+      "x": 73.0,
+      "y": 4.5
+    },
+    {
+      "name": "CanopyTree_20",
+      "x": 77.0,
+      "y": 6.0
+    },
+    {
+      "name": "CanopyTree_21",
+      "x": 81.0,
+      "y": 5.0
+    },
+    {
+      "name": "CanopyTree_22",
+      "x": 84.0,
+      "y": 8.0
+    }
+  ]
+}
