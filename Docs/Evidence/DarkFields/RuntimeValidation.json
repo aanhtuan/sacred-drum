@@ -1,0 +1,76 @@
+{
+  "runtime": {
+    "success": true,
+    "message": "Code executed successfully.",
+    "data": {
+      "result": {
+        "playing": true,
+        "compileFailed": false,
+        "collisionMismatches": 0,
+        "collisionCells": 417,
+        "reachableCells": 1311,
+        "criticalPathSteps": 103,
+        "tilemaps": 10,
+        "missingScripts": 0
+      },
+      "compiler": "codedom"
+    }
+  },
+  "dynamicCollision": {
+    "success": true,
+    "message": "Code executed successfully.",
+    "data": {
+      "result": {
+        "playing": true,
+        "probes": [
+          {
+            "target": "Water",
+            "position": "(2.80, -11.50)",
+            "velocity": "(0.00, 0.00)",
+            "touching": true
+          },
+          {
+            "target": "Thorns",
+            "position": "(20.50, -28.20)",
+            "velocity": "(0.00, 0.00)",
+            "touching": true
+          },
+          {
+            "target": "DeadTree",
+            "position": "(2.80, -7.50)",
+            "velocity": "(0.00, 0.00)",
+            "touching": true
+          },
+          {
+            "target": "Rock",
+            "position": "(5.80, -6.50)",
+            "velocity": "(0.00, 0.00)",
+            "touching": true
+          }
+        ]
+      },
+      "compiler": "codedom"
+    }
+  },
+  "afterReimportAndReopen": {
+    "success": true,
+    "message": "Code executed successfully.",
+    "data": {
+      "result": {
+        "playing": false,
+        "sceneDirty": false,
+        "compileFailed": false,
+        "importedRoots": 1,
+        "tilemaps": 10,
+        "colliders": 10,
+        "entities": 1,
+        "spawn": "(5.50, -32.50, 0.00)",
+        "missingScripts": 0,
+        "missingReferences": 0,
+        "invalidSprites": 0,
+        "fogSupported": true
+      },
+      "compiler": "codedom"
+    }
+  }
+}

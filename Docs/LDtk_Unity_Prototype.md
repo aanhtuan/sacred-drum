@@ -1,5 +1,7 @@
 # LDtk → Unity prototype
 
+> Báo cáo bên dưới ghi lại bản kiểm thử 24×18 tại commit `6437073`. Prototype hiện đã được Owner yêu cầu đổi sang cánh đồng u tối 48×36; xem [DarkFields_Map.md](DarkFields_Map.md) cho trạng thái hiện tại.
+
 ## Phạm vi và kết quả
 
 Pipeline đã được kiểm chứng với LDtk **1.5.3**, LDtkToUnity **6.12.4**, Unity **6000.5.10f1**, URP **17.6.0**, Fedora 44 KDE/Wayland. Chỉ tạo prototype riêng; không sửa Level1_CanhDong, Prototype_Player, prefab Player, Player Controller hay Camera/Collision của các scene cũ.

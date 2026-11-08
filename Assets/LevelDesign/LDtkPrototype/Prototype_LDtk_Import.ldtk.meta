@@ -26,7 +26,7 @@ ScriptedImporter:
     _asset: {fileID: 11400000, guid: 30e468bb5f0d23105b430b853f3861cc, type: 2}
   _entities:
   - _key: PlayerSpawn
-    _asset: {fileID: 8518859670739604873, guid: 460f8fc1f89f64d03ae6784331dbc4e4, type: 3}
+    _asset: {fileID: 8627368738303598647, guid: 4c5358097c2a1171dac8bea3d1988065, type: 3}
   _enumGenerate: 0
   _enumPath: 
   _enumNamespace: 
