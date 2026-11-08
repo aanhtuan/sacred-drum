@@ -1,0 +1,16 @@
+{
+  "scene": "Assets/Scenes/Level1_CanhDong.unity",
+  "sceneDirty": false,
+  "prefab": "Assets/Prefabs/Characters/Player.prefab",
+  "spriteAssigned": true,
+  "gravity": 0.0,
+  "bodyType": "Dynamic",
+  "rotationFrozen": true,
+  "interpolation": "Interpolate",
+  "colliderRadius": 0.3,
+  "colliderTrigger": false,
+  "spawnPosition": "(14.50, 41.00, 0.00)",
+  "orthographic": true,
+  "zoom": 7.0,
+  "windowsBuildSupport": false
+}

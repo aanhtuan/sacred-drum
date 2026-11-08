@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "method": "Read-only comparison of every existing serialized scene object block with pre-sprint Git HEAD; changes inspected in git diff. Scene authored through Unity MCP.",
+  "baseCommit": "b5ec971363792942d264e6b9f5fcfef7c60efe15",
+  "existingObjects": 539,
+  "unchangedObjects": 534,
+  "changedObjects": {
+    "240310679": "PlayerSpawn Transform: add Player child",
+    "240310680": "PlayerSpawn SpriteRenderer: hide marker",
+    "909705855": "Main Camera: add follow component",
+    "909705858": "Main Camera: zoom 30 to 7",
+    "909705859": "Main Camera: initial position at Player"
+  },
+  "removedObjects": [],
+  "newObjects": 3,
+  "preserved": "All tilemaps, map renderer/asset references, existing colliders, environment transforms, lamps, gate and drum fragment unchanged."
+}

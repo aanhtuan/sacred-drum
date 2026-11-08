@@ -7,5 +7,6 @@
 # Preserve Unity serializer whitespace in generated text files.
 *.meta whitespace=-blank-at-eol
 *.unity whitespace=-blank-at-eol
+*.prefab whitespace=-blank-at-eol
 *.asset whitespace=-blank-at-eol
 *.scenetemplate whitespace=-blank-at-eol

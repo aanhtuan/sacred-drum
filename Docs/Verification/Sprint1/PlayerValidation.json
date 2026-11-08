@@ -1,0 +1,177 @@
+{
+  "status": "PASS",
+  "mode": "PlayMode",
+  "method": "Synthetic Input System keyboard -> real PlayerController Update/FixedUpdate -> Physics2D.Simulate(0.02). Camera LateUpdate invoked explicitly.",
+  "limitation": "Physical keyboard, visual smoothness at varied frame rates, and Windows build not tested.",
+  "results": [
+    {
+      "name": "WASD_W",
+      "status": "PASS",
+      "evidence": {
+        "endX": 34.5,
+        "endY": 32.50001
+      }
+    },
+    {
+      "name": "WASD_A",
+      "status": "PASS",
+      "evidence": {
+        "endX": 32.4999542,
+        "endY": 30.5
+      }
+    },
+    {
+      "name": "WASD_S",
+      "status": "PASS",
+      "evidence": {
+        "endX": 34.5,
+        "endY": 28.5000019
+      }
+    },
+    {
+      "name": "WASD_D",
+      "status": "PASS",
+      "evidence": {
+        "endX": 36.5000458,
+        "endY": 30.5
+      }
+    },
+    {
+      "name": "DiagonalSameSpeed",
+      "status": "PASS",
+      "evidence": {
+        "straight": 2.00004578,
+        "diagonal": 1.99998593
+      }
+    },
+    {
+      "name": "ReleaseStopsAndKeepsFacing",
+      "status": "PASS",
+      "evidence": {
+        "facingX": 0.0,
+        "facingY": 1.0,
+        "drift": 0.0
+      }
+    },
+    {
+      "name": "OppositeKeysCancel",
+      "status": "PASS",
+      "evidence": {
+        "drift": 0.0
+      }
+    },
+    {
+      "name": "DisableStopsVelocity",
+      "status": "PASS",
+      "evidence": "(0.00, 0.00)"
+    },
+    {
+      "name": "TreeBlocks",
+      "status": "PASS",
+      "evidence": {
+        "endX": 5.0,
+        "endY": 5.705001,
+        "target": "CanopyTree_13"
+      }
+    },
+    {
+      "name": "RockBlocks",
+      "status": "PASS",
+      "evidence": {
+        "endX": 37.5,
+        "endY": 40.2450066,
+        "target": "RockCluster_3"
+      }
+    },
+    {
+      "name": "FenceBlocks",
+      "status": "PASS",
+      "evidence": {
+        "endX": 70.5,
+        "endY": 36.6950073
+      }
+    },
+    {
+      "name": "RiverBlocksOutsideBridge",
+      "status": "PASS",
+      "evidence": {
+        "endX": 40.52885,
+        "endY": 21.5104389
+      }
+    },
+    {
+      "name": "WoodenBridgeCrosses",
+      "status": "PASS",
+      "evidence": {
+        "endX": 53.10031,
+        "endY": 27.5
+      }
+    },
+    {
+      "name": "LockedGateBlocks",
+      "status": "PASS",
+      "evidence": {
+        "endX": 75.0,
+        "endY": 36.6950073
+      }
+    },
+    {
+      "name": "MapBoundaryBlocks",
+      "status": "PASS",
+      "evidence": {
+        "endX": 2.30500984,
+        "endY": 20.0
+      }
+    },
+    {
+      "name": "CameraClamp_(0.00, 0.00)",
+      "status": "PASS",
+      "evidence": {
+        "x": 12.4444447,
+        "y": 7.0,
+        "halfWidth": 12.4444447,
+        "halfHeight": 7.0
+      }
+    },
+    {
+      "name": "CameraClamp_(88.00, 0.00)",
+      "status": "PASS",
+      "evidence": {
+        "x": 75.55556,
+        "y": 7.0,
+        "halfWidth": 12.4444447,
+        "halfHeight": 7.0
+      }
+    },
+    {
+      "name": "CameraClamp_(0.00, 56.00)",
+      "status": "PASS",
+      "evidence": {
+        "x": 12.4444447,
+        "y": 49.0,
+        "halfWidth": 12.4444447,
+        "halfHeight": 7.0
+      }
+    },
+    {
+      "name": "CameraClamp_(88.00, 56.00)",
+      "status": "PASS",
+      "evidence": {
+        "x": 75.55556,
+        "y": 49.0,
+        "halfWidth": 12.4444447,
+        "halfHeight": 7.0
+      }
+    },
+    {
+      "name": "CameraSmoothFollowStep",
+      "status": "PASS",
+      "evidence": {
+        "beforeX": 34.0,
+        "afterX": 34.0293655,
+        "targetX": 38.0,
+        "zoom": 7.0
+      }
+    }
+  ]
+}
