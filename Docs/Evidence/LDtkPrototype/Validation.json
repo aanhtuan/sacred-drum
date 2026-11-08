@@ -1,0 +1,155 @@
+{
+  "beforeReimport": {
+    "success": true,
+    "message": "Code executed successfully.",
+    "data": {
+      "result": {
+        "transforms": 17,
+        "tilemaps": [
+          {
+            "parent": "Collision",
+            "tiles": 122
+          },
+          {
+            "parent": "Rocks",
+            "tiles": 85
+          },
+          {
+            "parent": "Obstacles",
+            "tiles": 10
+          },
+          {
+            "parent": "Water",
+            "tiles": 32
+          },
+          {
+            "parent": "Dirt_Path",
+            "tiles": 60
+          },
+          {
+            "parent": "Ground",
+            "tiles": 432
+          }
+        ],
+        "colliders": 6,
+        "spawn": "(9.50, -9.50, 0.00)",
+        "entities": 1,
+        "importedRoots": 1
+      },
+      "compiler": "codedom"
+    }
+  },
+  "afterReimport": {
+    "success": true,
+    "message": "Code executed successfully.",
+    "data": {
+      "result": {
+        "transforms": 17,
+        "tilemaps": [
+          {
+            "parent": "Collision",
+            "tiles": 122
+          },
+          {
+            "parent": "Rocks",
+            "tiles": 85
+          },
+          {
+            "parent": "Obstacles",
+            "tiles": 10
+          },
+          {
+            "parent": "Water",
+            "tiles": 32
+          },
+          {
+            "parent": "Dirt_Path",
+            "tiles": 60
+          },
+          {
+            "parent": "Ground",
+            "tiles": 432
+          }
+        ],
+        "colliders": 6,
+        "spawn": "(10.50, -9.50, 0.00)",
+        "iid": "PlayerSpawn_779a8ceb-e717-4c64-88d0-b469ca8701a7 (LDtkUnity.LDtkIid)",
+        "entities": 1,
+        "importedRoots": 1
+      },
+      "compiler": "codedom"
+    }
+  },
+  "collisionRemoval": {
+    "removedCellSolid": false,
+    "neighborSolid": true,
+    "cell": [
+      18,
+      8
+    ],
+    "method": "LDtk right-click erase, Ctrl+S, Unity asset refresh, Physics2D.OverlapPoint in Edit Mode"
+  },
+  "collisionRestoration": {
+    "success": true,
+    "message": "Code executed successfully.",
+    "data": {
+      "result": {
+        "restoredCellSolid": true,
+        "neighborSolid": true,
+        "tilemaps": 6,
+        "colliders": 6
+      },
+      "compiler": "codedom"
+    }
+  },
+  "playModeCollision": {
+    "success": true,
+    "message": "Code executed successfully.",
+    "data": {
+      "result": {
+        "playing": true,
+        "probes": [
+          {
+            "target": "Water",
+            "position": "(17.80, -8.50)",
+            "velocity": "(0.00, 0.00)",
+            "touching": true
+          },
+          {
+            "target": "Tree",
+            "position": "(3.80, -3.50)",
+            "velocity": "(0.00, 0.00)",
+            "touching": true
+          },
+          {
+            "target": "Rock",
+            "position": "(7.80, -7.50)",
+            "velocity": "(0.00, 0.00)",
+            "touching": true
+          }
+        ]
+      },
+      "compiler": "codedom"
+    }
+  },
+  "finalValidation": {
+    "success": true,
+    "message": "Code executed successfully.",
+    "data": {
+      "result": {
+        "playing": true,
+        "compileFailed": false,
+        "missingScripts": 0,
+        "missingReferences": 0,
+        "invalidSprites": 0,
+        "entities": 1,
+        "spawn": "(10.50, -9.50, 0.00)",
+        "tilemaps": 6,
+        "colliders": 6,
+        "composites": 0,
+        "spawnWalkable": true
+      },
+      "compiler": "codedom"
+    }
+  }
+}

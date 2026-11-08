@@ -1,0 +1,33 @@
+{
+  "Rects": null,
+  "Def": {
+    "__cHei": 11,
+    "__cWid": 12,
+    "cachedPixelData": {
+      "opaqueTiles": "110000000000110000000000110000000000110000000000111100000000111100000000000000000000000000111010000000111111000000111101000000111000",
+      "averageColors": "fba6fa959864557426643764687459658864cb869a76da74fba6fa959a75a6843564576677676a76c877cb869a76d975fca6fb855854957446747674977489659874cb869a75d974fba6fa957964958436746764b864b965a854cb869a75d964fa95fb85fa95fa9535645685768579758685ca869976d975fba6fca6fba6fba665649785aa6398548974cb869a76da64d755d866cb86ca75da6477789684486475646664577598749667ea879767965696669889fd97fe97fd978584f8a68795fc83fb74ea75ea75e889e889fc86fd86fc86f595f8a6f7b6b965d965ea88ea88ea98ea98fc76fc75fc76f595d695f7b6b999b9999a99b977d8767965fc86fb86fb87a5740423a585"
+    },
+    "customData": [
+
+    ],
+    "embedAtlas": null,
+    "enumTags": [
+
+    ],
+    "identifier": "Kenney_TinyFarm",
+    "padding": 0,
+    "pxHei": 176,
+    "pxWid": 192,
+    "relPath": "Tilesets/Kenney_TinyFarm.png",
+    "savedSelections": [
+
+    ],
+    "spacing": 0,
+    "tags": [
+
+    ],
+    "tagsSourceEnumUid": null,
+    "tileGridSize": 16,
+    "uid": 3
+  }
+}
