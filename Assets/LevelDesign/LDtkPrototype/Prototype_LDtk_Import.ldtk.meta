@@ -26,7 +26,9 @@ ScriptedImporter:
     _asset: {fileID: 11400000, guid: 30e468bb5f0d23105b430b853f3861cc, type: 2}
   _entities:
   - _key: PlayerSpawn
-    _asset: {fileID: 8627368738303598647, guid: 4c5358097c2a1171dac8bea3d1988065, type: 3}
+    _asset: {fileID: 7404809493509485623, guid: f9186c8ec9364173996dbcf667bcefcf, type: 3}
+  - _key: Scarecrow
+    _asset: {fileID: 5879585907412930923, guid: bf59e97021407fad781f3221580daf92, type: 3}
   _enumGenerate: 0
   _enumPath: 
   _enumNamespace: 

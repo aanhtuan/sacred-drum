@@ -9,6 +9,8 @@
 *.unity whitespace=-blank-at-eol
 *.prefab whitespace=-blank-at-eol
 *.asset whitespace=-blank-at-eol
+*.anim whitespace=-blank-at-eol
+*.controller whitespace=-blank-at-eol
 *.scenetemplate whitespace=-blank-at-eol
 
 # Preserve verbatim third-party skill and license text, including upstream whitespace.

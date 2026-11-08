@@ -1,3 +1,5 @@
+> Latest prototype update: Minh farmer animations, static scarecrows and closer follow camera are documented in [PrototypeCast_Preview.md](PrototypeCast_Preview.md). Camera/entity counts below describe the earlier map-only validation.
+
 # Prototype cánh đồng bị bóng tối chiếm đóng
 
 Theo lựa chọn của Owner, bản này thay đổi **Prototype_LDtk_Import**, không sửa Level1_CanhDong hoặc Prototype_Player. Bản map kiểm thử 24×18 trước đây được giữ trong commit `6437073`; scene hiện tại dùng bố cục mới 48×36.

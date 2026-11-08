@@ -1,0 +1,1392 @@
+{
+  "unity": "6000.5.10f1",
+  "method": "Observed real Play Mode Update/Animator playback while Input System received synthetic WASD and J keyboard events; no manual Animator.Update or clip sampling.",
+  "passed": true,
+  "checks": [
+    {
+      "state": "Idle_Down",
+      "sprites": [
+        "Idle_Down_0",
+        "Idle_Down_1",
+        "Idle_Down_2",
+        "Idle_Down_3",
+        "Idle_Down_4"
+      ]
+    },
+    {
+      "state": "Run_Side",
+      "sprites": [
+        "Run_Side_0",
+        "Run_Side_1",
+        "Run_Side_2",
+        "Run_Side_3",
+        "Run_Side_5",
+        "Run_Side_4"
+      ]
+    },
+    {
+      "state": "Idle_Side",
+      "sprites": [
+        "Idle_Side_0",
+        "Idle_Side_1",
+        "Idle_Side_2"
+      ]
+    },
+    {
+      "state": "Attack_Side",
+      "sprites": [
+        "Attack_Side_0",
+        "Attack_Side_1",
+        "Attack_Side_2",
+        "Attack_Side_3",
+        "Attack_Side_4",
+        "Attack_Side_5"
+      ]
+    },
+    {
+      "state": "Run_Up",
+      "sprites": [
+        "Run_Up_0",
+        "Run_Up_1",
+        "Run_Up_2",
+        "Run_Up_3",
+        "Run_Up_4"
+      ]
+    },
+    {
+      "state": "Idle_Up",
+      "sprites": [
+        "Idle_Up_0",
+        "Idle_Up_1",
+        "Idle_Up_2"
+      ]
+    },
+    {
+      "state": "Attack_Up",
+      "sprites": [
+        "Attack_Up_0",
+        "Attack_Up_1",
+        "Attack_Up_2",
+        "Attack_Up_3",
+        "Attack_Up_4",
+        "Attack_Up_5"
+      ]
+    },
+    {
+      "state": "Run_Down",
+      "sprites": [
+        "Run_Down_0",
+        "Run_Down_1",
+        "Run_Down_2",
+        "Run_Down_3",
+        "Run_Down_4"
+      ]
+    },
+    {
+      "state": "Attack_Down",
+      "sprites": [
+        "Attack_Down_0",
+        "Attack_Down_1",
+        "Attack_Down_2",
+        "Attack_Down_3",
+        "Attack_Down_4",
+        "Attack_Down_5"
+      ]
+    }
+  ],
+  "leftFacingMirrorPassed": true,
+  "limitations": [
+    "Physical keyboard/mouse hardware not tested",
+    "Staff swing is animation only; no damage or hitbox",
+    "AI and scarecrow movement absent by request"
+  ],
+  "samples": [
+    {
+      "time": 0.02,
+      "stage": 0,
+      "state": "Idle_Down",
+      "sprite": "Idle_Down_0",
+      "x": 10.5,
+      "y": -31.5,
+      "flipX": false
+    },
+    {
+      "time": 0.026,
+      "stage": 0,
+      "state": "Idle_Down",
+      "sprite": "Idle_Down_0",
+      "x": 10.5,
+      "y": -31.5,
+      "flipX": false
+    },
+    {
+      "time": 0.126,
+      "stage": 0,
+      "state": "Idle_Down",
+      "sprite": "Idle_Down_0",
+      "x": 10.5,
+      "y": -31.5,
+      "flipX": false
+    },
+    {
+      "time": 0.128,
+      "stage": 0,
+      "state": "Idle_Down",
+      "sprite": "Idle_Down_0",
+      "x": 10.5,
+      "y": -31.5,
+      "flipX": false
+    },
+    {
+      "time": 0.228,
+      "stage": 0,
+      "state": "Idle_Down",
+      "sprite": "Idle_Down_0",
+      "x": 10.5,
+      "y": -31.5,
+      "flipX": false
+    },
+    {
+      "time": 0.231,
+      "stage": 0,
+      "state": "Idle_Down",
+      "sprite": "Idle_Down_0",
+      "x": 10.5,
+      "y": -31.5,
+      "flipX": false
+    },
+    {
+      "time": 0.331,
+      "stage": 0,
+      "state": "Idle_Down",
+      "sprite": "Idle_Down_0",
+      "x": 10.5,
+      "y": -31.5,
+      "flipX": false
+    },
+    {
+      "time": 0.333,
+      "stage": 0,
+      "state": "Idle_Down",
+      "sprite": "Idle_Down_1",
+      "x": 10.5,
+      "y": -31.5,
+      "flipX": false
+    },
+    {
+      "time": 0.433,
+      "stage": 0,
+      "state": "Idle_Down",
+      "sprite": "Idle_Down_1",
+      "x": 10.5,
+      "y": -31.5,
+      "flipX": false
+    },
+    {
+      "time": 0.436,
+      "stage": 0,
+      "state": "Idle_Down",
+      "sprite": "Idle_Down_1",
+      "x": 10.5,
+      "y": -31.5,
+      "flipX": false
+    },
+    {
+      "time": 0.536,
+      "stage": 0,
+      "state": "Idle_Down",
+      "sprite": "Idle_Down_1",
+      "x": 10.5,
+      "y": -31.5,
+      "flipX": false
+    },
+    {
+      "time": 0.539,
+      "stage": 0,
+      "state": "Idle_Down",
+      "sprite": "Idle_Down_2",
+      "x": 10.5,
+      "y": -31.5,
+      "flipX": false
+    },
+    {
+      "time": 0.638,
+      "stage": 0,
+      "state": "Idle_Down",
+      "sprite": "Idle_Down_2",
+      "x": 10.5,
+      "y": -31.5,
+      "flipX": false
+    },
+    {
+      "time": 0.641,
+      "stage": 0,
+      "state": "Idle_Down",
+      "sprite": "Idle_Down_2",
+      "x": 10.5,
+      "y": -31.5,
+      "flipX": false
+    },
+    {
+      "time": 0.741,
+      "stage": 0,
+      "state": "Idle_Down",
+      "sprite": "Idle_Down_2",
+      "x": 10.5,
+      "y": -31.5,
+      "flipX": false
+    },
+    {
+      "time": 0.744,
+      "stage": 0,
+      "state": "Idle_Down",
+      "sprite": "Idle_Down_3",
+      "x": 10.5,
+      "y": -31.5,
+      "flipX": false
+    },
+    {
+      "time": 0.843,
+      "stage": 1,
+      "state": "Idle_Down",
+      "sprite": "Idle_Down_3",
+      "x": 10.5,
+      "y": -31.5,
+      "flipX": false
+    },
+    {
+      "time": 0.852,
+      "stage": 1,
+      "state": "Run_Side",
+      "sprite": "Idle_Down_3",
+      "x": 10.5,
+      "y": -31.5,
+      "flipX": false
+    },
+    {
+      "time": 0.952,
+      "stage": 1,
+      "state": "Run_Side",
+      "sprite": "Run_Side_0",
+      "x": 10.5,
+      "y": -31.5,
+      "flipX": false
+    },
+    {
+      "time": 0.955,
+      "stage": 1,
+      "state": "Run_Side",
+      "sprite": "Run_Side_1",
+      "x": 10.9,
+      "y": -31.5,
+      "flipX": false
+    },
+    {
+      "time": 1.056,
+      "stage": 1,
+      "state": "Run_Side",
+      "sprite": "Run_Side_1",
+      "x": 10.9,
+      "y": -31.5,
+      "flipX": false
+    },
+    {
+      "time": 1.058,
+      "stage": 1,
+      "state": "Run_Side",
+      "sprite": "Run_Side_2",
+      "x": 11.3,
+      "y": -31.5,
+      "flipX": false
+    },
+    {
+      "time": 1.159,
+      "stage": 1,
+      "state": "Run_Side",
+      "sprite": "Run_Side_2",
+      "x": 11.38,
+      "y": -31.5,
+      "flipX": false
+    },
+    {
+      "time": 1.17,
+      "stage": 1,
+      "state": "Run_Side",
+      "sprite": "Run_Side_3",
+      "x": 11.78,
+      "y": -31.5,
+      "flipX": false
+    },
+    {
+      "time": 1.27,
+      "stage": 1,
+      "state": "Run_Side",
+      "sprite": "Run_Side_3",
+      "x": 11.78,
+      "y": -31.5,
+      "flipX": false
+    },
+    {
+      "time": 1.273,
+      "stage": 1,
+      "state": "Run_Side",
+      "sprite": "Run_Side_5",
+      "x": 12.18,
+      "y": -31.5,
+      "flipX": false
+    },
+    {
+      "time": 1.373,
+      "stage": 1,
+      "state": "Run_Side",
+      "sprite": "Run_Side_5",
+      "x": 12.18,
+      "y": -31.5,
+      "flipX": false
+    },
+    {
+      "time": 1.376,
+      "stage": 1,
+      "state": "Run_Side",
+      "sprite": "Run_Side_0",
+      "x": 12.58,
+      "y": -31.5,
+      "flipX": false
+    },
+    {
+      "time": 1.476,
+      "stage": 2,
+      "state": "Run_Side",
+      "sprite": "Run_Side_0",
+      "x": 12.58,
+      "y": -31.5,
+      "flipX": false
+    },
+    {
+      "time": 1.479,
+      "stage": 2,
+      "state": "Idle_Side",
+      "sprite": "Run_Side_0",
+      "x": 12.97,
+      "y": -31.527,
+      "flipX": false
+    },
+    {
+      "time": 1.579,
+      "stage": 2,
+      "state": "Idle_Side",
+      "sprite": "Idle_Side_0",
+      "x": 12.97,
+      "y": -31.527,
+      "flipX": false
+    },
+    {
+      "time": 1.582,
+      "stage": 2,
+      "state": "Idle_Side",
+      "sprite": "Idle_Side_0",
+      "x": 12.97,
+      "y": -31.527,
+      "flipX": false
+    },
+    {
+      "time": 1.682,
+      "stage": 2,
+      "state": "Idle_Side",
+      "sprite": "Idle_Side_0",
+      "x": 12.97,
+      "y": -31.527,
+      "flipX": false
+    },
+    {
+      "time": 1.685,
+      "stage": 2,
+      "state": "Idle_Side",
+      "sprite": "Idle_Side_1",
+      "x": 12.97,
+      "y": -31.527,
+      "flipX": false
+    },
+    {
+      "time": 1.785,
+      "stage": 2,
+      "state": "Idle_Side",
+      "sprite": "Idle_Side_1",
+      "x": 12.97,
+      "y": -31.527,
+      "flipX": false
+    },
+    {
+      "time": 1.788,
+      "stage": 2,
+      "state": "Idle_Side",
+      "sprite": "Idle_Side_1",
+      "x": 12.97,
+      "y": -31.527,
+      "flipX": false
+    },
+    {
+      "time": 1.887,
+      "stage": 2,
+      "state": "Idle_Side",
+      "sprite": "Idle_Side_1",
+      "x": 12.97,
+      "y": -31.527,
+      "flipX": false
+    },
+    {
+      "time": 1.891,
+      "stage": 2,
+      "state": "Idle_Side",
+      "sprite": "Idle_Side_2",
+      "x": 12.97,
+      "y": -31.527,
+      "flipX": false
+    },
+    {
+      "time": 1.991,
+      "stage": 2,
+      "state": "Idle_Side",
+      "sprite": "Idle_Side_2",
+      "x": 12.97,
+      "y": -31.527,
+      "flipX": false
+    },
+    {
+      "time": 1.994,
+      "stage": 2,
+      "state": "Idle_Side",
+      "sprite": "Idle_Side_2",
+      "x": 12.97,
+      "y": -31.527,
+      "flipX": false
+    },
+    {
+      "time": 2.094,
+      "stage": 3,
+      "state": "Idle_Side",
+      "sprite": "Idle_Side_2",
+      "x": 12.97,
+      "y": -31.527,
+      "flipX": false
+    },
+    {
+      "time": 2.098,
+      "stage": 3,
+      "state": "Attack_Side",
+      "sprite": "Idle_Side_3",
+      "x": 12.97,
+      "y": -31.527,
+      "flipX": false
+    },
+    {
+      "time": 2.198,
+      "stage": 3,
+      "state": "Attack_Side",
+      "sprite": "Attack_Side_0",
+      "x": 12.97,
+      "y": -31.527,
+      "flipX": false
+    },
+    {
+      "time": 2.2,
+      "stage": 3,
+      "state": "Attack_Side",
+      "sprite": "Attack_Side_1",
+      "x": 12.97,
+      "y": -31.527,
+      "flipX": false
+    },
+    {
+      "time": 2.3,
+      "stage": 3,
+      "state": "Attack_Side",
+      "sprite": "Attack_Side_1",
+      "x": 12.97,
+      "y": -31.527,
+      "flipX": false
+    },
+    {
+      "time": 2.303,
+      "stage": 3,
+      "state": "Attack_Side",
+      "sprite": "Attack_Side_2",
+      "x": 12.97,
+      "y": -31.527,
+      "flipX": false
+    },
+    {
+      "time": 2.403,
+      "stage": 3,
+      "state": "Attack_Side",
+      "sprite": "Attack_Side_2",
+      "x": 12.97,
+      "y": -31.527,
+      "flipX": false
+    },
+    {
+      "time": 2.407,
+      "stage": 3,
+      "state": "Attack_Side",
+      "sprite": "Attack_Side_3",
+      "x": 12.97,
+      "y": -31.527,
+      "flipX": false
+    },
+    {
+      "time": 2.507,
+      "stage": 3,
+      "state": "Attack_Side",
+      "sprite": "Attack_Side_3",
+      "x": 12.97,
+      "y": -31.527,
+      "flipX": false
+    },
+    {
+      "time": 2.51,
+      "stage": 3,
+      "state": "Attack_Side",
+      "sprite": "Attack_Side_4",
+      "x": 12.97,
+      "y": -31.527,
+      "flipX": false
+    },
+    {
+      "time": 2.61,
+      "stage": 3,
+      "state": "Attack_Side",
+      "sprite": "Attack_Side_4",
+      "x": 12.97,
+      "y": -31.527,
+      "flipX": false
+    },
+    {
+      "time": 2.613,
+      "stage": 3,
+      "state": "Attack_Side",
+      "sprite": "Attack_Side_5",
+      "x": 12.97,
+      "y": -31.527,
+      "flipX": false
+    },
+    {
+      "time": 2.713,
+      "stage": 4,
+      "state": "Attack_Side",
+      "sprite": "Attack_Side_5",
+      "x": 12.97,
+      "y": -31.527,
+      "flipX": false
+    },
+    {
+      "time": 2.716,
+      "stage": 4,
+      "state": "Run_Up",
+      "sprite": "Attack_Side_5",
+      "x": 12.97,
+      "y": -31.527,
+      "flipX": false
+    },
+    {
+      "time": 2.816,
+      "stage": 4,
+      "state": "Run_Up",
+      "sprite": "Run_Up_0",
+      "x": 12.97,
+      "y": -31.527,
+      "flipX": false
+    },
+    {
+      "time": 2.819,
+      "stage": 4,
+      "state": "Run_Up",
+      "sprite": "Run_Up_1",
+      "x": 12.908,
+      "y": -31.516,
+      "flipX": false
+    },
+    {
+      "time": 2.919,
+      "stage": 4,
+      "state": "Run_Up",
+      "sprite": "Run_Up_1",
+      "x": 12.885,
+      "y": -31.508,
+      "flipX": false
+    },
+    {
+      "time": 2.922,
+      "stage": 4,
+      "state": "Run_Up",
+      "sprite": "Run_Up_2",
+      "x": 12.715,
+      "y": -31.351,
+      "flipX": false
+    },
+    {
+      "time": 3.023,
+      "stage": 4,
+      "state": "Run_Up",
+      "sprite": "Run_Up_2",
+      "x": 12.715,
+      "y": -31.351,
+      "flipX": false
+    },
+    {
+      "time": 3.026,
+      "stage": 4,
+      "state": "Run_Up",
+      "sprite": "Run_Up_3",
+      "x": 12.686,
+      "y": -30.957,
+      "flipX": false
+    },
+    {
+      "time": 3.127,
+      "stage": 4,
+      "state": "Run_Up",
+      "sprite": "Run_Up_3",
+      "x": 12.686,
+      "y": -30.957,
+      "flipX": false
+    },
+    {
+      "time": 3.13,
+      "stage": 4,
+      "state": "Run_Up",
+      "sprite": "Run_Up_4",
+      "x": 12.686,
+      "y": -30.557,
+      "flipX": false
+    },
+    {
+      "time": 3.23,
+      "stage": 4,
+      "state": "Run_Up",
+      "sprite": "Run_Up_4",
+      "x": 12.686,
+      "y": -30.557,
+      "flipX": false
+    },
+    {
+      "time": 3.233,
+      "stage": 4,
+      "state": "Run_Up",
+      "sprite": "Run_Up_0",
+      "x": 12.686,
+      "y": -30.157,
+      "flipX": false
+    },
+    {
+      "time": 3.332,
+      "stage": 5,
+      "state": "Run_Up",
+      "sprite": "Run_Up_0",
+      "x": 12.686,
+      "y": -30.157,
+      "flipX": false
+    },
+    {
+      "time": 3.335,
+      "stage": 5,
+      "state": "Idle_Up",
+      "sprite": "Run_Up_0",
+      "x": 12.686,
+      "y": -29.757,
+      "flipX": false
+    },
+    {
+      "time": 3.435,
+      "stage": 5,
+      "state": "Idle_Up",
+      "sprite": "Idle_Up_0",
+      "x": 12.686,
+      "y": -29.757,
+      "flipX": false
+    },
+    {
+      "time": 3.438,
+      "stage": 5,
+      "state": "Idle_Up",
+      "sprite": "Idle_Up_0",
+      "x": 12.686,
+      "y": -29.757,
+      "flipX": false
+    },
+    {
+      "time": 3.538,
+      "stage": 5,
+      "state": "Idle_Up",
+      "sprite": "Idle_Up_0",
+      "x": 12.686,
+      "y": -29.757,
+      "flipX": false
+    },
+    {
+      "time": 3.541,
+      "stage": 5,
+      "state": "Idle_Up",
+      "sprite": "Idle_Up_1",
+      "x": 12.686,
+      "y": -29.757,
+      "flipX": false
+    },
+    {
+      "time": 3.642,
+      "stage": 5,
+      "state": "Idle_Up",
+      "sprite": "Idle_Up_1",
+      "x": 12.686,
+      "y": -29.757,
+      "flipX": false
+    },
+    {
+      "time": 3.644,
+      "stage": 5,
+      "state": "Idle_Up",
+      "sprite": "Idle_Up_1",
+      "x": 12.686,
+      "y": -29.757,
+      "flipX": false
+    },
+    {
+      "time": 3.744,
+      "stage": 5,
+      "state": "Idle_Up",
+      "sprite": "Idle_Up_1",
+      "x": 12.686,
+      "y": -29.757,
+      "flipX": false
+    },
+    {
+      "time": 3.747,
+      "stage": 5,
+      "state": "Idle_Up",
+      "sprite": "Idle_Up_2",
+      "x": 12.686,
+      "y": -29.757,
+      "flipX": false
+    },
+    {
+      "time": 3.848,
+      "stage": 5,
+      "state": "Idle_Up",
+      "sprite": "Idle_Up_2",
+      "x": 12.686,
+      "y": -29.757,
+      "flipX": false
+    },
+    {
+      "time": 3.85,
+      "stage": 5,
+      "state": "Idle_Up",
+      "sprite": "Idle_Up_2",
+      "x": 12.686,
+      "y": -29.757,
+      "flipX": false
+    },
+    {
+      "time": 3.951,
+      "stage": 6,
+      "state": "Idle_Up",
+      "sprite": "Idle_Up_2",
+      "x": 12.686,
+      "y": -29.757,
+      "flipX": false
+    },
+    {
+      "time": 3.954,
+      "stage": 6,
+      "state": "Attack_Up",
+      "sprite": "Idle_Up_3",
+      "x": 12.686,
+      "y": -29.757,
+      "flipX": false
+    },
+    {
+      "time": 4.054,
+      "stage": 6,
+      "state": "Attack_Up",
+      "sprite": "Attack_Up_0",
+      "x": 12.686,
+      "y": -29.757,
+      "flipX": false
+    },
+    {
+      "time": 4.057,
+      "stage": 6,
+      "state": "Attack_Up",
+      "sprite": "Attack_Up_1",
+      "x": 12.686,
+      "y": -29.757,
+      "flipX": false
+    },
+    {
+      "time": 4.157,
+      "stage": 6,
+      "state": "Attack_Up",
+      "sprite": "Attack_Up_1",
+      "x": 12.686,
+      "y": -29.757,
+      "flipX": false
+    },
+    {
+      "time": 4.16,
+      "stage": 6,
+      "state": "Attack_Up",
+      "sprite": "Attack_Up_2",
+      "x": 12.686,
+      "y": -29.757,
+      "flipX": false
+    },
+    {
+      "time": 4.26,
+      "stage": 6,
+      "state": "Attack_Up",
+      "sprite": "Attack_Up_2",
+      "x": 12.686,
+      "y": -29.757,
+      "flipX": false
+    },
+    {
+      "time": 4.263,
+      "stage": 6,
+      "state": "Attack_Up",
+      "sprite": "Attack_Up_3",
+      "x": 12.686,
+      "y": -29.757,
+      "flipX": false
+    },
+    {
+      "time": 4.364,
+      "stage": 6,
+      "state": "Attack_Up",
+      "sprite": "Attack_Up_3",
+      "x": 12.686,
+      "y": -29.757,
+      "flipX": false
+    },
+    {
+      "time": 4.366,
+      "stage": 6,
+      "state": "Attack_Up",
+      "sprite": "Attack_Up_4",
+      "x": 12.686,
+      "y": -29.757,
+      "flipX": false
+    },
+    {
+      "time": 4.466,
+      "stage": 6,
+      "state": "Attack_Up",
+      "sprite": "Attack_Up_4",
+      "x": 12.686,
+      "y": -29.757,
+      "flipX": false
+    },
+    {
+      "time": 4.469,
+      "stage": 6,
+      "state": "Attack_Up",
+      "sprite": "Attack_Up_5",
+      "x": 12.686,
+      "y": -29.757,
+      "flipX": false
+    },
+    {
+      "time": 4.569,
+      "stage": 6,
+      "state": "Attack_Up",
+      "sprite": "Attack_Up_5",
+      "x": 12.686,
+      "y": -29.757,
+      "flipX": false
+    },
+    {
+      "time": 4.572,
+      "stage": 6,
+      "state": "Idle_Up",
+      "sprite": "Attack_Up_5",
+      "x": 12.686,
+      "y": -29.757,
+      "flipX": false
+    },
+    {
+      "time": 4.672,
+      "stage": 7,
+      "state": "Idle_Up",
+      "sprite": "Idle_Up_0",
+      "x": 12.686,
+      "y": -29.757,
+      "flipX": false
+    },
+    {
+      "time": 4.675,
+      "stage": 7,
+      "state": "Run_Side",
+      "sprite": "Idle_Up_0",
+      "x": 12.686,
+      "y": -29.757,
+      "flipX": true
+    },
+    {
+      "time": 4.774,
+      "stage": 7,
+      "state": "Run_Side",
+      "sprite": "Run_Side_0",
+      "x": 12.686,
+      "y": -29.757,
+      "flipX": true
+    },
+    {
+      "time": 4.778,
+      "stage": 7,
+      "state": "Run_Side",
+      "sprite": "Run_Side_1",
+      "x": 12.286,
+      "y": -29.757,
+      "flipX": true
+    },
+    {
+      "time": 4.878,
+      "stage": 7,
+      "state": "Run_Side",
+      "sprite": "Run_Side_1",
+      "x": 12.206,
+      "y": -29.757,
+      "flipX": true
+    },
+    {
+      "time": 4.88,
+      "stage": 7,
+      "state": "Run_Side",
+      "sprite": "Run_Side_2",
+      "x": 11.806,
+      "y": -29.757,
+      "flipX": true
+    },
+    {
+      "time": 4.981,
+      "stage": 7,
+      "state": "Run_Side",
+      "sprite": "Run_Side_2",
+      "x": 11.806,
+      "y": -29.757,
+      "flipX": true
+    },
+    {
+      "time": 4.984,
+      "stage": 7,
+      "state": "Run_Side",
+      "sprite": "Run_Side_3",
+      "x": 11.406,
+      "y": -29.757,
+      "flipX": true
+    },
+    {
+      "time": 5.084,
+      "stage": 7,
+      "state": "Run_Side",
+      "sprite": "Run_Side_3",
+      "x": 11.406,
+      "y": -29.757,
+      "flipX": true
+    },
+    {
+      "time": 5.087,
+      "stage": 7,
+      "state": "Run_Side",
+      "sprite": "Run_Side_4",
+      "x": 11.006,
+      "y": -29.757,
+      "flipX": true
+    },
+    {
+      "time": 5.187,
+      "stage": 7,
+      "state": "Run_Side",
+      "sprite": "Run_Side_4",
+      "x": 11.006,
+      "y": -29.757,
+      "flipX": true
+    },
+    {
+      "time": 5.19,
+      "stage": 7,
+      "state": "Run_Side",
+      "sprite": "Run_Side_0",
+      "x": 10.606,
+      "y": -29.757,
+      "flipX": true
+    },
+    {
+      "time": 5.29,
+      "stage": 8,
+      "state": "Run_Side",
+      "sprite": "Run_Side_0",
+      "x": 10.606,
+      "y": -29.757,
+      "flipX": true
+    },
+    {
+      "time": 5.293,
+      "stage": 8,
+      "state": "Run_Down",
+      "sprite": "Run_Side_0",
+      "x": 10.206,
+      "y": -29.757,
+      "flipX": false
+    },
+    {
+      "time": 5.393,
+      "stage": 8,
+      "state": "Run_Down",
+      "sprite": "Run_Down_0",
+      "x": 10.206,
+      "y": -29.757,
+      "flipX": false
+    },
+    {
+      "time": 5.396,
+      "stage": 8,
+      "state": "Run_Down",
+      "sprite": "Run_Down_1",
+      "x": 10.206,
+      "y": -30.157,
+      "flipX": false
+    },
+    {
+      "time": 5.496,
+      "stage": 8,
+      "state": "Run_Down",
+      "sprite": "Run_Down_1",
+      "x": 10.206,
+      "y": -30.157,
+      "flipX": false
+    },
+    {
+      "time": 5.498,
+      "stage": 8,
+      "state": "Run_Down",
+      "sprite": "Run_Down_2",
+      "x": 10.206,
+      "y": -30.557,
+      "flipX": false
+    },
+    {
+      "time": 5.599,
+      "stage": 8,
+      "state": "Run_Down",
+      "sprite": "Run_Down_2",
+      "x": 10.206,
+      "y": -30.637,
+      "flipX": false
+    },
+    {
+      "time": 5.601,
+      "stage": 8,
+      "state": "Run_Down",
+      "sprite": "Run_Down_3",
+      "x": 10.206,
+      "y": -31.037,
+      "flipX": false
+    },
+    {
+      "time": 5.701,
+      "stage": 8,
+      "state": "Run_Down",
+      "sprite": "Run_Down_3",
+      "x": 10.206,
+      "y": -31.037,
+      "flipX": false
+    },
+    {
+      "time": 5.704,
+      "stage": 8,
+      "state": "Run_Down",
+      "sprite": "Run_Down_4",
+      "x": 10.206,
+      "y": -31.437,
+      "flipX": false
+    },
+    {
+      "time": 5.804,
+      "stage": 9,
+      "state": "Run_Down",
+      "sprite": "Run_Down_4",
+      "x": 10.206,
+      "y": -31.437,
+      "flipX": false
+    },
+    {
+      "time": 5.807,
+      "stage": 9,
+      "state": "Attack_Down",
+      "sprite": "Run_Down_0",
+      "x": 10.206,
+      "y": -31.837,
+      "flipX": false
+    },
+    {
+      "time": 5.907,
+      "stage": 9,
+      "state": "Attack_Down",
+      "sprite": "Attack_Down_0",
+      "x": 10.206,
+      "y": -31.837,
+      "flipX": false
+    },
+    {
+      "time": 5.91,
+      "stage": 9,
+      "state": "Attack_Down",
+      "sprite": "Attack_Down_1",
+      "x": 10.206,
+      "y": -31.837,
+      "flipX": false
+    },
+    {
+      "time": 6.009,
+      "stage": 9,
+      "state": "Attack_Down",
+      "sprite": "Attack_Down_1",
+      "x": 10.206,
+      "y": -31.837,
+      "flipX": false
+    },
+    {
+      "time": 6.012,
+      "stage": 9,
+      "state": "Attack_Down",
+      "sprite": "Attack_Down_2",
+      "x": 10.206,
+      "y": -31.837,
+      "flipX": false
+    },
+    {
+      "time": 6.112,
+      "stage": 9,
+      "state": "Attack_Down",
+      "sprite": "Attack_Down_2",
+      "x": 10.206,
+      "y": -31.837,
+      "flipX": false
+    },
+    {
+      "time": 6.115,
+      "stage": 9,
+      "state": "Attack_Down",
+      "sprite": "Attack_Down_3",
+      "x": 10.206,
+      "y": -31.837,
+      "flipX": false
+    },
+    {
+      "time": 6.216,
+      "stage": 9,
+      "state": "Attack_Down",
+      "sprite": "Attack_Down_3",
+      "x": 10.206,
+      "y": -31.837,
+      "flipX": false
+    },
+    {
+      "time": 6.219,
+      "stage": 9,
+      "state": "Attack_Down",
+      "sprite": "Attack_Down_4",
+      "x": 10.206,
+      "y": -31.837,
+      "flipX": false
+    },
+    {
+      "time": 6.319,
+      "stage": 9,
+      "state": "Attack_Down",
+      "sprite": "Attack_Down_4",
+      "x": 10.206,
+      "y": -31.837,
+      "flipX": false
+    },
+    {
+      "time": 6.322,
+      "stage": 9,
+      "state": "Attack_Down",
+      "sprite": "Attack_Down_5",
+      "x": 10.206,
+      "y": -31.837,
+      "flipX": false
+    },
+    {
+      "time": 6.422,
+      "stage": 9,
+      "state": "Attack_Down",
+      "sprite": "Attack_Down_5",
+      "x": 10.206,
+      "y": -31.837,
+      "flipX": false
+    },
+    {
+      "time": 6.425,
+      "stage": 9,
+      "state": "Idle_Down",
+      "sprite": "Attack_Down_5",
+      "x": 10.206,
+      "y": -31.837,
+      "flipX": false
+    },
+    {
+      "time": 6.524,
+      "stage": 10,
+      "state": "Idle_Down",
+      "sprite": "Idle_Down_0",
+      "x": 10.206,
+      "y": -31.837,
+      "flipX": false
+    },
+    {
+      "time": 6.527,
+      "stage": 10,
+      "state": "Idle_Down",
+      "sprite": "Idle_Down_0",
+      "x": 10.206,
+      "y": -31.837,
+      "flipX": false
+    },
+    {
+      "time": 6.627,
+      "stage": 10,
+      "state": "Idle_Down",
+      "sprite": "Idle_Down_0",
+      "x": 10.206,
+      "y": -31.837,
+      "flipX": false
+    },
+    {
+      "time": 6.63,
+      "stage": 10,
+      "state": "Idle_Down",
+      "sprite": "Idle_Down_1",
+      "x": 10.206,
+      "y": -31.837,
+      "flipX": false
+    },
+    {
+      "time": 6.731,
+      "stage": 10,
+      "state": "Idle_Down",
+      "sprite": "Idle_Down_1",
+      "x": 10.206,
+      "y": -31.837,
+      "flipX": false
+    },
+    {
+      "time": 6.733,
+      "stage": 10,
+      "state": "Idle_Down",
+      "sprite": "Idle_Down_1",
+      "x": 10.206,
+      "y": -31.837,
+      "flipX": false
+    },
+    {
+      "time": 6.833,
+      "stage": 10,
+      "state": "Idle_Down",
+      "sprite": "Idle_Down_1",
+      "x": 10.206,
+      "y": -31.837,
+      "flipX": false
+    },
+    {
+      "time": 6.836,
+      "stage": 10,
+      "state": "Idle_Down",
+      "sprite": "Idle_Down_2",
+      "x": 10.206,
+      "y": -31.837,
+      "flipX": false
+    },
+    {
+      "time": 6.936,
+      "stage": 10,
+      "state": "Idle_Down",
+      "sprite": "Idle_Down_2",
+      "x": 10.206,
+      "y": -31.837,
+      "flipX": false
+    },
+    {
+      "time": 6.939,
+      "stage": 10,
+      "state": "Idle_Down",
+      "sprite": "Idle_Down_2",
+      "x": 10.206,
+      "y": -31.837,
+      "flipX": false
+    },
+    {
+      "time": 7.039,
+      "stage": 10,
+      "state": "Idle_Down",
+      "sprite": "Idle_Down_2",
+      "x": 10.206,
+      "y": -31.837,
+      "flipX": false
+    },
+    {
+      "time": 7.042,
+      "stage": 10,
+      "state": "Idle_Down",
+      "sprite": "Idle_Down_3",
+      "x": 10.206,
+      "y": -31.837,
+      "flipX": false
+    },
+    {
+      "time": 7.142,
+      "stage": 10,
+      "state": "Idle_Down",
+      "sprite": "Idle_Down_3",
+      "x": 10.206,
+      "y": -31.837,
+      "flipX": false
+    },
+    {
+      "time": 7.145,
+      "stage": 10,
+      "state": "Idle_Down",
+      "sprite": "Idle_Down_3",
+      "x": 10.206,
+      "y": -31.837,
+      "flipX": false
+    },
+    {
+      "time": 7.245,
+      "stage": 10,
+      "state": "Idle_Down",
+      "sprite": "Idle_Down_3",
+      "x": 10.206,
+      "y": -31.837,
+      "flipX": false
+    },
+    {
+      "time": 7.248,
+      "stage": 10,
+      "state": "Idle_Down",
+      "sprite": "Idle_Down_4",
+      "x": 10.206,
+      "y": -31.837,
+      "flipX": false
+    },
+    {
+      "time": 7.349,
+      "stage": 10,
+      "state": "Idle_Down",
+      "sprite": "Idle_Down_4",
+      "x": 10.206,
+      "y": -31.837,
+      "flipX": false
+    }
+  ]
+}
