@@ -1,3 +1,5 @@
+> Bố cục này đã được chỉnh có chọn lọc tiếp: xem [Level1_Selective_Refinement.md](Level1_Selective_Refinement.md) cho trạng thái hiện tại và 3 khu phong ấn.
+
 # Level 1 — mê cung đồng quê, 08/11/2026
 
 Scene hiện tại: `Assets/Scenes/Level1_CanhDong.unity`.

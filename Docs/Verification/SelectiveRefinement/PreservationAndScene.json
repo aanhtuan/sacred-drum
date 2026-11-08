@@ -1,0 +1,106 @@
+{
+  "scene": "Assets/Scenes/Level1_CanhDong.unity",
+  "originalObjects": 956,
+  "movedOriginalGameplayObjects": [
+    "EnemySpawn_01",
+    "EnemySpawn_02"
+  ],
+  "maps": [
+    {
+      "name": "SealPads",
+      "cells": 27
+    },
+    {
+      "name": "RaisedEarthFaces",
+      "cells": 54
+    },
+    {
+      "name": "ShrineFence",
+      "cells": 38
+    },
+    {
+      "name": "RaisedEarthTops",
+      "cells": 54
+    },
+    {
+      "name": "WoodenBridge",
+      "cells": 16
+    },
+    {
+      "name": "EarthBanks",
+      "cells": 582
+    },
+    {
+      "name": "ForestCollision",
+      "cells": 2708
+    },
+    {
+      "name": "RicePlots",
+      "cells": 12
+    },
+    {
+      "name": "Ground",
+      "cells": 4928
+    },
+    {
+      "name": "River",
+      "cells": 218
+    },
+    {
+      "name": "CourtyardSoil",
+      "cells": 202
+    },
+    {
+      "name": "DirtTrails",
+      "cells": 75
+    },
+    {
+      "name": "FieldBunds",
+      "cells": 54
+    },
+    {
+      "name": "RiverBankContours",
+      "cells": 42
+    }
+  ],
+  "bridgeCells": [
+    "43,25",
+    "44,25",
+    "45,25",
+    "46,25",
+    "43,26",
+    "44,26",
+    "45,26",
+    "46,26",
+    "43,27",
+    "44,27",
+    "45,27",
+    "46,27",
+    "43,28",
+    "44,28",
+    "45,28",
+    "46,28"
+  ],
+  "missingScripts": 0,
+  "activeOriginalVegetation": 296,
+  "camera": {
+    "orthographic": true,
+    "orthographicSize": 6.0,
+    "smoothTime": 0.18,
+    "bounds": "(x:0.00, y:0.00, width:88.00, height:56.00)",
+    "target": "Player"
+  },
+  "prefab": {
+    "name": "Player",
+    "gravityScale": 0.0,
+    "bodyType": "Dynamic",
+    "collider": "CircleCollider2D"
+  },
+  "unmatchedDerivedPrefabChildIds": 85,
+  "retainedSerializedOriginalGameObjects": 871,
+  "removedSerializedOriginalGameObjects": [],
+  "retainedOriginalPrefabInstances": 5,
+  "unchangedPrefabInstanceRecords": 5,
+  "identityAuditNote": "871 serialized GameObject IDs and all 5 prefab instance records retained. The 85 prefab-derived live IDs are not serialized IDs and changed on scene reload; they do not indicate deleted GameObjects.",
+  "matchedOriginalLiveIds": 871
+}

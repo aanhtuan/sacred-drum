@@ -1,0 +1,130 @@
+{
+  "scene": "Assets/Scenes/Level1_CanhDong.unity",
+  "isDirty": false,
+  "maps": [
+    {
+      "name": "Ground",
+      "cells": 4928,
+      "colliders": []
+    },
+    {
+      "name": "DirtTrails",
+      "cells": 75,
+      "colliders": []
+    },
+    {
+      "name": "RaisedEarthTops",
+      "cells": 54,
+      "colliders": []
+    },
+    {
+      "name": "RiverBankContours",
+      "cells": 42,
+      "colliders": []
+    },
+    {
+      "name": "River",
+      "cells": 218,
+      "colliders": [
+        {
+          "type": "TilemapCollider2D",
+          "enabled": true,
+          "isTrigger": false
+        },
+        {
+          "type": "CompositeCollider2D",
+          "enabled": true,
+          "isTrigger": false
+        }
+      ]
+    },
+    {
+      "name": "EarthBanks",
+      "cells": 582,
+      "colliders": []
+    },
+    {
+      "name": "SealPads",
+      "cells": 27,
+      "colliders": []
+    },
+    {
+      "name": "ForestCollision",
+      "cells": 2708,
+      "colliders": [
+        {
+          "type": "TilemapCollider2D",
+          "enabled": true,
+          "isTrigger": false
+        },
+        {
+          "type": "CompositeCollider2D",
+          "enabled": true,
+          "isTrigger": false
+        }
+      ]
+    },
+    {
+      "name": "RicePlots",
+      "cells": 12,
+      "colliders": []
+    },
+    {
+      "name": "WoodenBridge",
+      "cells": 16,
+      "colliders": []
+    },
+    {
+      "name": "FieldBunds",
+      "cells": 54,
+      "colliders": []
+    },
+    {
+      "name": "RaisedEarthFaces",
+      "cells": 54,
+      "colliders": []
+    },
+    {
+      "name": "CourtyardSoil",
+      "cells": 202,
+      "colliders": []
+    },
+    {
+      "name": "ShrineFence",
+      "cells": 38,
+      "colliders": [
+        {
+          "type": "TilemapCollider2D",
+          "enabled": true,
+          "isTrigger": false
+        },
+        {
+          "type": "CompositeCollider2D",
+          "enabled": true,
+          "isTrigger": false
+        }
+      ]
+    }
+  ],
+  "originalTreeObjects": 495,
+  "enabledOriginalTreeRenderers": 296,
+  "missingScripts": 0,
+  "missingActiveSprites": 0,
+  "activeAIAtlasRenderers": 0,
+  "controllerSpeed": 4.0,
+  "inputActions": "Assets/Settings/InputSystem_Actions.inputactions",
+  "geometry": [
+    {
+      "name": "ShrineFence",
+      "type": "Outlines"
+    },
+    {
+      "name": "River",
+      "type": "Polygons"
+    },
+    {
+      "name": "ForestCollision",
+      "type": "Polygons"
+    }
+  ]
+}

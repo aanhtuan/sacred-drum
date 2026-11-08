@@ -1,0 +1,315 @@
+{
+  "status": "PASS",
+  "mode": "Play Mode, synthetic Input System keyboard, real PlayerController/Rigidbody2D and scene colliders",
+  "checks": [
+    {
+      "name": "WASD_W",
+      "status": "PASS",
+      "evidence": {
+        "endX": 14.5,
+        "endY": 42.6000366
+      }
+    },
+    {
+      "name": "WASD_A",
+      "status": "PASS",
+      "evidence": {
+        "endX": 12.9000015,
+        "endY": 41.0
+      }
+    },
+    {
+      "name": "WASD_S",
+      "status": "PASS",
+      "evidence": {
+        "endX": 14.5,
+        "endY": 39.3999634
+      }
+    },
+    {
+      "name": "WASD_D",
+      "status": "PASS",
+      "evidence": {
+        "endX": 16.0999985,
+        "endY": 41.0
+      }
+    },
+    {
+      "name": "DiagonalSpeed",
+      "status": "PASS",
+      "evidence": {
+        "straight": 1.59999847,
+        "diagonal": 1.59998882
+      }
+    },
+    {
+      "name": "ReleaseAndFacing",
+      "status": "PASS",
+      "evidence": {
+        "drift": 0.0
+      }
+    },
+    {
+      "name": "ForestWallBlocks",
+      "status": "PASS",
+      "evidence": {
+        "x": 14.0,
+        "y": 35.69501
+      }
+    },
+    {
+      "name": "RiverOutsideBridgeBlocks",
+      "status": "PASS",
+      "evidence": {
+        "x": 47.3049774,
+        "y": 17.0
+      }
+    },
+    {
+      "name": "WoodenBridgeCrosses",
+      "status": "PASS",
+      "evidence": {
+        "x": 49.20021,
+        "y": 27.0
+      }
+    },
+    {
+      "name": "LockedGateBlocks",
+      "status": "PASS",
+      "evidence": {
+        "x": 75.0,
+        "y": 36.6950073
+      }
+    },
+    {
+      "name": "ShrineFenceBlocks",
+      "status": "PASS",
+      "evidence": {
+        "x": 74.0,
+        "y": 49.6949959
+      }
+    },
+    {
+      "name": "OverlookRockBlocks",
+      "status": "PASS",
+      "evidence": {
+        "x": 40.0,
+        "y": 37.6950073
+      }
+    },
+    {
+      "name": "Reachable_Seal_01",
+      "status": "PASS",
+      "evidence": {
+        "x": 31.5,
+        "y": 16.5
+      }
+    },
+    {
+      "name": "ControllerWalk_Seal_01",
+      "status": "PASS",
+      "evidence": {
+        "ticks": 692,
+        "length": 55.5,
+        "endX": 31.4599838,
+        "endFeetY": 16.51981
+      }
+    },
+    {
+      "name": "Reachable_Seal_02",
+      "status": "PASS",
+      "evidence": {
+        "x": 65.0,
+        "y": 13.5
+      }
+    },
+    {
+      "name": "ControllerWalk_Seal_02",
+      "status": "PASS",
+      "evidence": {
+        "ticks": 1272,
+        "length": 102.0,
+        "endX": 64.9807358,
+        "endFeetY": 13.5598125
+      }
+    },
+    {
+      "name": "Reachable_Seal_03",
+      "status": "PASS",
+      "evidence": {
+        "x": 74.0,
+        "y": 33.5
+      }
+    },
+    {
+      "name": "ControllerWalk_Seal_03",
+      "status": "PASS",
+      "evidence": {
+        "ticks": 1486,
+        "length": 119.0,
+        "endX": 74.02094,
+        "endFeetY": 33.4798279
+      }
+    },
+    {
+      "name": "Reachable_GateFront",
+      "status": "PASS",
+      "evidence": {
+        "x": 75.0,
+        "y": 35.5
+      }
+    },
+    {
+      "name": "ControllerWalk_GateFront",
+      "status": "PASS",
+      "evidence": {
+        "ticks": 1523,
+        "length": 122.0,
+        "endX": 74.9809647,
+        "endFeetY": 35.4798737
+      }
+    },
+    {
+      "name": "MainRouteNotLonger",
+      "status": "PASS",
+      "evidence": {
+        "length": 122.0,
+        "previousLength": 153
+      }
+    },
+    {
+      "name": "ClosedGateProtectsFragment",
+      "status": "PASS",
+      "evidence": "No path around the closed gate"
+    },
+    {
+      "name": "CombatSpace8x6_Seal_01",
+      "status": "PASS",
+      "evidence": {
+        "clearSamples": 63,
+        "totalSamples": 63,
+        "fullBoxClear": true,
+        "footRadius": 0.45
+      }
+    },
+    {
+      "name": "CombatSpace8x6_Seal_02",
+      "status": "PASS",
+      "evidence": {
+        "clearSamples": 63,
+        "totalSamples": 63,
+        "fullBoxClear": true,
+        "footRadius": 0.45
+      }
+    },
+    {
+      "name": "CombatSpace8x6_Seal_03",
+      "status": "PASS",
+      "evidence": {
+        "clearSamples": 63,
+        "totalSamples": 63,
+        "fullBoxClear": true,
+        "footRadius": 0.45
+      }
+    },
+    {
+      "name": "SpawnClear_ScarecrowSpawn_01",
+      "status": "PASS",
+      "evidence": "(35.50, 17.50, 0.00)"
+    },
+    {
+      "name": "SpawnMarkerOnly_ScarecrowSpawn_01",
+      "status": "PASS",
+      "evidence": "Transform only; no enemy or AI"
+    },
+    {
+      "name": "SpawnClear_RatSpawn_01",
+      "status": "PASS",
+      "evidence": "(26.50, 14.50, 0.00)"
+    },
+    {
+      "name": "SpawnMarkerOnly_RatSpawn_01",
+      "status": "PASS",
+      "evidence": "Transform only; no enemy or AI"
+    },
+    {
+      "name": "SpawnClear_ScarecrowSpawn_02",
+      "status": "PASS",
+      "evidence": "(68.50, 15.50, 0.00)"
+    },
+    {
+      "name": "SpawnMarkerOnly_ScarecrowSpawn_02",
+      "status": "PASS",
+      "evidence": "Transform only; no enemy or AI"
+    },
+    {
+      "name": "SpawnClear_ScarecrowSpawn_03",
+      "status": "PASS",
+      "evidence": "(68.50, 33.00, 0.00)"
+    },
+    {
+      "name": "SpawnMarkerOnly_ScarecrowSpawn_03",
+      "status": "PASS",
+      "evidence": "Transform only; no enemy or AI"
+    },
+    {
+      "name": "LegacySpawnSafe_EnemySpawn_01",
+      "status": "PASS",
+      "evidence": "Retained inactive at safe locations"
+    },
+    {
+      "name": "LegacySpawnSafe_EnemySpawn_02",
+      "status": "PASS",
+      "evidence": "Retained inactive at safe locations"
+    },
+    {
+      "name": "OnlyBridgeCrossesRiver",
+      "status": "PASS",
+      "evidence": "Temporarily close bridge; west Seal must remain reachable and east bank must become unreachable"
+    },
+    {
+      "name": "RaisedEarthBlocks",
+      "status": "PASS",
+      "evidence": {
+        "x": 32.0,
+        "y": 8.694989
+      }
+    },
+    {
+      "name": "CameraBounds_(0.00, 0.00)",
+      "status": "PASS",
+      "evidence": {
+        "x": 10.666667,
+        "y": 6.0,
+        "zoom": 6.0
+      }
+    },
+    {
+      "name": "CameraBounds_(88.00, 0.00)",
+      "status": "PASS",
+      "evidence": {
+        "x": 77.3333359,
+        "y": 6.0,
+        "zoom": 6.0
+      }
+    },
+    {
+      "name": "CameraBounds_(0.00, 56.00)",
+      "status": "PASS",
+      "evidence": {
+        "x": 10.666667,
+        "y": 50.0,
+        "zoom": 6.0
+      }
+    },
+    {
+      "name": "CameraBounds_(88.00, 56.00)",
+      "status": "PASS",
+      "evidence": {
+        "x": 77.3333359,
+        "y": 50.0,
+        "zoom": 6.0
+      }
+    }
+  ]
+}

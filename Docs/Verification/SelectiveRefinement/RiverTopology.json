@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "temporaryBridgeClosure": true,
+  "westSealReachable": true,
+  "eastBankReachable": false,
+  "seal2Reachable": false,
+  "seal3Reachable": false
+}

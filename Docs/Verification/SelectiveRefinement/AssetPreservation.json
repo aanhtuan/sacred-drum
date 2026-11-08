@@ -1,0 +1,40 @@
+{
+  "sourceImages": [
+    {
+      "path": "Assets/Art/Environment/CanhDong/AssetPass/Sources/NinjaAdventure_Tileset.png",
+      "pngUnchanged": true
+    },
+    {
+      "path": "Assets/Art/Environment/CanhDong/AssetPass/Sources/CC0_Traveller.png",
+      "pngUnchanged": true
+    },
+    {
+      "path": "Assets/Art/Environment/CanhDong/AssetPass/Sources/CC0_RelicToken.png",
+      "pngUnchanged": true
+    },
+    {
+      "path": "Assets/Art/Environment/CanhDong/AssetPass/Sources/NinjaAdventure_Floor.png",
+      "pngUnchanged": true
+    },
+    {
+      "path": "Assets/Art/Environment/CanhDong/AssetPass/Sources/LPC_Bamboo.png",
+      "pngUnchanged": true
+    },
+    {
+      "path": "Assets/Art/Environment/CanhDong/AssetPass/Sources/LPC_Nature.png",
+      "pngUnchanged": true
+    },
+    {
+      "path": "Assets/Art/Environment/CanhDong/AssetPass/Sources/LPC_Farm.png",
+      "pngUnchanged": true
+    },
+    {
+      "path": "Assets/Art/Environment/CanhDong/AssetPass/Sources/Kenney_TinyFarm.png",
+      "pngUnchanged": true
+    }
+  ],
+  "newExternalAssets": false,
+  "imageGenerationUsed": false,
+  "newNativeSpriteSlices": 6,
+  "existingMetaGuidsPreserved": true
+}

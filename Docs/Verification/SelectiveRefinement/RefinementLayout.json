@@ -1,0 +1,96 @@
+{
+  "size": [
+    88,
+    56
+  ],
+  "baseCommit": "a6b5ea7",
+  "mode": "in-place refinement; existing roots/maps/objects retained",
+  "clearedSolidCells": 186,
+  "replacedTreeVisuals": 92,
+  "arenas": [
+    [
+      23,
+      11,
+      16,
+      10
+    ],
+    [
+      57,
+      7,
+      16,
+      13
+    ],
+    [
+      65,
+      28,
+      17,
+      9
+    ]
+  ],
+  "seals": [
+    [
+      31.5,
+      16.5
+    ],
+    [
+      65.0,
+      13.5
+    ],
+    [
+      74.0,
+      33.5
+    ]
+  ],
+  "bridgeUnchanged": true,
+  "gateAndRelicUnchanged": true,
+  "newExternalAssets": false,
+  "sourcePixelsModified": false,
+  "initialSolidCells": 2908,
+  "finalSolidCells": 2708,
+  "netRemovedSolidCells": 200,
+  "finalMainRouteLength": 122,
+  "nativeNewSlices": 6,
+  "originalSourceImagesUnchanged": 8,
+  "finalAppliedRaisedEarthRows": [
+    [
+      18,
+      27,
+      9
+    ],
+    [
+      28,
+      9,
+      10
+    ],
+    [
+      72,
+      21,
+      4
+    ],
+    [
+      13,
+      36,
+      7
+    ],
+    [
+      28,
+      43,
+      5
+    ],
+    [
+      65,
+      37,
+      8
+    ],
+    [
+      77,
+      37,
+      5
+    ],
+    [
+      48,
+      40,
+      6
+    ]
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "project": "/home/atuna/Documents/Game/SacredDrum/Assets",
+  "scene": "Assets/Scenes/Level1_CanhDong.unity",
+  "isDirty": false,
+  "maps": [
+    {
+      "name": "RicePlots",
+      "parent": "Level1_Maze",
+      "cells": 36,
+      "colliders": []
+    },
+    {
+      "name": "Ground",
+      "parent": "Level1_Maze",
+      "cells": 4928,
+      "colliders": []
+    },
+    {
+      "name": "CourtyardSoil",
+      "parent": "Level1_Maze",
+      "cells": 202,
+      "colliders": []
+    },
+    {
+      "name": "EarthBanks",
+      "parent": "Level1_Maze",
+      "cells": 673,
+      "colliders": []
+    },
+    {
+      "name": "ForestCollision",
+      "parent": "Level1_Maze",
+      "cells": 2908,
+      "colliders": [
+        {
+          "type": "TilemapCollider2D",
+          "enabled": true,
+          "isTrigger": false
+        },
+        {
+          "type": "CompositeCollider2D",
+          "enabled": true,
+          "isTrigger": false
+        }
+      ]
+    },
+    {
+      "name": "WoodenBridge",
+      "parent": "Level1_Maze",
+      "cells": 16,
+      "colliders": []
+    },
+    {
+      "name": "ShrineFence",
+      "parent": "Level1_Maze",
+      "cells": 38,
+      "colliders": [
+        {
+          "type": "TilemapCollider2D",
+          "enabled": true,
+          "isTrigger": false
+        },
+        {
+          "type": "CompositeCollider2D",
+          "enabled": true,
+          "isTrigger": false
+        }
+      ]
+    },
+    {
+      "name": "River",
+      "parent": "Level1_Maze",
+      "cells": 208,
+      "colliders": [
+        {
+          "type": "TilemapCollider2D",
+          "enabled": true,
+          "isTrigger": false
+        },
+        {
+          "type": "CompositeCollider2D",
+          "enabled": true,
+          "isTrigger": false
+        }
+      ]
+    }
+  ],
+  "gameplay": [
+    {
+      "name": "PlayerSpawn",
+      "position": [
+        14.5,
+        41.0
+      ],
+      "children": 1
+    },
+    {
+      "name": "Lamp_01",
+      "position": [
+        24.0,
+        34.0
+      ],
+      "children": 1
+    },
+    {
+      "name": "Lamp_02",
+      "position": [
+        29.5,
+        13.5
+      ],
+      "children": 1
+    },
+    {
+      "name": "Lamp_03",
+      "position": [
+        62.5,
+        19.0
+      ],
+      "children": 1
+    },
+    {
+      "name": "LockedGate",
+      "position": [
+        75.0,
+        37.5
+      ],
+      "children": 4
+    },
+    {
+      "name": "DrumFragment_01",
+      "position": [
+        75.5,
+        45.5
+      ],
+      "children": 2
+    },
+    {
+      "name": "EnemySpawnPoints",
+      "position": [
+        0.0,
+        0.0
+      ],
+      "children": 2
+    }
+  ],
+  "cameraSize": 6.0,
+  "treeCount": 495,
+  "missing": []
+}
