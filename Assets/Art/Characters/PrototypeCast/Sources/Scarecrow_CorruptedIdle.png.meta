@@ -1,0 +1,464 @@
+fileFormatVersion: 2
+guid: 63f45126aa0dc57498604004f4692198
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4758919817298947965
+    second: Scarecrow_CorruptedIdle_0
+  - first:
+      213: -8152020411338124839
+    second: Scarecrow_CorruptedIdle_1
+  - first:
+      213: 2141429945082079048
+    second: Scarecrow_CorruptedIdle_2
+  - first:
+      213: 5379476358326336258
+    second: Scarecrow_CorruptedIdle_3
+  - first:
+      213: -2340671027102058201
+    second: Scarecrow_CorruptedIdle_4
+  - first:
+      213: 695036082611488442
+    second: Scarecrow_CorruptedIdle_5
+  - first:
+      213: 8689481811498565719
+    second: Scarecrow_CorruptedIdle_6
+  - first:
+      213: 1110194655981783271
+    second: Scarecrow_CorruptedIdle_7
+  - first:
+      213: 7203150413781267967
+    second: Scarecrow_CorruptedIdle_8
+  - first:
+      213: 8927740927040079882
+    second: Scarecrow_CorruptedIdle_9
+  - first:
+      213: -8411201651599316986
+    second: Scarecrow_CorruptedIdle_10
+  - first:
+      213: -6839036642018069964
+    second: Scarecrow_CorruptedIdle_11
+  - first:
+      213: -2125991216312938840
+    second: Scarecrow_CorruptedIdle_12
+  - first:
+      213: 8959680541998440819
+    second: Scarecrow_CorruptedIdle_13
+  - first:
+      213: 3308274385895953567
+    second: Scarecrow_CorruptedIdle_14
+  - first:
+      213: -7315650620212656624
+    second: Scarecrow_CorruptedIdle_15
+  - first:
+      213: -1962335539960040825
+    second: Scarecrow_CorruptedIdle_16
+  - first:
+      213: -5617608379690182092
+    second: Scarecrow_CorruptedIdle_17
+  - first:
+      213: -8391892761708703148
+    second: Scarecrow_CorruptedIdle_18
+  - first:
+      213: 5779896608725253038
+    second: Scarecrow_CorruptedIdle_19
+  - first:
+      213: 6015672551557918405
+    second: Scarecrow_CorruptedIdle_20
+  - first:
+      213: -3814656556014956544
+    second: Scarecrow_CorruptedIdle_21
+  - first:
+      213: -3496083715972371174
+    second: Scarecrow_CorruptedIdle_22
+  - first:
+      213: -6363570416320146594
+    second: Scarecrow_CorruptedIdle_23
+  - first:
+      213: -1766799860826935190
+    second: Scarecrow_CorruptedIdle_24
+  - first:
+      213: 8294532827188322270
+    second: Scarecrow_CorruptedIdle_25
+  - first:
+      213: -675992780543400456
+    second: Scarecrow_CorruptedIdle_26
+  - first:
+      213: 1454997354078816178
+    second: Scarecrow_CorruptedIdle_27
+  - first:
+      213: 5192611958317289767
+    second: Scarecrow_CorruptedIdle_28
+  - first:
+      213: -3661683498610876380
+    second: Scarecrow_CorruptedIdle_29
+  - first:
+      213: 5321719040586629871
+    second: Scarecrow_CorruptedIdle_30
+  - first:
+      213: 3466744175642332851
+    second: Scarecrow_CorruptedIdle_31
+  - first:
+      213: -2133525889676766620
+    second: Scarecrow_CorruptedIdle_32
+  - first:
+      213: 6443023821889408290
+    second: Scarecrow_CorruptedIdle_33
+  - first:
+      213: 4987249544668815942
+    second: Scarecrow_CorruptedIdle_34
+  - first:
+      213: -2894708365449619241
+    second: Scarecrow_CorruptedIdle_35
+  - first:
+      213: 9062896473643446793
+    second: Scarecrow_CorruptedIdle_36
+  - first:
+      213: 5977994877714112666
+    second: Scarecrow_CorruptedIdle_37
+  - first:
+      213: 4756426003531559337
+    second: Scarecrow_CorruptedIdle_38
+  - first:
+      213: 2045030260111671790
+    second: Scarecrow_CorruptedIdle_39
+  - first:
+      213: 6569290217118859431
+    second: Scarecrow_CorruptedIdle_40
+  - first:
+      213: 265289225794311808
+    second: Scarecrow_CorruptedIdle_41
+  - first:
+      213: -4971788317617258259
+    second: Scarecrow_CorruptedIdle_42
+  - first:
+      213: -3280721239354298049
+    second: Scarecrow_CorruptedIdle_43
+  - first:
+      213: -1346369225876165848
+    second: Scarecrow_CorruptedIdle_44
+  - first:
+      213: 2742748729630213228
+    second: Scarecrow_CorruptedIdle_45
+  - first:
+      213: -3489374820502292806
+    second: Scarecrow_CorruptedIdle_46
+  - first:
+      213: 5336380885106187101
+    second: Scarecrow_CorruptedIdle_47
+  - first:
+      213: -2069119760561250367
+    second: Scarecrow_CorruptedIdle_48
+  - first:
+      213: -886815044829194108
+    second: Scarecrow_CorruptedIdle_49
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 181.33333
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Scarecrow_Idle_0
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 457
+        width: 315
+        height: 416
+      alignment: 9
+      pivot: {x: 0.53174603, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a8765d2151be3b389289d1f270ea59e
+      internalID: 1719766330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scarecrow_Idle_1
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 457
+        width: 329
+        height: 416
+      alignment: 9
+      pivot: {x: 0.6413374, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cae37577e2dbd29b1952dd4884c1abab
+      internalID: -124106889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scarecrow_Idle_2
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 457
+        width: 308
+        height: 395
+      alignment: 9
+      pivot: {x: 0.6233766, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de7f6d47490f6c0a0bab85dcf47aa67a
+      internalID: 665408122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scarecrow_Idle_3
+      rect:
+        serializedVersion: 2
+        x: 1361
+        y: 457
+        width: 325
+        height: 416
+      alignment: 9
+      pivot: {x: 0.6523077, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d540c46c8b5513f4a0f29bf6c060390
+      internalID: -1859301906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scarecrow_Idle_4
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 14
+        width: 335
+        height: 407
+      alignment: 9
+      pivot: {x: 0.5164179, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fa48bf65b5b8263480775a585d1be0d
+      internalID: -330318744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scarecrow_Idle_5
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 14
+        width: 346
+        height: 386
+      alignment: 9
+      pivot: {x: 0.53612715, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25a09ad7f4d9f5e009f1d6fe83ed4e76
+      internalID: 1912318149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scarecrow_Idle_6
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 14
+        width: 316
+        height: 414
+      alignment: 9
+      pivot: {x: 0.6455696, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c03ba2253e9ed60a1a5fd7728eaf9266
+      internalID: -13842750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scarecrow_Idle_7
+      rect:
+        serializedVersion: 2
+        x: 1374
+        y: 14
+        width: 310
+        height: 414
+      alignment: 9
+      pivot: {x: 0.57580644, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f79c9163d8417ea1847d666e5c3abf4
+      internalID: -755166550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 19ff5d258ddf62cb997a4e43169926a8
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Scarecrow_Idle_0: 1719766330
+      Scarecrow_Idle_1: -124106889
+      Scarecrow_Idle_2: 665408122
+      Scarecrow_Idle_3: -1859301906
+      Scarecrow_Idle_4: -330318744
+      Scarecrow_Idle_5: 1912318149
+      Scarecrow_Idle_6: -13842750
+      Scarecrow_Idle_7: -755166550
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

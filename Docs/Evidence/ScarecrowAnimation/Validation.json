@@ -1,0 +1,180 @@
+{
+  "unity": "6000.5.10f1",
+  "method": "Observed real Play Mode Animator sprite playback across4.5seconds after final purple/red-eye sheet import and LDtk force reimport. No manual Animator.Update or SampleAnimation.",
+  "passed": true,
+  "fixedRootTransforms": true,
+  "noRigidbodyOrCollider": 10,
+  "recordedFrames": 32,
+  "observations": [
+    {
+      "name": "Scarecrow_50ae28fa-7f31-496f-b29a-6bfaf211d99c",
+      "uniqueFrames": 8,
+      "sprites": [
+        "Scarecrow_Idle_2",
+        "Scarecrow_Idle_3",
+        "Scarecrow_Idle_4",
+        "Scarecrow_Idle_5",
+        "Scarecrow_Idle_6",
+        "Scarecrow_Idle_7",
+        "Scarecrow_Idle_0",
+        "Scarecrow_Idle_1"
+      ],
+      "speed": 1.0244,
+      "position": "(20.500, -31.500, 0.000)",
+      "normalizedTime": 8.123
+    },
+    {
+      "name": "Scarecrow_b8ff3879-c5f7-423f-9c32-a5f21598aed7",
+      "uniqueFrames": 8,
+      "sprites": [
+        "Scarecrow_Idle_1",
+        "Scarecrow_Idle_2",
+        "Scarecrow_Idle_4",
+        "Scarecrow_Idle_5",
+        "Scarecrow_Idle_6",
+        "Scarecrow_Idle_7",
+        "Scarecrow_Idle_0",
+        "Scarecrow_Idle_3"
+      ],
+      "speed": 1.0154,
+      "position": "(12.500, -24.500, 0.000)",
+      "normalizedTime": 8.013
+    },
+    {
+      "name": "Scarecrow_c159fb30-2b7b-486f-946b-b3f3ff9bead8",
+      "uniqueFrames": 8,
+      "sprites": [
+        "Scarecrow_Idle_3",
+        "Scarecrow_Idle_5",
+        "Scarecrow_Idle_6",
+        "Scarecrow_Idle_7",
+        "Scarecrow_Idle_0",
+        "Scarecrow_Idle_1",
+        "Scarecrow_Idle_2",
+        "Scarecrow_Idle_4"
+      ],
+      "speed": 0.9279,
+      "position": "(21.500, -24.500, 0.000)",
+      "normalizedTime": 6.934
+    },
+    {
+      "name": "Scarecrow_8b5a4651-6cb6-4fe2-8981-5a26e9698aaf",
+      "uniqueFrames": 8,
+      "sprites": [
+        "Scarecrow_Idle_4",
+        "Scarecrow_Idle_6",
+        "Scarecrow_Idle_7",
+        "Scarecrow_Idle_0",
+        "Scarecrow_Idle_1",
+        "Scarecrow_Idle_2",
+        "Scarecrow_Idle_3",
+        "Scarecrow_Idle_5"
+      ],
+      "speed": 1.0484,
+      "position": "(14.500, -29.500, 0.000)",
+      "normalizedTime": 8.42
+    },
+    {
+      "name": "Scarecrow_a7751e31-f832-4cae-8f3f-1378e53add8e",
+      "uniqueFrames": 8,
+      "sprites": [
+        "Scarecrow_Idle_2",
+        "Scarecrow_Idle_4",
+        "Scarecrow_Idle_5",
+        "Scarecrow_Idle_6",
+        "Scarecrow_Idle_7",
+        "Scarecrow_Idle_0",
+        "Scarecrow_Idle_1",
+        "Scarecrow_Idle_3"
+      ],
+      "speed": 0.9184,
+      "position": "(12.500, -30.500, 0.000)",
+      "normalizedTime": 6.817
+    },
+    {
+      "name": "Scarecrow_10698ebe-7d70-4642-b525-5f762bea043a",
+      "uniqueFrames": 8,
+      "sprites": [
+        "Scarecrow_Idle_5",
+        "Scarecrow_Idle_7",
+        "Scarecrow_Idle_0",
+        "Scarecrow_Idle_1",
+        "Scarecrow_Idle_2",
+        "Scarecrow_Idle_3",
+        "Scarecrow_Idle_4",
+        "Scarecrow_Idle_6"
+      ],
+      "speed": 0.9519,
+      "position": "(15.500, -22.500, 0.000)",
+      "normalizedTime": 7.231
+    },
+    {
+      "name": "Scarecrow_bdc4667a-8f82-44ad-8af3-eeea92891cf0",
+      "uniqueFrames": 8,
+      "sprites": [
+        "Scarecrow_Idle_4",
+        "Scarecrow_Idle_6",
+        "Scarecrow_Idle_7",
+        "Scarecrow_Idle_0",
+        "Scarecrow_Idle_1",
+        "Scarecrow_Idle_2",
+        "Scarecrow_Idle_3",
+        "Scarecrow_Idle_5"
+      ],
+      "speed": 0.9424,
+      "position": "(6.500, -28.500, 0.000)",
+      "normalizedTime": 7.113
+    },
+    {
+      "name": "Scarecrow_9c7c693a-f34f-4c42-a9b4-da1f27fee765",
+      "uniqueFrames": 8,
+      "sprites": [
+        "Scarecrow_Idle_3",
+        "Scarecrow_Idle_4",
+        "Scarecrow_Idle_5",
+        "Scarecrow_Idle_6",
+        "Scarecrow_Idle_7",
+        "Scarecrow_Idle_0",
+        "Scarecrow_Idle_1",
+        "Scarecrow_Idle_2"
+      ],
+      "speed": 0.9235,
+      "position": "(15.500, -32.500, 0.000)",
+      "normalizedTime": 6.88
+    },
+    {
+      "name": "Scarecrow_426c66d8-e29a-4b77-aaae-bfcbd4713c68",
+      "uniqueFrames": 8,
+      "sprites": [
+        "Scarecrow_Idle_5",
+        "Scarecrow_Idle_6",
+        "Scarecrow_Idle_0",
+        "Scarecrow_Idle_1",
+        "Scarecrow_Idle_2",
+        "Scarecrow_Idle_3",
+        "Scarecrow_Idle_4",
+        "Scarecrow_Idle_7"
+      ],
+      "speed": 1.0644,
+      "position": "(24.500, -22.500, 0.000)",
+      "normalizedTime": 8.616
+    },
+    {
+      "name": "Scarecrow_3f128727-c345-4e53-875a-5ee31826c218",
+      "uniqueFrames": 8,
+      "sprites": [
+        "Scarecrow_Idle_2",
+        "Scarecrow_Idle_4",
+        "Scarecrow_Idle_5",
+        "Scarecrow_Idle_6",
+        "Scarecrow_Idle_7",
+        "Scarecrow_Idle_0",
+        "Scarecrow_Idle_1",
+        "Scarecrow_Idle_3"
+      ],
+      "speed": 1.024,
+      "position": "(8.500, -30.500, 0.000)",
+      "normalizedTime": 8.118
+    }
+  ]
+}

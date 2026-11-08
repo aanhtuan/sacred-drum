@@ -1,3 +1,5 @@
+> Update: scarecrows now have a corrupted purple/red-eye idle animation. See [Scarecrow_Animation.md](Scarecrow_Animation.md). Static scarecrow descriptions below record the earlier preview.
+
 # Minh farmer and scarecrow preview
 
 Scene: `Assets/Scenes/Prototype_LDtk_Import.unity`.
