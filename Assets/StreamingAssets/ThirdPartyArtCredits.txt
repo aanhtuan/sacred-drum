@@ -1,0 +1,39 @@
+SacredDrum - Level 1 environment art credits
+
+Pixel-boy / Sparklin Labs - Superpowers Ninja Adventure asset pack
+https://github.com/sparklinlabs/superpowers-asset-packs
+https://pixel-boy.itch.io/ninja-adventure-asset-pack
+Creative Commons Zero 1.0 Universal (CC0)
+https://creativecommons.org/publicdomain/zero/1.0/
+Selected tiles, trees, props, bridge, boat, traveller placeholder and relic token.
+
+Pixel-boy - NinjaAdventure source, terrain sheet
+https://github.com/pixel-boy/NinjaAdventure
+Creative Commons Zero 1.0 Universal (CC0), per the author's asset-pack page above.
+
+tapatilorenzo - [LPC] bamboo, cave rocks, misc. objects
+https://opengameart.org/content/lpc-bamboo-cave-rocks-misc-objects
+Creative Commons Zero 1.0 Universal (CC0)
+Selected bamboo and rock sprites.
+
+"[LPC] Farm" by bluecarrot16, Wolthera van Hovell tot Westerflier
+(TheraHedwig), and Ivan Voirol.
+https://opengameart.org/content/lpc-farm
+License: Creative Commons Attribution 4.0 International (CC BY 4.0)
+https://creativecommons.org/licenses/by/4.0/
+Based on Slates [32x32px orthogonal tileset] by Ivan Voirol:
+https://opengameart.org/content/slates-32x32px-orthogonal-tileset-by-ivan-voirol
+and LPC compatible Ancient Greek Architecture by TheraHedwig:
+https://opengameart.org/content/lpc-compatible-ancient-greek-architecture
+Selected thatched roofs and rural objects from barn.png. Changes: Unity sprite
+slicing, import scale, palette tinting, prefab composition and map placement.
+Original source PNG pixels are unmodified. No endorsement is implied.
+
+Kenney - Tiny Farm
+https://kenney.nl/assets/tiny-farm
+Creative Commons Zero 1.0 Universal (CC0)
+Selected chicken and cow sprites.
+
+These assets are third-party works, not original SacredDrum character designs.
+The traveller and relic token are placeholders. Blossom Tales is a visual
+reference only; none of its game assets are included.

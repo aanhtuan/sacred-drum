@@ -1,0 +1,15 @@
+LPC Farm
+https://opengameart.org/content/lpc-farm
+
+Copyright/attribution notice from the source page:
+"[LPC] Farm" by bluecarrot16, Wolthera van Hovell tot Westerflier
+(TheraHedwig), and Ivan Voirol. License: CC-BY 4.0.
+
+License terms:
+https://creativecommons.org/licenses/by/4.0/
+https://creativecommons.org/licenses/by/4.0/legalcode
+
+The original CREDITS-farm.txt is preserved in this directory. Source archive
+and unchanged PNGs are recorded in the asset source manifest. Sprite slicing,
+renderer tinting, prefab assembly and scene placement were performed for
+SacredDrum. No source PNG pixels were repainted. No endorsement is implied.

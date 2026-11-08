@@ -10,3 +10,8 @@
 *.prefab whitespace=-blank-at-eol
 *.asset whitespace=-blank-at-eol
 *.scenetemplate whitespace=-blank-at-eol
+
+# Preserve verbatim third-party skill and license text, including upstream whitespace.
+.agents/skills/** whitespace=-blank-at-eol,-blank-at-eof,cr-at-eol
+.agents/skill-licenses/** whitespace=-blank-at-eol,-blank-at-eof,cr-at-eol
+Docs/Licenses/Level1_Vietnam/CREDITS-farm.txt whitespace=-blank-at-eol,-blank-at-eof,cr-at-eol

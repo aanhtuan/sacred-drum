@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "verifiedOn": "2026-11-08",
+  "scope": "SacredDrum project only",
+  "installer": "OpenAI skill-installer helper; single-file raw fallback for clean-code and vfx-pipeline after archive download stalls/timeouts.",
+  "note": "Provenance manifest, not a Skills CLI lockfile. Upstream content preserved verbatim. No global skill changes.",
+  "skills": [
+    {
+      "name": "unity-tilemap-2d",
+      "repository": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills",
+      "commit": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9",
+      "upstreamPath": "skills/unity/unity-tilemap-2d",
+      "skillsSh": "https://skills.sh/gamedev-skills/awesome-gamedev-agent-skills/unity-tilemap-2d",
+      "license": "Apache-2.0",
+      "licenseDirectory": "skill-licenses/gamedev-skills--awesome-gamedev-agent-skills",
+      "directory": "skills/unity-tilemap-2d",
+      "upstreamByteMatch": true,
+      "filesSha256": {
+        "SKILL.md": "443785c00dc42338f88251b9210e1ad0308afeb0377c5297ae37f7edc97af137"
+      }
+    },
+    {
+      "name": "clean-code",
+      "repository": "https://github.com/sickn33/agentic-awesome-skills",
+      "commit": "828257c3037dc7c3c3ec987decc5a603025a0ce5",
+      "upstreamPath": "skills/clean-code",
+      "skillsSh": "https://skills.sh/sickn33/agentic-awesome-skills/clean-code",
+      "license": "MIT",
+      "licenseDirectory": "skill-licenses/sickn33--agentic-awesome-skills",
+      "directory": "skills/clean-code",
+      "upstreamByteMatch": true,
+      "filesSha256": {
+        "SKILL.md": "d00d449b92ca017e68b840da6bb0ef4a15f2008c0f2c09c7e62738fb2d59c9ff"
+      }
+    },
+    {
+      "name": "character-design",
+      "repository": "https://github.com/omer-metin/skills-for-antigravity",
+      "commit": "e8dcf4e8737921a10088bd5c9eb65e81f74c051f",
+      "upstreamPath": "skills/character-design",
+      "skillsSh": "https://skills.sh/omer-metin/skills-for-antigravity/character-design",
+      "license": "Apache-2.0",
+      "licenseDirectory": "skill-licenses/omer-metin--skills-for-antigravity",
+      "directory": "skills/character-design",
+      "upstreamByteMatch": true,
+      "filesSha256": {
+        "SKILL.md": "573dc1ccd77e86c8f76fd80d87fb9dfa5de21bfce5fff88765788bff6f81f29e",
+        "references/patterns.md": "6f8ca0a0fb376aa87c8f46acbea9954650270d08750a09a4a22863e0f52b91af",
+        "references/sharp_edges.md": "86bc38904aaa7ecc893cf1bdef84f749b6ac3755fff6bb5fbe347963b3a59c93",
+        "references/validations.md": "418a743b3183ce6596d67de4d7a394b0e026362ee00b35c63db64dbf7078de09"
+      }
+    },
+    {
+      "name": "pixel-art-sprites",
+      "repository": "https://github.com/omer-metin/skills-for-antigravity",
+      "commit": "e8dcf4e8737921a10088bd5c9eb65e81f74c051f",
+      "upstreamPath": "skills/pixel-art-sprites",
+      "skillsSh": "https://skills.sh/omer-metin/skills-for-antigravity/pixel-art-sprites",
+      "license": "Apache-2.0",
+      "licenseDirectory": "skill-licenses/omer-metin--skills-for-antigravity",
+      "directory": "skills/pixel-art-sprites",
+      "upstreamByteMatch": true,
+      "filesSha256": {
+        "SKILL.md": "6619c471652c15b240f16935f3fddaa7be1cebe39f516d73fa3733931d172918",
+        "references/patterns.md": "9c80a1e8b7c34d73627fc4567c39dc9df13e125259b96e052e2277aac2830edd",
+        "references/sharp_edges.md": "7d1bc4b6b67c71f018346dd9b1f475288ae37dba5229b12419e7c7745f7ca849",
+        "references/validations.md": "54aad5b31fb6f5ed2b198226568736aabb3f231069d49e255847eb816ac13f72"
+      }
+    },
+    {
+      "name": "vfx-pipeline",
+      "repository": "https://github.com/mrcalderon3d/everything-game-dev-code",
+      "commit": "a483ba7850f0081f0d47247e3bf67f4a3d4709c8",
+      "upstreamPath": "skills/art-audio-content/vfx-pipeline",
+      "skillsSh": "https://skills.sh/mrcalderon3d/everything-game-dev-code/vfx-pipeline",
+      "license": "MIT",
+      "licenseDirectory": "skill-licenses/mrcalderon3d--everything-game-dev-code",
+      "directory": "skills/vfx-pipeline",
+      "upstreamByteMatch": true,
+      "filesSha256": {
+        "SKILL.md": "1feb7ab9a732e4c98a77c42529f60bfbe3e0a61acff992c6ca71976ed94c7297"
+      }
+    }
+  ]
+}

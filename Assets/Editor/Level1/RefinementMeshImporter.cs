@@ -22,7 +22,8 @@ namespace SacredDrum.EditorTools
             var entries=JsonConvert.DeserializeObject<RefinementMask[]>(System.IO.File.ReadAllText(ctx.assetPath));
             var library=new TextAsset("Baked Tile and Sprite subassets; source textures preserved.");ctx.AddObjectToAsset("library",library);ctx.SetMainObject(library);
             foreach(var entry in entries) {
-                var source=AssetDatabase.LoadAssetAtPath<Tile>(entry.source).sprite;
+                var sourceTile=AssetDatabase.LoadAssetAtPath<Tile>(entry.source);
+                var source=sourceTile.sprite;
                 ctx.DependsOnSourceAsset(entry.source);ctx.DependsOnSourceAsset(AssetDatabase.GetAssetPath(source.texture));
                 var sprite=Sprite.Create(source.texture,source.rect,new Vector2(.5f,.5f),16,0,SpriteMeshType.Tight);sprite.name=entry.key+"_pixelmesh";
                 var vertices=new List<Vector2>();var indices=new List<ushort>();
@@ -40,7 +41,7 @@ namespace SacredDrum.EditorTools
                     SpriteDataAccessExtensions.SetVertexAttribute(sprite,VertexAttribute.TexCoord0,uv);
                 using(var triangles=new NativeArray<ushort>(indices.ToArray(),Allocator.Temp))SpriteDataAccessExtensions.SetIndices(sprite,triangles);
                 if(sprite.vertices.Length!=vertices.Count)throw new InvalidOperationException("Pixel mesh geometry was not applied: "+entry.key);
-                var tile=ScriptableObject.CreateInstance<Tile>();tile.name=entry.key;tile.sprite=sprite;tile.colliderType=Tile.ColliderType.None;
+                var tile=ScriptableObject.CreateInstance<Tile>();tile.name=entry.key;tile.sprite=sprite;tile.color=sourceTile.color;tile.colliderType=Tile.ColliderType.None;
                 ctx.AddObjectToAsset(entry.key+"_sprite",sprite);ctx.AddObjectToAsset(entry.key,tile);
             }
         }

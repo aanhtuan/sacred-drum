@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "method": "Consume matching original nodes by path, position, scale and active state, including duplicate names. Compare original collider physical configuration, excluding engine object IDs and SpriteTilingProperty display caches on auto-tiling-disabled boxes.",
+  "originalObjects": 152,
+  "retainedTransforms": 152,
+  "errors": [],
+  "physicsConfigurationChanges": [],
+  "spriteCacheOnlyChanges": [
+    "Environment/ReferenceDressing/Landmarks/RockCluster_1",
+    "Environment/ReferenceDressing/Landmarks/RockCluster_2",
+    "Environment/ReferenceDressing/Landmarks/RockCluster_3",
+    "Environment/ReferenceDressing/Landmarks/RockCluster_4",
+    "Environment/ReferenceDressing/Landmarks/RockCluster_5",
+    "Environment/ReferenceDressing/Landmarks/RockCluster_6",
+    "Environment/ReferenceDressing/Landmarks/RockCluster_7"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "method": "Editor Physics2D overlap-circle occupancy, radius 0.32, 0.5-unit grid, four-neighbor flood fill. Connectivity check, not keyboard simulation.",
+  "reachableCells": 14541,
+  "lamp1Reachable": true,
+  "lamp2Reachable": true,
+  "lamp3Reachable": true,
+  "westBridgeReachable": true,
+  "eastBridgeReachable": true,
+  "gateApproachReachable": true,
+  "fragmentBlockedByClosedGate": true
+}

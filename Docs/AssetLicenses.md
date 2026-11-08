@@ -1,5 +1,7 @@
 # Level 1 — Asset research và giấy phép
 
+**Cập nhật 08/11/2026:** Scene hoạt động đã chuyển sang bộ asset tải từ tác giả, không dùng atlas AI cũ để hiển thị. Xem [layout mê cung hiện tại](Level1_Maze_Redesign.md), [licensed rural art pass](Level1_Vietnam_Asset_Pass.md), [manifest nguồn](Verification/VietnamAssetPass/AssetSources.json) và `Assets/StreamingAssets/ThirdPartyArtCredits.txt`. Các phần dưới giữ lại lịch sử nguồn của scene archive; không mô tả toàn bộ trạng thái art hiện tại.
+
 Kiểm tra ngày 07/11/2026. Tải trực tiếp từ Kenney, sử dụng nút công khai Continue without donating và endpoint download-link của website. Không đăng nhập, mua asset, vượt paywall hoặc chạy chương trình trong ZIP.
 
 ## So sánh ba bộ

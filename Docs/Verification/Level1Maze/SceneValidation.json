@@ -1,0 +1,17 @@
+{
+  "scene": "Assets/Scenes/Level1_CanhDong.unity",
+  "mazeActive": true,
+  "oldGridActive": false,
+  "oldEnvironmentActive": false,
+  "missingScripts": 0,
+  "missingActiveSprites": 0,
+  "activeAIAtlasRenderers": 0,
+  "orthographic": true,
+  "zoom": 6.0,
+  "cameraPosition": [
+    14.502,
+    41.473,
+    -10.0
+  ],
+  "mazeTiles": 11
+}

@@ -1,0 +1,43 @@
+{
+  "imageGenerationUsed": false,
+  "sourcePngs": [
+    {
+      "path": "Assets/Art/Environment/CanhDong/AssetPass/Sources/NinjaAdventure_Tileset.png",
+      "sha256Unchanged": true
+    },
+    {
+      "path": "Assets/Art/Environment/CanhDong/AssetPass/Sources/CC0_Traveller.png",
+      "sha256Unchanged": true
+    },
+    {
+      "path": "Assets/Art/Environment/CanhDong/AssetPass/Sources/CC0_RelicToken.png",
+      "sha256Unchanged": true
+    },
+    {
+      "path": "Assets/Art/Environment/CanhDong/AssetPass/Sources/NinjaAdventure_Floor.png",
+      "sha256Unchanged": true
+    },
+    {
+      "path": "Assets/Art/Environment/CanhDong/AssetPass/Sources/LPC_Bamboo.png",
+      "sha256Unchanged": true
+    },
+    {
+      "path": "Assets/Art/Environment/CanhDong/AssetPass/Sources/LPC_Nature.png",
+      "sha256Unchanged": true
+    },
+    {
+      "path": "Assets/Art/Environment/CanhDong/AssetPass/Sources/LPC_Farm.png",
+      "sha256Unchanged": true
+    },
+    {
+      "path": "Assets/Art/Environment/CanhDong/AssetPass/Sources/Kenney_TinyFarm.png",
+      "sha256Unchanged": true
+    }
+  ],
+  "finalPlayConsoleErrors": 0,
+  "finalPlayConsoleWarnings": 0,
+  "earlierEditorServiceError": "UnityConnectWebRequestException: Token Exchange failed due a failure with the web request.",
+  "physicalKeyboard": "NOT RUN",
+  "humanDifficultyPlaytest": "NOT RUN",
+  "windowsBuild": "NOT RUN"
+}

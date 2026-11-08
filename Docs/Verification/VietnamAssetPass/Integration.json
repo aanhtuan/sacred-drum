@@ -1,0 +1,18 @@
+{
+  "scene": "Assets/Scenes/Level1_CanhDong.unity",
+  "activeAIAtlasRenderers": 0,
+  "licensedSpriteRenderers": 257,
+  "uniqueLicensedSprites": 54,
+  "importedSprites": 67,
+  "nativeTiles": 30,
+  "spawn": "(14.50, 41.00, 0.00)",
+  "lamps": [
+    "(23.50, 37.50, 0.00)",
+    "(29.50, 13.50, 0.00)",
+    "(62.50, 18.50, 0.00)"
+  ],
+  "gate": "(75.00, 37.50, 0.00)",
+  "fragment": "(75.50, 45.50, 0.00)",
+  "noImageGeneration": true,
+  "originalArtPreserved": true
+}

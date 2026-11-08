@@ -1,0 +1,240 @@
+{
+  "status": "PASS",
+  "mode": "Play Mode, synthetic Input System keyboard, real PlayerController/Rigidbody2D and scene colliders",
+  "checks": [
+    {
+      "name": "WASD_W",
+      "status": "PASS",
+      "evidence": {
+        "endX": 14.5,
+        "endY": 42.6000366
+      }
+    },
+    {
+      "name": "WASD_A",
+      "status": "PASS",
+      "evidence": {
+        "endX": 12.9000015,
+        "endY": 41.0
+      }
+    },
+    {
+      "name": "WASD_S",
+      "status": "PASS",
+      "evidence": {
+        "endX": 14.5,
+        "endY": 39.3999634
+      }
+    },
+    {
+      "name": "WASD_D",
+      "status": "PASS",
+      "evidence": {
+        "endX": 16.0999985,
+        "endY": 41.0
+      }
+    },
+    {
+      "name": "DiagonalSpeed",
+      "status": "PASS",
+      "evidence": {
+        "straight": 1.59999847,
+        "diagonal": 1.59998882
+      }
+    },
+    {
+      "name": "ReleaseAndFacing",
+      "status": "PASS",
+      "evidence": {
+        "drift": 0.0
+      }
+    },
+    {
+      "name": "ForestWallBlocks",
+      "status": "PASS",
+      "evidence": {
+        "x": 14.0,
+        "y": 35.69501
+      }
+    },
+    {
+      "name": "RiverOutsideBridgeBlocks",
+      "status": "PASS",
+      "evidence": {
+        "x": 47.304966,
+        "y": 17.0
+      }
+    },
+    {
+      "name": "WoodenBridgeCrosses",
+      "status": "PASS",
+      "evidence": {
+        "x": 49.20021,
+        "y": 27.0
+      }
+    },
+    {
+      "name": "LockedGateBlocks",
+      "status": "PASS",
+      "evidence": {
+        "x": 75.0,
+        "y": 36.6950073
+      }
+    },
+    {
+      "name": "ShrineFenceBlocks",
+      "status": "PASS",
+      "evidence": {
+        "x": 74.0,
+        "y": 49.695
+      }
+    },
+    {
+      "name": "OverlookRockBlocks",
+      "status": "PASS",
+      "evidence": {
+        "x": 40.0,
+        "y": 37.6950073
+      }
+    },
+    {
+      "name": "Reachable_(24.00, 34.00)",
+      "status": "PASS",
+      "evidence": {
+        "x": 24.0,
+        "y": 34.0
+      }
+    },
+    {
+      "name": "Reachable_(29.50, 13.50)",
+      "status": "PASS",
+      "evidence": {
+        "x": 29.5,
+        "y": 13.5
+      }
+    },
+    {
+      "name": "Reachable_(62.50, 19.00)",
+      "status": "PASS",
+      "evidence": {
+        "x": 62.5,
+        "y": 19.0
+      }
+    },
+    {
+      "name": "Reachable_(40.00, 27.00)",
+      "status": "PASS",
+      "evidence": {
+        "x": 40.0,
+        "y": 27.0
+      }
+    },
+    {
+      "name": "Reachable_(49.00, 27.00)",
+      "status": "PASS",
+      "evidence": {
+        "x": 49.0,
+        "y": 27.0
+      }
+    },
+    {
+      "name": "Reachable_(75.00, 35.50)",
+      "status": "PASS",
+      "evidence": {
+        "x": 75.0,
+        "y": 35.5
+      }
+    },
+    {
+      "name": "Reachable_(15.00, 8.00)",
+      "status": "PASS",
+      "evidence": {
+        "x": 15.0,
+        "y": 8.0
+      }
+    },
+    {
+      "name": "Reachable_(36.00, 7.00)",
+      "status": "PASS",
+      "evidence": {
+        "x": 36.0,
+        "y": 7.0
+      }
+    },
+    {
+      "name": "Reachable_(68.00, 44.00)",
+      "status": "PASS",
+      "evidence": {
+        "x": 68.0,
+        "y": 44.0
+      }
+    },
+    {
+      "name": "Reachable_(66.00, 11.00)",
+      "status": "PASS",
+      "evidence": {
+        "x": 66.0,
+        "y": 11.0
+      }
+    },
+    {
+      "name": "RelicProtectedByGate",
+      "status": "PASS",
+      "evidence": "Relic is unreachable with existing gate closed; no unlock mechanic added."
+    },
+    {
+      "name": "MazeDetour",
+      "status": "PASS",
+      "evidence": {
+        "shortestWalkableLength": 153.0,
+        "directDistance": 60.749485,
+        "ratio": 2.51854
+      }
+    },
+    {
+      "name": "ControllerTraversesMazeToGate",
+      "status": "PASS",
+      "evidence": {
+        "ticks": 1911,
+        "endX": 74.9809647,
+        "endFeetY": 35.4798737
+      }
+    },
+    {
+      "name": "CameraBounds_(0.00, 0.00)",
+      "status": "PASS",
+      "evidence": {
+        "x": 10.666667,
+        "y": 6.0,
+        "zoom": 6.0
+      }
+    },
+    {
+      "name": "CameraBounds_(88.00, 0.00)",
+      "status": "PASS",
+      "evidence": {
+        "x": 77.3333359,
+        "y": 6.0,
+        "zoom": 6.0
+      }
+    },
+    {
+      "name": "CameraBounds_(0.00, 56.00)",
+      "status": "PASS",
+      "evidence": {
+        "x": 10.666667,
+        "y": 50.0,
+        "zoom": 6.0
+      }
+    },
+    {
+      "name": "CameraBounds_(88.00, 56.00)",
+      "status": "PASS",
+      "evidence": {
+        "x": 77.3333359,
+        "y": 50.0,
+        "zoom": 6.0
+      }
+    }
+  ]
+}

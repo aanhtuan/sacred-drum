@@ -1,0 +1,583 @@
+fileFormatVersion: 2
+guid: 607c7a67b7265e569ad45827c3b3c556
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 582636034767259921
+    second: LPC_Farm_0
+  - first:
+      213: 5965567176856594084
+    second: LPC_Farm_1
+  - first:
+      213: 285461224700941509
+    second: LPC_Farm_2
+  - first:
+      213: -637390284718248637
+    second: LPC_Farm_3
+  - first:
+      213: -8110752568308182377
+    second: LPC_Farm_4
+  - first:
+      213: -4621478723610606498
+    second: LPC_Farm_5
+  - first:
+      213: 1430306710423093386
+    second: LPC_Farm_6
+  - first:
+      213: 6944024701786908460
+    second: LPC_Farm_7
+  - first:
+      213: -5138148783913151098
+    second: LPC_Farm_8
+  - first:
+      213: -1268589489118341134
+    second: LPC_Farm_9
+  - first:
+      213: -3240270428727613013
+    second: LPC_Farm_10
+  - first:
+      213: -5407424522053474259
+    second: LPC_Farm_11
+  - first:
+      213: 5856462145146341232
+    second: LPC_Farm_12
+  - first:
+      213: 7099840014613108608
+    second: LPC_Farm_13
+  - first:
+      213: -3558919326584156649
+    second: LPC_Farm_14
+  - first:
+      213: -664426030028968349
+    second: LPC_Farm_15
+  - first:
+      213: -869167831266992569
+    second: LPC_Farm_16
+  - first:
+      213: -5436405505470712659
+    second: LPC_Farm_17
+  - first:
+      213: -5534097405611902877
+    second: LPC_Farm_18
+  - first:
+      213: -2234570613053003511
+    second: LPC_Farm_19
+  - first:
+      213: 486564098197985198
+    second: LPC_Farm_20
+  - first:
+      213: 107878120580326428
+    second: LPC_Farm_21
+  - first:
+      213: -1735788337181782114
+    second: LPC_Farm_22
+  - first:
+      213: 774566175873283884
+    second: LPC_Farm_23
+  - first:
+      213: -3647277717248050648
+    second: LPC_Farm_24
+  - first:
+      213: -9023396974932725809
+    second: LPC_Farm_25
+  - first:
+      213: -880872768087068401
+    second: LPC_Farm_26
+  - first:
+      213: -5244860390706202189
+    second: LPC_Farm_27
+  - first:
+      213: 712631055878599890
+    second: LPC_Farm_28
+  - first:
+      213: -3453408750141717960
+    second: LPC_Farm_29
+  - first:
+      213: 3189266586533180889
+    second: LPC_Farm_30
+  - first:
+      213: 7612861261876553908
+    second: LPC_Farm_31
+  - first:
+      213: -296793717788952046
+    second: LPC_Farm_32
+  - first:
+      213: 8713189242966424009
+    second: LPC_Farm_33
+  - first:
+      213: 6715794287833557262
+    second: LPC_Farm_34
+  - first:
+      213: 7051926146695405510
+    second: LPC_Farm_35
+  - first:
+      213: -1822406437571907714
+    second: LPC_Farm_36
+  - first:
+      213: -4884822579845243688
+    second: LPC_Farm_37
+  - first:
+      213: 874932919771185099
+    second: LPC_Farm_38
+  - first:
+      213: -7185486374899758286
+    second: LPC_Farm_39
+  - first:
+      213: -6608430182502395265
+    second: LPC_Farm_40
+  - first:
+      213: 1232747117931940429
+    second: LPC_Farm_41
+  - first:
+      213: 6000372278777749739
+    second: LPC_Farm_42
+  - first:
+      213: -1066409155028059482
+    second: LPC_Farm_43
+  - first:
+      213: 4548899197671093963
+    second: LPC_Farm_44
+  - first:
+      213: 398167337122611017
+    second: LPC_Farm_45
+  - first:
+      213: -7728636501260946033
+    second: LPC_Farm_46
+  - first:
+      213: 2596334536173969545
+    second: LPC_Farm_47
+  - first:
+      213: -4110618910220979300
+    second: LPC_Farm_48
+  - first:
+      213: 4570963020690086687
+    second: LPC_Farm_49
+  - first:
+      213: -4224875318997177503
+    second: LPC_Farm_50
+  - first:
+      213: -402702917748897290
+    second: LPC_Farm_51
+  - first:
+      213: -8176476853764919015
+    second: LPC_Farm_52
+  - first:
+      213: -1447561583968996315
+    second: LPC_Farm_53
+  - first:
+      213: -3732422932230571013
+    second: LPC_Farm_54
+  - first:
+      213: 5179036974106857455
+    second: LPC_Farm_55
+  - first:
+      213: 8735768147018939674
+    second: LPC_Farm_56
+  - first:
+      213: -6940995022636053445
+    second: LPC_Farm_57
+  - first:
+      213: -1990105758889221271
+    second: LPC_Farm_58
+  - first:
+      213: 8129848854067412399
+    second: LPC_Farm_59
+  - first:
+      213: 1591846095431906426
+    second: LPC_Farm_60
+  - first:
+      213: -4478873808487732860
+    second: LPC_Farm_61
+  - first:
+      213: 55956648025484348
+    second: LPC_Farm_62
+  - first:
+      213: 8473791767627125372
+    second: LPC_Farm_63
+  - first:
+      213: 1007011594878082832
+    second: LPC_Farm_64
+  - first:
+      213: 2294236719236758427
+    second: LPC_Farm_65
+  - first:
+      213: -3922017097304919783
+    second: LPC_Farm_66
+  - first:
+      213: 7945161223246052375
+    second: LPC_Farm_67
+  - first:
+      213: -7535714695281278194
+    second: LPC_Farm_68
+  - first:
+      213: 8048681447559713782
+    second: LPC_Farm_69
+  - first:
+      213: 3117279018574211770
+    second: LPC_Farm_70
+  - first:
+      213: -4256786740611847692
+    second: LPC_Farm_71
+  - first:
+      213: 3742955964773711265
+    second: LPC_Farm_72
+  - first:
+      213: -5937136355776814167
+    second: LPC_Farm_73
+  - first:
+      213: 1874542761348877928
+    second: LPC_Farm_74
+  - first:
+      213: -1693660882086545851
+    second: LPC_Farm_75
+  - first:
+      213: 1261873366786365682
+    second: LPC_Farm_76
+  - first:
+      213: 3535461003381759814
+    second: LPC_Farm_77
+  - first:
+      213: 8589298381579189166
+    second: LPC_Farm_78
+  - first:
+      213: -6518328798299589299
+    second: LPC_Farm_79
+  - first:
+      213: -871196083090332583
+    second: LPC_Farm_80
+  - first:
+      213: 4660728072012710153
+    second: LPC_Farm_81
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ThatchRoof
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 864
+        width: 192
+        height: 160
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fa49e37fa2e9ecae8cc8bf9815d65ad
+      internalID: -59567100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Haystack
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 288
+        width: 48
+        height: 80
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 922f1d3e6688ec00d8cef4959ec0dd53
+      internalID: 1286007931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HarvestSheaf
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 288
+        width: 32
+        height: 80
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c0f1f9512ec80d2986670b04099066d
+      internalID: -201369355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WovenBasket
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 480
+        width: 32
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fc01c00e03b3db6391a2db545bb8a98
+      internalID: -1986156704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrainBasket
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 480
+        width: 32
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 418860189f01bb774a9fba9bed785157
+      internalID: 1878216071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodenBucket
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 224
+        width: 32
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 047e6e0cd7b157f6ea9a5f98974e7005
+      internalID: 281933618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trough
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 544
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed5dc27a5bc95406a83fbd44443f09b2
+      internalID: -660942467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WattlePanel
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 320
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc153dae618df36a8b823ed33d6f5419
+      internalID: 649663772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StrawMat
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f008861ec5b0fc9b5b05f4d916ed2032
+      internalID: 438567695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: a45521b5b513b1fe9b489d3d2fca2459
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      GrainBasket: 1878216071
+      HarvestSheaf: -201369355
+      Haystack: 1286007931
+      StrawMat: 438567695
+      ThatchRoof: -59567100
+      Trough: -660942467
+      WattlePanel: 649663772
+      WoodenBucket: 281933618
+      WovenBasket: -1986156704
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -16,3 +16,12 @@
 - Không thay đổi cấu hình bảo mật. Không lưu secrets vào tài liệu, log hoặc ảnh.
 - Target Windows x64; kiểm tra Windows Build Support trước khi tuyên bố build sẵn sàng. Hiện module chưa cài.
 - Báo cáo bằng tiếng Việt, gồm tệp đã sửa, kiểm chứng thực tế và các phần chưa chạy.
+
+## Skills cho dự án
+
+- Các skill cài riêng nằm trong `.agents/skills/`; nguồn, commit và hash nằm trong `.agents/skill-sources.json`. Xem `Docs/Skills/README.md` để chọn skill theo công việc.
+- Làm map: kết hợp `level-design` đã có ở cấp người dùng với `unity-tilemap-2d` của dự án. Làm nhân vật: `character-design`, `pixel-art-sprites`, rồi `unity-2d`/`unity-animation` đã có.
+- Code C#: dùng `clean-code` như hướng dẫn review trong phạm vi được giao; giữ Unity lifecycle, serialized fields, GUID và hành vi hiện có. Không refactor toàn dự án chỉ để đạt một quy tắc hình thức.
+- Lên kịch bản hiệu ứng: dùng `vfx-pipeline` và mẫu `Docs/Skills/VFX_CUE_TEMPLATE.md`; khi triển khai, kết hợp `game-feel` và `unity-lighting-vfx` đã có.
+- Ví dụ trong skill có thể nhắm Unity 6000.3; phải kiểm chứng API với Editor 6000.5.10f1 và package đang cài. Không nâng/hạ phiên bản để khớp ví dụ.
+- Việc cài skill không tự cấp phạm vi sửa map, thay art, thêm combat/skill/puzzle hay bắt đầu Sprint mới. Quy tắc của Project Owner và các ranh giới ở trên vẫn được giữ.

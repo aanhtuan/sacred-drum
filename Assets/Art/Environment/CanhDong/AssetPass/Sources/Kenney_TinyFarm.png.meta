@@ -1,0 +1,269 @@
+fileFormatVersion: 2
+guid: 17314e429b0a077db8c55907839dc50e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4487954496430184110
+    second: Kenney_TinyFarm_0
+  - first:
+      213: -2118472296979771589
+    second: Kenney_TinyFarm_1
+  - first:
+      213: 2656133875038196650
+    second: Kenney_TinyFarm_2
+  - first:
+      213: -491652812552299294
+    second: Kenney_TinyFarm_3
+  - first:
+      213: -1931156619694433097
+    second: Kenney_TinyFarm_4
+  - first:
+      213: -3340573688278149671
+    second: Kenney_TinyFarm_5
+  - first:
+      213: 8292391372394121496
+    second: Kenney_TinyFarm_6
+  - first:
+      213: 4847875814993614217
+    second: Kenney_TinyFarm_7
+  - first:
+      213: 4745275728624794854
+    second: Kenney_TinyFarm_8
+  - first:
+      213: -1328394576679877509
+    second: Kenney_TinyFarm_9
+  - first:
+      213: 5625174869847028147
+    second: Kenney_TinyFarm_10
+  - first:
+      213: 8527528525913059571
+    second: Kenney_TinyFarm_11
+  - first:
+      213: -331981804169310039
+    second: Kenney_TinyFarm_12
+  - first:
+      213: -8046526184562078543
+    second: Kenney_TinyFarm_13
+  - first:
+      213: 4565139781529206604
+    second: Kenney_TinyFarm_14
+  - first:
+      213: -4192380695143035266
+    second: Kenney_TinyFarm_15
+  - first:
+      213: 1059674721630723432
+    second: Kenney_TinyFarm_16
+  - first:
+      213: -759263221507416185
+    second: Kenney_TinyFarm_17
+  - first:
+      213: -1075284499651390459
+    second: Kenney_TinyFarm_18
+  - first:
+      213: -4005376231555720463
+    second: Kenney_TinyFarm_19
+  - first:
+      213: 6688053918960364842
+    second: Kenney_TinyFarm_20
+  - first:
+      213: 8665148320102644328
+    second: Kenney_TinyFarm_21
+  - first:
+      213: -899297967318768339
+    second: Kenney_TinyFarm_22
+  - first:
+      213: -1301319920481341125
+    second: Kenney_TinyFarm_23
+  - first:
+      213: -5336473230154037765
+    second: Kenney_TinyFarm_24
+  - first:
+      213: -7840562242712360511
+    second: Kenney_TinyFarm_25
+  - first:
+      213: -1161382555920762806
+    second: Kenney_TinyFarm_26
+  - first:
+      213: -730694962053329888
+    second: Kenney_TinyFarm_27
+  - first:
+      213: -6684155380852855173
+    second: Kenney_TinyFarm_28
+  - first:
+      213: 6934558867682306767
+    second: Kenney_TinyFarm_29
+  - first:
+      213: -5221733880518966716
+    second: Kenney_TinyFarm_30
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Chicken
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4c0153325687dd82b9c910ff745d642
+      internalID: -952416815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cow
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cf15ef987ff13ea593ef509d039fded
+      internalID: -584422428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 358898a8d5372310a931b6ee72514ccd
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Chicken: -952416815
+      Cow: -584422428
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

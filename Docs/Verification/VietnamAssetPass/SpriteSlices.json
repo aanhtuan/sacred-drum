@@ -1,0 +1,672 @@
+[
+  {
+    "name": "RelicToken_Placeholder",
+    "source": "Assets/Art/Environment/CanhDong/AssetPass/Sources/CC0_RelicToken.png",
+    "x": 0.0,
+    "y": 0.0,
+    "width": 9.0,
+    "height": 11.0,
+    "ppu": 16.0,
+    "pivot": "(4.50, 5.50)"
+  },
+  {
+    "name": "Traveller_Placeholder",
+    "source": "Assets/Art/Environment/CanhDong/AssetPass/Sources/CC0_Traveller.png",
+    "x": 0.0,
+    "y": 96.0,
+    "width": 16.0,
+    "height": 16.0,
+    "ppu": 16.0,
+    "pivot": "(8.00, 8.00)"
+  },
+  {
+    "name": "Chicken",
+    "source": "Assets/Art/Environment/CanhDong/AssetPass/Sources/Kenney_TinyFarm.png",
+    "x": 32.0,
+    "y": 0.0,
+    "width": 16.0,
+    "height": 16.0,
+    "ppu": 16.0,
+    "pivot": "(8.00, 0.00)"
+  },
+  {
+    "name": "Cow",
+    "source": "Assets/Art/Environment/CanhDong/AssetPass/Sources/Kenney_TinyFarm.png",
+    "x": 16.0,
+    "y": 0.0,
+    "width": 16.0,
+    "height": 16.0,
+    "ppu": 16.0,
+    "pivot": "(8.00, 0.00)"
+  },
+  {
+    "name": "Bamboo_0",
+    "source": "Assets/Art/Environment/CanhDong/AssetPass/Sources/LPC_Bamboo.png",
+    "x": 0.0,
+    "y": 0.0,
+    "width": 32.0,
+    "height": 64.0,
+    "ppu": 16.0,
+    "pivot": "(16.00, 0.00)"
+  },
+  {
+    "name": "Bamboo_1",
+    "source": "Assets/Art/Environment/CanhDong/AssetPass/Sources/LPC_Bamboo.png",
+    "x": 32.0,
+    "y": 0.0,
+    "width": 32.0,
+    "height": 64.0,
+    "ppu": 16.0,
+    "pivot": "(16.00, 0.00)"
+  },
+  {
+    "name": "GrainBasket",
+    "source": "Assets/Art/Environment/CanhDong/AssetPass/Sources/LPC_Farm.png",
+    "x": 256.0,
+    "y": 480.0,
+    "width": 32.0,
+    "height": 48.0,
+    "ppu": 32.0,
+    "pivot": "(16.00, 0.00)"
+  },
+  {
+    "name": "HarvestSheaf",
+    "source": "Assets/Art/Environment/CanhDong/AssetPass/Sources/LPC_Farm.png",
+    "x": 192.0,
+    "y": 288.0,
+    "width": 32.0,
+    "height": 80.0,
+    "ppu": 32.0,
+    "pivot": "(16.00, 0.00)"
+  },
+  {
+    "name": "Haystack",
+    "source": "Assets/Art/Environment/CanhDong/AssetPass/Sources/LPC_Farm.png",
+    "x": 232.0,
+    "y": 288.0,
+    "width": 48.0,
+    "height": 80.0,
+    "ppu": 32.0,
+    "pivot": "(24.00, 0.00)"
+  },
+  {
+    "name": "StrawMat",
+    "source": "Assets/Art/Environment/CanhDong/AssetPass/Sources/LPC_Farm.png",
+    "x": 512.0,
+    "y": 256.0,
+    "width": 64.0,
+    "height": 64.0,
+    "ppu": 32.0,
+    "pivot": "(32.00, 0.00)"
+  },
+  {
+    "name": "ThatchRoof",
+    "source": "Assets/Art/Environment/CanhDong/AssetPass/Sources/LPC_Farm.png",
+    "x": 192.0,
+    "y": 864.0,
+    "width": 192.0,
+    "height": 160.0,
+    "ppu": 32.0,
+    "pivot": "(96.00, 0.00)"
+  },
+  {
+    "name": "Trough",
+    "source": "Assets/Art/Environment/CanhDong/AssetPass/Sources/LPC_Farm.png",
+    "x": 128.0,
+    "y": 544.0,
+    "width": 64.0,
+    "height": 64.0,
+    "ppu": 32.0,
+    "pivot": "(32.00, 0.00)"
+  },
+  {
+    "name": "WattlePanel",
+    "source": "Assets/Art/Environment/CanhDong/AssetPass/Sources/LPC_Farm.png",
+    "x": 512.0,
+    "y": 320.0,
+    "width": 64.0,
+    "height": 64.0,
+    "ppu": 32.0,
+    "pivot": "(32.00, 0.00)"
+  },
+  {
+    "name": "WoodenBucket",
+    "source": "Assets/Art/Environment/CanhDong/AssetPass/Sources/LPC_Farm.png",
+    "x": 96.0,
+    "y": 224.0,
+    "width": 32.0,
+    "height": 48.0,
+    "ppu": 32.0,
+    "pivot": "(16.00, 0.00)"
+  },
+  {
+    "name": "WovenBasket",
+    "source": "Assets/Art/Environment/CanhDong/AssetPass/Sources/LPC_Farm.png",
+    "x": 224.0,
+    "y": 480.0,
+    "width": 32.0,
+    "height": 48.0,
+    "ppu": 32.0,
+    "pivot": "(16.00, 0.00)"
+  },
+  {
+    "name": "Rock_0",
+    "source": "Assets/Art/Environment/CanhDong/AssetPass/Sources/LPC_Nature.png",
+    "x": 192.0,
+    "y": 32.0,
+    "width": 64.0,
+    "height": 64.0,
+    "ppu": 32.0,
+    "pivot": "(32.00, 0.00)"
+  },
+  {
+    "name": "Rock_1",
+    "source": "Assets/Art/Environment/CanhDong/AssetPass/Sources/LPC_Nature.png",
+    "x": 256.0,
+    "y": 32.0,
+    "width": 64.0,
+    "height": 64.0,
+    "ppu": 32.0,
+    "pivot": "(32.00, 0.00)"
+  },
+  {
+    "name": "Rock_2",
+    "source": "Assets/Art/Environment/CanhDong/AssetPass/Sources/LPC_Nature.png",
+    "x": 200.0,
+    "y": 128.0,
+    "width": 24.0,
+    "height": 24.0,
+    "ppu": 32.0,
+    "pivot": "(12.00, 0.00)"
+  },
+  {
+    "name": "Rock_3",
+    "source": "Assets/Art/Environment/CanhDong/AssetPass/Sources/LPC_Nature.png",
+    "x": 200.0,
+    "y": 96.0,
+    "width": 24.0,
+    "height": 24.0,
+    "ppu": 32.0,
+    "pivot": "(12.00, 0.00)"
+  },
+  {
+    "name": "RockCluster",
+    "source": "Assets/Art/Environment/CanhDong/AssetPass/Sources/LPC_Nature.png",
+    "x": 256.0,
+    "y": 32.0,
+    "width": 64.0,
+    "height": 64.0,
+    "ppu": 32.0,
+    "pivot": "(32.00, 0.00)"
+  },
+  {
+    "name": "Grass",
+    "source": "Assets/Art/Environment/CanhDong/AssetPass/Sources/NinjaAdventure_Floor.png",
+    "x": 48.0,
+    "y": 209.0,
+    "width": 16.0,
+    "height": 16.0,
+    "ppu": 16.0,
+    "pivot": "(8.00, 8.00)"
+  },
+  {
+    "name": "GrassDetail",
+    "source": "Assets/Art/Environment/CanhDong/AssetPass/Sources/NinjaAdventure_Floor.png",
+    "x": 16.0,
+    "y": 209.0,
+    "width": 16.0,
+    "height": 16.0,
+    "ppu": 16.0,
+    "pivot": "(8.00, 8.00)"
+  },
+  {
+    "name": "Path",
+    "source": "Assets/Art/Environment/CanhDong/AssetPass/Sources/NinjaAdventure_Floor.png",
+    "x": 16.0,
+    "y": 273.0,
+    "width": 16.0,
+    "height": 16.0,
+    "ppu": 16.0,
+    "pivot": "(8.00, 8.00)"
+  },
+  {
+    "name": "Soil",
+    "source": "Assets/Art/Environment/CanhDong/AssetPass/Sources/NinjaAdventure_Floor.png",
+    "x": 0.0,
+    "y": 225.0,
+    "width": 16.0,
+    "height": 16.0,
+    "ppu": 16.0,
+    "pivot": "(8.00, 8.00)"
+  },
+  {
+    "name": "Bench",
+    "source": "Assets/Art/Environment/CanhDong/AssetPass/Sources/NinjaAdventure_Tileset.png",
+    "x": 224.0,
+    "y": 528.0,
+    "width": 32.0,
+    "height": 16.0,
+    "ppu": 16.0,
+    "pivot": "(16.00, 0.00)"
+  },
+  {
+    "name": "Boat",
+    "source": "Assets/Art/Environment/CanhDong/AssetPass/Sources/NinjaAdventure_Tileset.png",
+    "x": 416.0,
+    "y": 464.0,
+    "width": 32.0,
+    "height": 16.0,
+    "ppu": 16.0,
+    "pivot": "(16.00, 0.00)"
+  },
+  {
+    "name": "Boundary",
+    "source": "Assets/Art/Environment/CanhDong/AssetPass/Sources/NinjaAdventure_Tileset.png",
+    "x": 64.0,
+    "y": 480.0,
+    "width": 16.0,
+    "height": 16.0,
+    "ppu": 16.0,
+    "pivot": "(8.00, 8.00)"
+  },
+  {
+    "name": "BridgeDeck",
+    "source": "Assets/Art/Environment/CanhDong/AssetPass/Sources/NinjaAdventure_Tileset.png",
+    "x": 384.0,
+    "y": 496.0,
+    "width": 16.0,
+    "height": 16.0,
+    "ppu": 16.0,
+    "pivot": "(8.00, 8.00)"
+  },
+  {
+    "name": "Bush_0",
+    "source": "Assets/Art/Environment/CanhDong/AssetPass/Sources/NinjaAdventure_Tileset.png",
+    "x": 192.0,
+    "y": 496.0,
+    "width": 16.0,
+    "height": 16.0,
+    "ppu": 16.0,
+    "pivot": "(8.00, 0.00)"
+  },
+  {
+    "name": "Bush_1",
+    "source": "Assets/Art/Environment/CanhDong/AssetPass/Sources/NinjaAdventure_Tileset.png",
+    "x": 208.0,
+    "y": 496.0,
+    "width": 16.0,
+    "height": 16.0,
+    "ppu": 16.0,
+    "pivot": "(8.00, 0.00)"
+  },
+  {
+    "name": "Bush_2",
+    "source": "Assets/Art/Environment/CanhDong/AssetPass/Sources/NinjaAdventure_Tileset.png",
+    "x": 192.0,
+    "y": 480.0,
+    "width": 16.0,
+    "height": 16.0,
+    "ppu": 16.0,
+    "pivot": "(8.00, 0.00)"
+  },
+  {
+    "name": "Bush_3",
+    "source": "Assets/Art/Environment/CanhDong/AssetPass/Sources/NinjaAdventure_Tileset.png",
+    "x": 208.0,
+    "y": 480.0,
+    "width": 16.0,
+    "height": 16.0,
+    "ppu": 16.0,
+    "pivot": "(8.00, 0.00)"
+  },
+  {
+    "name": "CrateOfFood",
+    "source": "Assets/Art/Environment/CanhDong/AssetPass/Sources/NinjaAdventure_Tileset.png",
+    "x": 128.0,
+    "y": 528.0,
+    "width": 16.0,
+    "height": 16.0,
+    "ppu": 16.0,
+    "pivot": "(8.00, 0.00)"
+  },
+  {
+    "name": "CutLog",
+    "source": "Assets/Art/Environment/CanhDong/AssetPass/Sources/NinjaAdventure_Tileset.png",
+    "x": 96.0,
+    "y": 480.0,
+    "width": 16.0,
+    "height": 16.0,
+    "ppu": 16.0,
+    "pivot": "(8.00, 0.00)"
+  },
+  {
+    "name": "Door",
+    "source": "Assets/Art/Environment/CanhDong/AssetPass/Sources/NinjaAdventure_Tileset.png",
+    "x": 144.0,
+    "y": 576.0,
+    "width": 16.0,
+    "height": 16.0,
+    "ppu": 16.0,
+    "pivot": "(8.00, 0.00)"
+  },
+  {
+    "name": "EmptyBasket",
+    "source": "Assets/Art/Environment/CanhDong/AssetPass/Sources/NinjaAdventure_Tileset.png",
+    "x": 48.0,
+    "y": 512.0,
+    "width": 16.0,
+    "height": 16.0,
+    "ppu": 16.0,
+    "pivot": "(8.00, 0.00)"
+  },
+  {
+    "name": "Fence",
+    "source": "Assets/Art/Environment/CanhDong/AssetPass/Sources/NinjaAdventure_Tileset.png",
+    "x": 352.0,
+    "y": 608.0,
+    "width": 16.0,
+    "height": 16.0,
+    "ppu": 16.0,
+    "pivot": "(8.00, 8.00)"
+  },
+  {
+    "name": "FencePost",
+    "source": "Assets/Art/Environment/CanhDong/AssetPass/Sources/NinjaAdventure_Tileset.png",
+    "x": 320.0,
+    "y": 608.0,
+    "width": 16.0,
+    "height": 16.0,
+    "ppu": 16.0,
+    "pivot": "(8.00, 0.00)"
+  },
+  {
+    "name": "Flag",
+    "source": "Assets/Art/Environment/CanhDong/AssetPass/Sources/NinjaAdventure_Tileset.png",
+    "x": 48.0,
+    "y": 560.0,
+    "width": 16.0,
+    "height": 32.0,
+    "ppu": 16.0,
+    "pivot": "(8.00, 0.00)"
+  },
+  {
+    "name": "Flowers",
+    "source": "Assets/Art/Environment/CanhDong/AssetPass/Sources/NinjaAdventure_Tileset.png",
+    "x": 16.0,
+    "y": 496.0,
+    "width": 16.0,
+    "height": 16.0,
+    "ppu": 16.0,
+    "pivot": "(8.00, 8.00)"
+  },
+  {
+    "name": "HandCart",
+    "source": "Assets/Art/Environment/CanhDong/AssetPass/Sources/NinjaAdventure_Tileset.png",
+    "x": 96.0,
+    "y": 480.0,
+    "width": 32.0,
+    "height": 16.0,
+    "ppu": 16.0,
+    "pivot": "(16.00, 0.00)"
+  },
+  {
+    "name": "Lantern",
+    "source": "Assets/Art/Environment/CanhDong/AssetPass/Sources/NinjaAdventure_Tileset.png",
+    "x": 64.0,
+    "y": 528.0,
+    "width": 16.0,
+    "height": 16.0,
+    "ppu": 16.0,
+    "pivot": "(8.00, 0.00)"
+  },
+  {
+    "name": "LargePot",
+    "source": "Assets/Art/Environment/CanhDong/AssetPass/Sources/NinjaAdventure_Tileset.png",
+    "x": 144.0,
+    "y": 496.0,
+    "width": 16.0,
+    "height": 16.0,
+    "ppu": 16.0,
+    "pivot": "(8.00, 0.00)"
+  },
+  {
+    "name": "LogPile",
+    "source": "Assets/Art/Environment/CanhDong/AssetPass/Sources/NinjaAdventure_Tileset.png",
+    "x": 96.0,
+    "y": 496.0,
+    "width": 32.0,
+    "height": 16.0,
+    "ppu": 16.0,
+    "pivot": "(16.00, 0.00)"
+  },
+  {
+    "name": "MarketBasket",
+    "source": "Assets/Art/Environment/CanhDong/AssetPass/Sources/NinjaAdventure_Tileset.png",
+    "x": 144.0,
+    "y": 528.0,
+    "width": 16.0,
+    "height": 16.0,
+    "ppu": 16.0,
+    "pivot": "(8.00, 0.00)"
+  },
+  {
+    "name": "PinkTree_0",
+    "source": "Assets/Art/Environment/CanhDong/AssetPass/Sources/NinjaAdventure_Tileset.png",
+    "x": 64.0,
+    "y": 352.0,
+    "width": 32.0,
+    "height": 32.0,
+    "ppu": 16.0,
+    "pivot": "(16.00, 0.00)"
+  },
+  {
+    "name": "PinkTree_1",
+    "source": "Assets/Art/Environment/CanhDong/AssetPass/Sources/NinjaAdventure_Tileset.png",
+    "x": 96.0,
+    "y": 352.0,
+    "width": 32.0,
+    "height": 32.0,
+    "ppu": 16.0,
+    "pivot": "(16.00, 0.00)"
+  },
+  {
+    "name": "PinkTree_2",
+    "source": "Assets/Art/Environment/CanhDong/AssetPass/Sources/NinjaAdventure_Tileset.png",
+    "x": 128.0,
+    "y": 352.0,
+    "width": 32.0,
+    "height": 32.0,
+    "ppu": 16.0,
+    "pivot": "(16.00, 0.00)"
+  },
+  {
+    "name": "Seedlings",
+    "source": "Assets/Art/Environment/CanhDong/AssetPass/Sources/NinjaAdventure_Tileset.png",
+    "x": 0.0,
+    "y": 496.0,
+    "width": 16.0,
+    "height": 16.0,
+    "ppu": 16.0,
+    "pivot": "(8.00, 8.00)"
+  },
+  {
+    "name": "Stone",
+    "source": "Assets/Art/Environment/CanhDong/AssetPass/Sources/NinjaAdventure_Tileset.png",
+    "x": 240.0,
+    "y": 112.0,
+    "width": 16.0,
+    "height": 16.0,
+    "ppu": 16.0,
+    "pivot": "(8.00, 8.00)"
+  },
+  {
+    "name": "StoneBase",
+    "source": "Assets/Art/Environment/CanhDong/AssetPass/Sources/NinjaAdventure_Tileset.png",
+    "x": 432.0,
+    "y": 512.0,
+    "width": 16.0,
+    "height": 16.0,
+    "ppu": 16.0,
+    "pivot": "(8.00, 0.00)"
+  },
+  {
+    "name": "Stump",
+    "source": "Assets/Art/Environment/CanhDong/AssetPass/Sources/NinjaAdventure_Tileset.png",
+    "x": 160.0,
+    "y": 528.0,
+    "width": 16.0,
+    "height": 16.0,
+    "ppu": 16.0,
+    "pivot": "(8.00, 0.00)"
+  },
+  {
+    "name": "TerracottaPot",
+    "source": "Assets/Art/Environment/CanhDong/AssetPass/Sources/NinjaAdventure_Tileset.png",
+    "x": 16.0,
+    "y": 528.0,
+    "width": 16.0,
+    "height": 16.0,
+    "ppu": 16.0,
+    "pivot": "(8.00, 0.00)"
+  },
+  {
+    "name": "Tree_0",
+    "source": "Assets/Art/Environment/CanhDong/AssetPass/Sources/NinjaAdventure_Tileset.png",
+    "x": 0.0,
+    "y": 448.0,
+    "width": 32.0,
+    "height": 32.0,
+    "ppu": 16.0,
+    "pivot": "(16.00, 0.00)"
+  },
+  {
+    "name": "Tree_1",
+    "source": "Assets/Art/Environment/CanhDong/AssetPass/Sources/NinjaAdventure_Tileset.png",
+    "x": 32.0,
+    "y": 448.0,
+    "width": 32.0,
+    "height": 32.0,
+    "ppu": 16.0,
+    "pivot": "(16.00, 0.00)"
+  },
+  {
+    "name": "Tree_2",
+    "source": "Assets/Art/Environment/CanhDong/AssetPass/Sources/NinjaAdventure_Tileset.png",
+    "x": 64.0,
+    "y": 448.0,
+    "width": 32.0,
+    "height": 32.0,
+    "ppu": 16.0,
+    "pivot": "(16.00, 0.00)"
+  },
+  {
+    "name": "Tree_3",
+    "source": "Assets/Art/Environment/CanhDong/AssetPass/Sources/NinjaAdventure_Tileset.png",
+    "x": 96.0,
+    "y": 448.0,
+    "width": 32.0,
+    "height": 32.0,
+    "ppu": 16.0,
+    "pivot": "(16.00, 0.00)"
+  },
+  {
+    "name": "Tree_4",
+    "source": "Assets/Art/Environment/CanhDong/AssetPass/Sources/NinjaAdventure_Tileset.png",
+    "x": 128.0,
+    "y": 448.0,
+    "width": 32.0,
+    "height": 32.0,
+    "ppu": 16.0,
+    "pivot": "(16.00, 0.00)"
+  },
+  {
+    "name": "Tree_5",
+    "source": "Assets/Art/Environment/CanhDong/AssetPass/Sources/NinjaAdventure_Tileset.png",
+    "x": 160.0,
+    "y": 448.0,
+    "width": 32.0,
+    "height": 32.0,
+    "ppu": 16.0,
+    "pivot": "(16.00, 0.00)"
+  },
+  {
+    "name": "Tuft",
+    "source": "Assets/Art/Environment/CanhDong/AssetPass/Sources/NinjaAdventure_Tileset.png",
+    "x": 0.0,
+    "y": 496.0,
+    "width": 16.0,
+    "height": 16.0,
+    "ppu": 16.0,
+    "pivot": "(8.00, 8.00)"
+  },
+  {
+    "name": "WallLeft",
+    "source": "Assets/Art/Environment/CanhDong/AssetPass/Sources/NinjaAdventure_Tileset.png",
+    "x": 0.0,
+    "y": 592.0,
+    "width": 16.0,
+    "height": 16.0,
+    "ppu": 16.0,
+    "pivot": "(8.00, 0.00)"
+  },
+  {
+    "name": "WallPanel",
+    "source": "Assets/Art/Environment/CanhDong/AssetPass/Sources/NinjaAdventure_Tileset.png",
+    "x": 32.0,
+    "y": 592.0,
+    "width": 16.0,
+    "height": 16.0,
+    "ppu": 16.0,
+    "pivot": "(8.00, 0.00)"
+  },
+  {
+    "name": "WallRight",
+    "source": "Assets/Art/Environment/CanhDong/AssetPass/Sources/NinjaAdventure_Tileset.png",
+    "x": 48.0,
+    "y": 592.0,
+    "width": 16.0,
+    "height": 16.0,
+    "ppu": 16.0,
+    "pivot": "(8.00, 0.00)"
+  },
+  {
+    "name": "Water",
+    "source": "Assets/Art/Environment/CanhDong/AssetPass/Sources/NinjaAdventure_Tileset.png",
+    "x": 320.0,
+    "y": 496.0,
+    "width": 16.0,
+    "height": 16.0,
+    "ppu": 16.0,
+    "pivot": "(8.00, 8.00)"
+  },
+  {
+    "name": "WaterJar",
+    "source": "Assets/Art/Environment/CanhDong/AssetPass/Sources/NinjaAdventure_Tileset.png",
+    "x": 48.0,
+    "y": 528.0,
+    "width": 16.0,
+    "height": 16.0,
+    "ppu": 16.0,
+    "pivot": "(8.00, 0.00)"
+  },
+  {
+    "name": "Well",
+    "source": "Assets/Art/Environment/CanhDong/AssetPass/Sources/NinjaAdventure_Tileset.png",
+    "x": 48.0,
+    "y": 544.0,
+    "width": 16.0,
+    "height": 32.0,
+    "ppu": 16.0,
+    "pivot": "(8.00, 0.00)"
+  },
+  {
+    "name": "WoodCrate",
+    "source": "Assets/Art/Environment/CanhDong/AssetPass/Sources/NinjaAdventure_Tileset.png",
+    "x": 32.0,
+    "y": 528.0,
+    "width": 16.0,
+    "height": 16.0,
+    "ppu": 16.0,
+    "pivot": "(8.00, 0.00)"
+  }
+]

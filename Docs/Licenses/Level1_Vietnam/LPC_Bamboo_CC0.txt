@@ -1,0 +1,13 @@
+[LPC] bamboo, cave rocks, misc. objects
+Author: tapatilorenzo
+https://opengameart.org/content/lpc-bamboo-cave-rocks-misc-objects
+Published: 2022-03-04
+License: Creative Commons Zero 1.0 Universal (CC0)
+https://creativecommons.org/publicdomain/zero/1.0/
+
+Files used without repainting:
+lpc_two_bamboo_drawings_32x64.png
+lpc_combined_spritesheet.png
+
+The source submission states the author did not borrow from existing art
+and imposes no special attribution requirement. Credit is retained voluntarily.

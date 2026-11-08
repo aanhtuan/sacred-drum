@@ -1,0 +1,101 @@
+{
+  "date": "2026-11-08",
+  "originalLibrary": "/home/atuna/Documents/Game/AssetDownloads/Level1_Vietnam/Original",
+  "imageGenerationUsed": false,
+  "sources": [
+    {
+      "importedPath": "Assets/Art/Environment/CanhDong/AssetPass/Sources/NinjaAdventure_Tileset.png",
+      "originalPath": "/home/atuna/Documents/Game/AssetDownloads/Level1_Vietnam/Original/Superpowers/ninja-adventure/background-elements/tileset.png",
+      "source": "https://raw.githubusercontent.com/sparklinlabs/superpowers-asset-packs/e8674a03ab4456802f71f848c4df79eccca23f7a/ninja-adventure/background-elements/tileset.png",
+      "author": "Pixel-boy / Sparklin Labs",
+      "license": "CC0-1.0",
+      "bytes": 88026,
+      "sha256": "aa2708aa07cabda86f02d65bf2095a6b53b96fdfd43cf191931689f517f284a4",
+      "byteIdenticalToOriginal": true,
+      "pixelChanges": "none; Unity sprite rectangles/import settings only"
+    },
+    {
+      "importedPath": "Assets/Art/Environment/CanhDong/AssetPass/Sources/CC0_Traveller.png",
+      "originalPath": "/home/atuna/Documents/Game/AssetDownloads/Level1_Vietnam/Original/Superpowers/ninja-adventure/characters/14.png",
+      "source": "https://raw.githubusercontent.com/sparklinlabs/superpowers-asset-packs/e8674a03ab4456802f71f848c4df79eccca23f7a/ninja-adventure/characters/14.png",
+      "author": "Pixel-boy / Sparklin Labs",
+      "license": "CC0-1.0",
+      "bytes": 5890,
+      "sha256": "10136e78185754a94b404d7d68d05af37217f0edf7a96627a361bdc27bcb0128",
+      "byteIdenticalToOriginal": true,
+      "pixelChanges": "none; Unity sprite rectangles/import settings only"
+    },
+    {
+      "importedPath": "Assets/Art/Environment/CanhDong/AssetPass/Sources/CC0_RelicToken.png",
+      "originalPath": "/home/atuna/Documents/Game/AssetDownloads/Level1_Vietnam/Original/Superpowers/ninja-adventure/items/gold-cup.png",
+      "source": "https://raw.githubusercontent.com/sparklinlabs/superpowers-asset-packs/e8674a03ab4456802f71f848c4df79eccca23f7a/ninja-adventure/items/gold-cup.png",
+      "author": "Pixel-boy / Sparklin Labs",
+      "license": "CC0-1.0",
+      "bytes": 2974,
+      "sha256": "c7f882dfb297f5f02dc522846b69e60e40b976ab9ba609d07ef67317e4763555",
+      "byteIdenticalToOriginal": true,
+      "pixelChanges": "none; Unity sprite rectangles/import settings only"
+    },
+    {
+      "importedPath": "Assets/Art/Environment/CanhDong/AssetPass/Sources/NinjaAdventure_Floor.png",
+      "originalPath": "/home/atuna/Documents/Game/AssetDownloads/Level1_Vietnam/Original/PixelBoyGithub/tileset_floor.png",
+      "source": "https://raw.githubusercontent.com/pixel-boy/NinjaAdventure/6ac78232d5aedcc85ce5f27d060ea92366f7c24a/content/map/tileset_floor.png",
+      "author": "Pixel-boy",
+      "license": "CC0-1.0",
+      "bytes": 29615,
+      "sha256": "e111065065edf806e7e893330086e68efc8755175d92f14d087b42d40a331e16",
+      "byteIdenticalToOriginal": true,
+      "pixelChanges": "none; Unity sprite rectangles/import settings only"
+    },
+    {
+      "importedPath": "Assets/Art/Environment/CanhDong/AssetPass/Sources/LPC_Bamboo.png",
+      "originalPath": "/home/atuna/Documents/Game/AssetDownloads/Level1_Vietnam/Original/OGA/lpc_two_bamboo_drawings_32x64.png",
+      "source": "https://opengameart.org/sites/default/files/lpc_two_bamboo_drawings_32x64.png",
+      "author": "tapatilorenzo",
+      "license": "CC0-1.0",
+      "bytes": 1280,
+      "sha256": "4c4cf7edee2459e401660b56907509355433835defa0e83b2e84f328f8551b34",
+      "byteIdenticalToOriginal": true,
+      "pixelChanges": "none; Unity sprite rectangles/import settings only"
+    },
+    {
+      "importedPath": "Assets/Art/Environment/CanhDong/AssetPass/Sources/LPC_Nature.png",
+      "originalPath": "/home/atuna/Documents/Game/AssetDownloads/Level1_Vietnam/Original/OGA/lpc_combined_spritesheet.png",
+      "source": "https://opengameart.org/sites/default/files/lpc_combined_spritesheet.png",
+      "author": "tapatilorenzo",
+      "license": "CC0-1.0",
+      "bytes": 18836,
+      "sha256": "19012d99e99e0e76771e4a4dd50eb36d23bedf798a40e2c042ba02aeebd0f78b",
+      "byteIdenticalToOriginal": true,
+      "pixelChanges": "none; Unity sprite rectangles/import settings only"
+    },
+    {
+      "importedPath": "Assets/Art/Environment/CanhDong/AssetPass/Sources/LPC_Farm.png",
+      "originalPath": "/home/atuna/Documents/Game/AssetDownloads/Level1_Vietnam/Original/OGA/farm/lpc-farm/barn.png",
+      "source": "https://opengameart.org/sites/default/files/lpc-farm.zip :: lpc-farm/barn.png",
+      "author": "bluecarrot16; Wolthera van Hovell tot Westerflier (TheraHedwig); Ivan Voirol",
+      "license": "CC-BY-4.0",
+      "bytes": 133175,
+      "sha256": "f2a089571d442c708d7af9587fc5e11d966dcc2034ba0d26c7f7be5f8072eb49",
+      "byteIdenticalToOriginal": true,
+      "pixelChanges": "none; Unity sprite rectangles/import settings only"
+    },
+    {
+      "importedPath": "Assets/Art/Environment/CanhDong/AssetPass/Sources/Kenney_TinyFarm.png",
+      "originalPath": "/home/atuna/Documents/Game/AssetDownloads/Level1_Vietnam/Original/Kenney/tilemap_packed.png",
+      "source": "https://kenney.nl/assets/tiny-farm :: Tilemap/tilemap_packed.png",
+      "author": "Kenney",
+      "license": "CC0-1.0",
+      "bytes": 5866,
+      "sha256": "0c4b3b4058cacf6a9bf021666838156d46da9ce27500d4c13e30cd5a92b722f4",
+      "byteIdenticalToOriginal": true,
+      "pixelChanges": "none; Unity sprite rectangles/import settings only"
+    }
+  ],
+  "totalPngBytes": 285662,
+  "notes": [
+    "No executable downloaded or run from an asset pack.",
+    "Original AI atlas retained only for archive/recovery; disabled in the active map.",
+    "Sprites are slices of source art; prefab composition and scene placement do not repaint source pixels."
+  ]
+}
