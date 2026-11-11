@@ -6,7 +6,7 @@ Sources: `Assets/Art/Characters/PrototypeCast/Sources/MinhChibi/`.
 
 ## Result and controls
 
-The approved no-hat farmer replaces the older conical-hat sprite: tied dark hair, earth-brown patched shirt, charcoal-indigo trousers, red-brown sash, wicker rice backpack and wooden staff. Standing sprite height is approximately 1.85 world units, reduced from 2.2. Illustrated art uses Bilinear filtering, no mipmaps and uncompressed textures.
+The approved no-hat farmer replaces the older conical-hat sprite: tied dark hair, earth-brown patched shirt, charcoal-indigo trousers, red-brown sash, wicker rice backpack and wooden staff. Standing sprite height is approximately 1.65 world units, reduced another 10.8% from 1.85 at the owner's request. All seven sheets use the same relative reduction; the movement and feet collider are unchanged. Illustrated art uses Bilinear filtering, no mipmaps and uncompressed textures.
 
 - WASD: original PlayerController and input asset unchanged, speed4. W uses a true back-view RunUp/IdleUp, S uses the approved front three-quarter view. A/D running reuses the originally approved Run sheet (mirrored for A); stationary A/D keeps the profile breathing animation. Releasing W keeps the back-view breathing animation rather than running in place.
 - Space: one-shot visual jump, then idle/run.
@@ -20,6 +20,10 @@ Seven source sheets contain72 drawn frames. Eleven clips cover the five action g
 Follow-up correction: directional sprites are sorted by numeric frame index. IdleUp uses Up_0–Up_7, RunUp uses Up_8–Up_15, and IdleSide uses Side_0–Side_7. This prevents lexicographic ordering (0, 1, 10, …) from mixing running frames into breathing clips. RunSide reuses the approved original Run_0–Run_7 frames.
 
 Follow-up Play Mode validation on 2026-11-11: isolated D → W → release input observed all eight original Run frames, all eight back-running frames, then all eight back-breathing frames with no running frames during IdleUp. Native keyboard/mouse and Dynamic Input System updates restored after the check. Compilation succeeded and Console returned zero errors.
+
+Staff-attack repair: the nonserialized clip-duration dictionary could become empty during an Editor script reload, causing KeyNotFoundException when starting StaffAttack. OnEnable now rebuilds the dictionary; action playback also repopulates it on a cache miss before starting the clip.
+
+Repair validation in Play Mode: deliberately cleared the duration dictionary before each isolated J and left-mouse input. Both entered StaffAttack, displayed attack sprites with natural Animator playback, and returned to Idle; J observations covered all eight attack frames. The cache recovered to 11 entries each time. Native input devices/update mode restored; final Console returned zero errors and compilation succeeded. The source import scale now gives 1.65 units for the first standing frame (previously 1.85).
 
 Minh remains a variant of the original Player prefab. The prefab, controller and script GUIDs were retained. LDtk PlayerSpawn mapping continues using the same prefab GUID. The existing feet collider, movement, camera, scarecrows and map layout were preserved.
 

@@ -21,6 +21,14 @@ namespace SacredDrum.Gameplay
             movement = GetComponent<PlayerController>();
             animator = GetComponent<Animator>();
             spriteRenderer = GetComponent<SpriteRenderer>();
+        }
+
+        private void OnEnable() => CacheDurations();
+
+        private void CacheDurations()
+        {
+            if (animator == null) animator = GetComponent<Animator>();
+            durations.Clear();
             foreach (var clip in animator.runtimeAnimatorController.animationClips)
                 durations[clip.name] = clip.length;
         }
@@ -54,8 +62,18 @@ namespace SacredDrum.Gameplay
 
         private void PlayAction(string state)
         {
+            // Managed dictionaries are not restored by a Play Mode script reload.
+            if (!durations.TryGetValue(state, out float duration))
+            {
+                CacheDurations();
+                if (!durations.TryGetValue(state, out duration))
+                {
+                    Debug.LogError("Missing Minh animation clip: " + state, this);
+                    return;
+                }
+            }
             Play(state, true);
-            actionUntil = Time.time + durations[state];
+            actionUntil = Time.time + duration;
         }
 
         private void Play(string state, bool restart = false)

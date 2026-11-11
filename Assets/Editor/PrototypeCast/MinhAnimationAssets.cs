@@ -97,7 +97,7 @@ namespace SacredDrum.EditorTools
                 if (row == 0 && col == 0)
                 {
                     baselineFromTop = texture.height - y0;
-                    importer.spritePixelsPerUnit = (y1 - y0) / 1.85f;
+                    importer.spritePixelsPerUnit = (y1 - y0) / 1.65f;
                 }
                 string name = sheet + "_" + (row * 4 + col);
                 float baseline = top - baselineFromTop;
