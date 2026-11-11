@@ -33,6 +33,108 @@ namespace SacredDrum.EditorTools
                 P(tile, x, y, C(h < 12 ? dark : h > 246 ? light : main));
             }
         }
+
+        static void ClearTile(int tile)
+        {
+            for (int y = 0; y < 16; y++) for (int x = 0; x < 16; x++) P(tile, x, y, Color.clear);
+        }
+
+        static void Grass(int tile, bool dry)
+        {
+            ClearTile(tile);
+            Color shadow = new Color(.12f, .15f, .12f, .45f);
+            Color dark = C(dry ? "53563C" : "344D3B");
+            Color mid = C(dry ? "82805A" : "60764C");
+            Color light = C(dry ? "A49A6C" : "889463");
+            for (int x = 2; x < 14; x++) P(tile, x, 14, shadow);
+            foreach (int x in new[] { 4, 8, 12 })
+            {
+                int tip = x == 8 ? 3 : x == 4 ? 6 : 5;
+                Line(tile, x, 13, x - 2, 9, dark);
+                Line(tile, x - 2, 9, x - 3, 6, mid);
+                Line(tile, x, 13, x, tip + 2, mid);
+                Line(tile, x, tip + 2, x - 1, tip, light);
+                Line(tile, x + 1, 13, x + 2, 8, mid);
+                Line(tile, x + 2, 8, x + 3, 7, light);
+                P(tile, x, 13, dark);
+                if (dry) { P(tile, x - 1, tip - 1, light); P(tile, x - 2, tip, mid); }
+            }
+        }
+
+        static void Wood(int tile, int x0, int y0, int x1, int y1, bool thick)
+        {
+            if (thick)
+            {
+                Line(tile, x0 + 1, y0, x1 + 1, y1, C("3C3833"));
+                Line(tile, x0 - 1, y0, x1 - 1, y1, C("544B3E"));
+            }
+            Line(tile, x0, y0, x1, y1, C("907B5E"));
+        }
+
+        static void ReadableTerrain()
+        {
+            // A low ruined masonry wall: mossy top plane, two offset brick courses and a dark foot.
+            Terrain(4, "57605A", "47514D", "687268");
+            for (int y = 0; y < 5; y++) for (int x = 0; x < 16; x++)
+                P(4, x, y, C(Hash(x, y, 4) < 50 ? "697364" : "7B8270"));
+            Line(4, 0, 0, 15, 0, C("8D927E"));
+            Line(4, 0, 4, 15, 4, C("A0A28B"));
+            Line(4, 0, 5, 15, 5, C("35433F"));
+            Line(4, 0, 10, 15, 10, C("303C39"));
+            foreach (int x in new[] { 4, 12 }) Line(4, x, 6, x, 9, C("303C39"));
+            foreach (int x in new[] { 0, 8 }) Line(4, x, 11, x, 14, C("303C39"));
+            Line(4, 0, 6, 15, 6, C("737D6E"));
+            Line(4, 0, 11, 15, 11, C("626F62"));
+            Line(4, 0, 15, 15, 15, C("283532"));
+            foreach (int x in new[] { 2, 6, 11, 14 }) { P(4, x, 2, C("4D6248")); P(4, x + 1, 3, C("566D4B")); }
+
+            Grass(3, true);
+            Grass(14, false);
+
+            ClearTile(6); ClearTile(7);
+            Wood(6, 8, 15, 8, 8, true);
+            Wood(6, 8, 11, 5, 8, true);
+            Wood(6, 5, 8, 4, 3, false);
+            Wood(6, 5, 6, 1, 4, false);
+            Wood(6, 8, 10, 12, 7, true);
+            Wood(6, 12, 7, 13, 2, false);
+            Wood(6, 12, 7, 15, 5, false);
+            Wood(6, 8, 9, 8, 3, true);
+            Wood(6, 8, 3, 6, 0, false);
+            Wood(6, 8, 5, 10, 2, false);
+            Wood(7, 8, 0, 8, 10, true);
+            Wood(7, 8, 10, 5, 14, true);
+            Wood(7, 8, 10, 11, 14, true);
+            Wood(7, 5, 14, 2, 15, false);
+            Wood(7, 11, 14, 14, 15, false);
+            Line(7, 9, 2, 9, 9, C("38372F"));
+            P(7, 7, 6, C("B09A75")); P(7, 7, 7, C("453D31"));
+            foreach (int x in new[] { 4, 10, 12 }) Line(7, x, 15, x - 1, 12, C("566648"));
+
+            Terrain(5, "234650", "203D49", "2C535D");
+            Line(5, 1, 4, 3, 3, C("547B7D"));
+            Line(5, 3, 3, 6, 3, C("628A87"));
+            Line(5, 6, 3, 8, 4, C("3D6670"));
+            Line(5, 8, 10, 10, 9, C("4B737B"));
+            Line(5, 10, 9, 14, 9, C("537B7D"));
+            Line(5, 14, 9, 15, 10, C("355D69"));
+            Line(5, 1, 13, 5, 13, C("355D69"));
+            P(5, 3, 2, C("71938C")); P(5, 11, 8, C("60888A"));
+            // Unused former rock/fence cells become west/north shoreline variants.
+            foreach (int tile in new[] { 8, 9 })
+                for (int y = 0; y < 16; y++) for (int x = 0; x < 16; x++)
+                    P(tile, x, y, Pixels[(63 - (16 + y)) * 64 + 16 + x]);
+            for (int y = 0; y < 16; y++)
+            {
+                P(8, 0, y, C("3D4039")); P(8, 1, y, C("65634C"));
+                P(8, 2, y, C(y % 4 == 0 ? "66816E" : "354E4B"));
+            }
+            for (int x = 0; x < 16; x++)
+            {
+                P(9, x, 0, C("3D4039")); P(9, x, 1, C("65634C"));
+                P(9, x, 2, C(x % 4 == 0 ? "66816E" : "354E4B"));
+            }
+        }
         [MenuItem("SacredDrum/Dark Fields/Generate Native Prototype Atlas")]
         public static void GenerateAtlas()
         {
@@ -84,6 +186,7 @@ namespace SacredDrum.EditorTools
                 int r=Mathf.Abs(x-8)+Mathf.Abs(y-8);
                 if(r<7)P(15,x,y,C(r>4?"675274":r>2?"A078A3":"D2A8BC"));
             }
+            ReadableTerrain();
             var texture=new Texture2D(64,64,TextureFormat.RGBA32,false);
             texture.SetPixels(Pixels); texture.Apply(); File.WriteAllBytes(AtlasPath,texture.EncodeToPNG());
             Object.DestroyImmediate(texture); AssetDatabase.ImportAsset(AtlasPath);
@@ -95,7 +198,7 @@ namespace SacredDrum.EditorTools
             var platform=importer.GetDefaultPlatformTextureSettings(); platform.format=TextureImporterFormat.RGBA32;
             platform.textureCompression=TextureImporterCompression.Uncompressed;
             importer.SetPlatformTextureSettings(platform); importer.SaveAndReimport();
-            Debug.Log("Dark Fields native atlas generated. No existing environment art modified.");
+            Debug.Log("Dark Fields prototype atlas refreshed: walls, vegetation and water.");
         }
     }
 }
