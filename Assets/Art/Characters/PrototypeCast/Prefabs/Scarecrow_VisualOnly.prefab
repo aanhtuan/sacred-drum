@@ -83,8 +83,8 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 29
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 1719766330, guid: 63f45126aa0dc57498604004f4692198, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Sprite: {fileID: 4723107735738678597, guid: 118d7b40c2c6d5b68bf6cc7dd07d28b7, type: 3}
+  m_Color: {r: 0.7, g: 0.74, b: 0.8, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -128,3 +128,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 726c142f84c6c5653b8bd67a1b24da7a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SacredDrum.Gameplay.ScarecrowIdleVariation
+  facing: 0

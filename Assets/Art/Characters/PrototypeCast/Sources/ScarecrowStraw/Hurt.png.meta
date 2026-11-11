@@ -1,0 +1,843 @@
+fileFormatVersion: 2
+guid: 2f381e5aa91e9802c93c1323c4020eda
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2048800907179887802
+    second: Hurt_0
+  - first:
+      213: 490842205202310979
+    second: Hurt_1
+  - first:
+      213: -3720053754089064719
+    second: Hurt_2
+  - first:
+      213: 5649970053243570431
+    second: Hurt_3
+  - first:
+      213: -371187646486735994
+    second: Hurt_4
+  - first:
+      213: 1177448812329152706
+    second: Hurt_5
+  - first:
+      213: 7933592967420663305
+    second: Hurt_6
+  - first:
+      213: 7273187483062910031
+    second: Hurt_7
+  - first:
+      213: -1817361991890795262
+    second: Hurt_8
+  - first:
+      213: -2270139407860209000
+    second: Hurt_9
+  - first:
+      213: -1530035385177744352
+    second: Hurt_10
+  - first:
+      213: -1594775402449041300
+    second: Hurt_11
+  - first:
+      213: 2613454359409402267
+    second: Hurt_12
+  - first:
+      213: 4456403835247727152
+    second: Hurt_13
+  - first:
+      213: -2919361725218032385
+    second: Hurt_14
+  - first:
+      213: -7596089925820088084
+    second: Hurt_15
+  - first:
+      213: -1127819593939285392
+    second: Hurt_16
+  - first:
+      213: 6905827832230521594
+    second: Hurt_17
+  - first:
+      213: 981960596569526839
+    second: Hurt_18
+  - first:
+      213: -9071442512571043273
+    second: Hurt_19
+  - first:
+      213: 4785635825548031859
+    second: Hurt_20
+  - first:
+      213: 4603836837179368064
+    second: Hurt_21
+  - first:
+      213: -1317404606766141199
+    second: Hurt_22
+  - first:
+      213: 4441579562360908103
+    second: Hurt_23
+  - first:
+      213: -7286862310846563085
+    second: Hurt_24
+  - first:
+      213: 2095026346876705618
+    second: Hurt_25
+  - first:
+      213: 606182963817907664
+    second: Hurt_26
+  - first:
+      213: 4758860376317421828
+    second: Hurt_27
+  - first:
+      213: -6942568255498430480
+    second: Hurt_28
+  - first:
+      213: -7129395022464093005
+    second: Hurt_29
+  - first:
+      213: 8754914560471805734
+    second: Hurt_30
+  - first:
+      213: 3375547390543093819
+    second: Hurt_31
+  - first:
+      213: 1798436945595719975
+    second: Hurt_32
+  - first:
+      213: -9074527619178159379
+    second: Hurt_33
+  - first:
+      213: -1932008332565303809
+    second: Hurt_34
+  - first:
+      213: 6715829623825972641
+    second: Hurt_35
+  - first:
+      213: 2596668876720560414
+    second: Hurt_36
+  - first:
+      213: -3301866922887864829
+    second: Hurt_37
+  - first:
+      213: -5870661739429467794
+    second: Hurt_38
+  - first:
+      213: 4717103403700651509
+    second: Hurt_39
+  - first:
+      213: 2753481166163212831
+    second: Hurt_40
+  - first:
+      213: 7409859168600355078
+    second: Hurt_41
+  - first:
+      213: -4863156169185188665
+    second: Hurt_42
+  - first:
+      213: 2766754926740320089
+    second: Hurt_43
+  - first:
+      213: -3350538410788711900
+    second: Hurt_44
+  - first:
+      213: -8249668210583073025
+    second: Hurt_45
+  - first:
+      213: -6265640719120049537
+    second: Hurt_46
+  - first:
+      213: 3266031075244715710
+    second: Hurt_47
+  - first:
+      213: 7442455006936414261
+    second: Hurt_48
+  - first:
+      213: -8841848866505450967
+    second: Hurt_49
+  - first:
+      213: 2966862154824993532
+    second: Hurt_50
+  - first:
+      213: 8953163976461107096
+    second: Hurt_51
+  - first:
+      213: -3011971965444167255
+    second: Hurt_52
+  - first:
+      213: 8228639324964245725
+    second: Hurt_53
+  - first:
+      213: 4841186778789860041
+    second: Hurt_54
+  - first:
+      213: 6190495297733102323
+    second: Hurt_55
+  - first:
+      213: -692593766654606979
+    second: Hurt_56
+  - first:
+      213: 6800318675346982641
+    second: Hurt_57
+  - first:
+      213: -2795498169139100302
+    second: Hurt_58
+  - first:
+      213: 7084625653656268436
+    second: Hurt_59
+  - first:
+      213: 6129912120287268977
+    second: Hurt_60
+  - first:
+      213: -2303241004547116182
+    second: Hurt_61
+  - first:
+      213: -8273037100588860804
+    second: Hurt_62
+  - first:
+      213: 2805951633071240792
+    second: Hurt_63
+  - first:
+      213: -4594333819419265281
+    second: Hurt_64
+  - first:
+      213: 1977835601584006660
+    second: Hurt_65
+  - first:
+      213: -3570316679205602657
+    second: Hurt_66
+  - first:
+      213: -8132201405197989739
+    second: Hurt_67
+  - first:
+      213: -7476855825777036412
+    second: Hurt_68
+  - first:
+      213: 5467080187393623471
+    second: Hurt_69
+  - first:
+      213: -5619049552949938193
+    second: Hurt_70
+  - first:
+      213: 6963377430246743298
+    second: Hurt_71
+  - first:
+      213: 4442804160039828082
+    second: Hurt_72
+  - first:
+      213: -8428066425547843202
+    second: Hurt_73
+  - first:
+      213: -6027356442065565602
+    second: Hurt_74
+  - first:
+      213: -7086727602222144439
+    second: Hurt_75
+  - first:
+      213: 5382838329155579127
+    second: Hurt_76
+  - first:
+      213: 4345883488965933947
+    second: Hurt_77
+  - first:
+      213: 2275560770417674868
+    second: Hurt_78
+  - first:
+      213: 8676275916315845794
+    second: Hurt_79
+  - first:
+      213: 6749679129688562614
+    second: Hurt_80
+  - first:
+      213: 4337205635712674239
+    second: Hurt_81
+  - first:
+      213: -1527300872149086660
+    second: Hurt_82
+  - first:
+      213: -7960232295680998256
+    second: Hurt_83
+  - first:
+      213: 7964166080034620088
+    second: Hurt_84
+  - first:
+      213: 5737922223098368964
+    second: Hurt_85
+  - first:
+      213: -3669510472380557452
+    second: Hurt_86
+  - first:
+      213: 4597744475509693802
+    second: Hurt_87
+  - first:
+      213: 3865251795519281215
+    second: Hurt_88
+  - first:
+      213: 7680261637695966414
+    second: Hurt_89
+  - first:
+      213: 1046055824174572704
+    second: Hurt_90
+  - first:
+      213: -6862732715668802012
+    second: Hurt_91
+  - first:
+      213: -9041341506769640646
+    second: Hurt_92
+  - first:
+      213: -5142897620936642068
+    second: Hurt_93
+  - first:
+      213: -3133952401854470296
+    second: Hurt_94
+  - first:
+      213: -7755812200729814171
+    second: Hurt_95
+  - first:
+      213: -8863144902866843360
+    second: Hurt_96
+  - first:
+      213: -3785002885640215343
+    second: Hurt_97
+  - first:
+      213: 6982129406382606893
+    second: Hurt_98
+  - first:
+      213: 7013704428438715398
+    second: Hurt_99
+  - first:
+      213: 7685476103991595280
+    second: Hurt_100
+  - first:
+      213: -8251519809242374929
+    second: Hurt_101
+  - first:
+      213: 7828403344871609260
+    second: Hurt_102
+  - first:
+      213: -2733607352512829446
+    second: Hurt_103
+  - first:
+      213: 7937750533918145783
+    second: Hurt_104
+  - first:
+      213: 7969657004377418699
+    second: Hurt_105
+  - first:
+      213: -3063148163352972578
+    second: Hurt_106
+  - first:
+      213: 8590731171745757950
+    second: Hurt_107
+  - first:
+      213: -3469831509296343413
+    second: Hurt_108
+  - first:
+      213: -8688212849682081294
+    second: Hurt_109
+  - first:
+      213: -6962498068192728053
+    second: Hurt_110
+  - first:
+      213: 8823383696485128567
+    second: Hurt_111
+  - first:
+      213: -2318755755911629326
+    second: Hurt_112
+  - first:
+      213: -2130216212360568630
+    second: Hurt_113
+  - first:
+      213: 7392289971704427925
+    second: Hurt_114
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 172.90323
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Hurt_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 946
+        width: 312
+        height: 315
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06984127}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6437b001e623193e0800000000000000
+      internalID: -2048800907179887802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hurt_1
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 946
+        width: 312
+        height: 315
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06984127}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3476ad19262dfc600800000000000000
+      internalID: 490842205202310979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hurt_2
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 946
+        width: 311
+        height: 315
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06984127}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f6b92202d6bf5cc0800000000000000
+      internalID: -3720053754089064719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hurt_3
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 946
+        width: 312
+        height: 315
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06984127}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff88d2f14d9b86e40800000000000000
+      internalID: 5649970053243570431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hurt_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 630
+        width: 312
+        height: 316
+      alignment: 9
+      pivot: {x: 0.5, y: 0.07278481}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 683152a5dc649daf0800000000000000
+      internalID: -371187646486735994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hurt_5
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 630
+        width: 312
+        height: 316
+      alignment: 9
+      pivot: {x: 0.5, y: 0.07278481}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c0b518d473275010800000000000000
+      internalID: 1177448812329152706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hurt_6
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 630
+        width: 311
+        height: 316
+      alignment: 9
+      pivot: {x: 0.5, y: 0.07278481}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90655a715c8c91e60800000000000000
+      internalID: 7933592967420663305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hurt_7
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 630
+        width: 312
+        height: 316
+      alignment: 9
+      pivot: {x: 0.5, y: 0.07278481}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4c38c81b7d8fe460800000000000000
+      internalID: 7273187483062910031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hurt_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 315
+        width: 312
+        height: 315
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06984127}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2058d0da5ee67c6e0800000000000000
+      internalID: -1817361991890795262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hurt_9
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 315
+        width: 312
+        height: 315
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06984127}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89a60eb7c38de70e0800000000000000
+      internalID: -2270139407860209000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hurt_10
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 315
+        width: 311
+        height: 315
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06984127}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02cd3b47ce834cae0800000000000000
+      internalID: -1530035385177744352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hurt_11
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 315
+        width: 312
+        height: 315
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06984127}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c688e7098383ed9e0800000000000000
+      internalID: -1594775402449041300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hurt_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 312
+        height: 315
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06984127}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b912b49a4ead44420800000000000000
+      internalID: 2613454359409402267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hurt_13
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 0
+        width: 312
+        height: 315
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06984127}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03211a75da358dd30800000000000000
+      internalID: 4456403835247727152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hurt_14
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 0
+        width: 311
+        height: 315
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06984127}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff4f1857af75c77d0800000000000000
+      internalID: -2919361725218032385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hurt_15
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 0
+        width: 312
+        height: 315
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06984127}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce002915574459690800000000000000
+      internalID: -7596089925820088084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 14141b91513ab0e33b9f59cf185c2503
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Hurt_0: -2048800907179887802
+      Hurt_1: 490842205202310979
+      Hurt_10: -1530035385177744352
+      Hurt_11: -1594775402449041300
+      Hurt_12: 2613454359409402267
+      Hurt_13: 4456403835247727152
+      Hurt_14: -2919361725218032385
+      Hurt_15: -7596089925820088084
+      Hurt_2: -3720053754089064719
+      Hurt_3: 5649970053243570431
+      Hurt_4: -371187646486735994
+      Hurt_5: 1177448812329152706
+      Hurt_6: 7933592967420663305
+      Hurt_7: 7273187483062910031
+      Hurt_8: -1817361991890795262
+      Hurt_9: -2270139407860209000
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

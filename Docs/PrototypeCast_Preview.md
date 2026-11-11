@@ -1,6 +1,6 @@
 > Superseded for Minh: see [Minh_Chibi_Integration.md](Minh_Chibi_Integration.md) for the current no-hat character and removed old art/animations. Historical validation below is retained.
 
-> Update: scarecrows now have a corrupted purple/red-eye idle animation. See [Scarecrow_Animation.md](Scarecrow_Animation.md). Static scarecrow descriptions below record the earlier preview.
+> Update: five scarecrows now use the owner's straw-brown/red-eye design with twenty directional animation clips. See [Scarecrow_Straw_Integration.md](Scarecrow_Straw_Integration.md). Descriptions below record the earlier preview.
 
 # Minh farmer and scarecrow preview
 

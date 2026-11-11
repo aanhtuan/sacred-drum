@@ -1,0 +1,52 @@
+[
+  {
+    "action": "Idle",
+    "size": [
+      1536,
+      1024
+    ],
+    "frames": 24,
+    "transparent_fraction": 0.5978012084960938,
+    "all_cells_nonempty": true
+  },
+  {
+    "action": "Walk",
+    "size": [
+      1774,
+      887
+    ],
+    "frames": 32,
+    "transparent_fraction": 0.6106824239389198,
+    "all_cells_nonempty": true
+  },
+  {
+    "action": "Attack",
+    "size": [
+      1536,
+      1024
+    ],
+    "frames": 24,
+    "transparent_fraction": 0.6251996358235677,
+    "all_cells_nonempty": true
+  },
+  {
+    "action": "Hurt",
+    "size": [
+      1247,
+      1261
+    ],
+    "frames": 16,
+    "transparent_fraction": 0.6306809618262259,
+    "all_cells_nonempty": true
+  },
+  {
+    "action": "Die",
+    "size": [
+      1536,
+      1024
+    ],
+    "frames": 24,
+    "transparent_fraction": 0.6973953247070312,
+    "all_cells_nonempty": true
+  }
+]

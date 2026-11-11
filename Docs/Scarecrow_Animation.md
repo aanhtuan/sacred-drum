@@ -1,5 +1,7 @@
 # Corrupted scarecrow animation preview
 
+> Historical preview, replaced by the owner's straw-brown four-direction design with five enemies. See [current integration](Scarecrow_Straw_Integration.md). Old runtime textures and the corrupted-idle clip have been removed.
+
 Current prototype: `Assets/Scenes/Prototype_LDtk_Import.unity`.
 
 ## Result

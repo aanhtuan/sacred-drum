@@ -1,0 +1,110 @@
+{
+  "version": "6000.5.10f1",
+  "count": 5,
+  "clips": [
+    {
+      "name": "IdleDown",
+      "keys": 7,
+      "loop": true
+    },
+    {
+      "name": "IdleRight",
+      "keys": 7,
+      "loop": true
+    },
+    {
+      "name": "IdleUp",
+      "keys": 7,
+      "loop": true
+    },
+    {
+      "name": "IdleLeft",
+      "keys": 7,
+      "loop": true
+    },
+    {
+      "name": "WalkDown",
+      "keys": 9,
+      "loop": true
+    },
+    {
+      "name": "WalkRight",
+      "keys": 9,
+      "loop": true
+    },
+    {
+      "name": "WalkUp",
+      "keys": 9,
+      "loop": true
+    },
+    {
+      "name": "WalkLeft",
+      "keys": 9,
+      "loop": true
+    },
+    {
+      "name": "AttackDown",
+      "keys": 7,
+      "loop": false
+    },
+    {
+      "name": "AttackRight",
+      "keys": 7,
+      "loop": false
+    },
+    {
+      "name": "AttackUp",
+      "keys": 7,
+      "loop": false
+    },
+    {
+      "name": "AttackLeft",
+      "keys": 7,
+      "loop": false
+    },
+    {
+      "name": "HurtDown",
+      "keys": 5,
+      "loop": false
+    },
+    {
+      "name": "HurtRight",
+      "keys": 5,
+      "loop": false
+    },
+    {
+      "name": "HurtUp",
+      "keys": 5,
+      "loop": false
+    },
+    {
+      "name": "HurtLeft",
+      "keys": 5,
+      "loop": false
+    },
+    {
+      "name": "DieDown",
+      "keys": 7,
+      "loop": false
+    },
+    {
+      "name": "DieRight",
+      "keys": 7,
+      "loop": false
+    },
+    {
+      "name": "DieUp",
+      "keys": 7,
+      "loop": false
+    },
+    {
+      "name": "DieLeft",
+      "keys": 7,
+      "loop": false
+    }
+  ],
+  "missingSpriteReferences": 0,
+  "compilationFailed": false,
+  "tint": "RGBA(0.700, 0.740, 0.800, 1.000)",
+  "visualOnly": true
+}

@@ -604,33 +604,6 @@
 						{
 							"__identifier": "Scarecrow",
 							"__grid": [
-								8,
-								30
-							],
-							"__pivot": [
-								0.5,
-								0.5
-							],
-							"__tags": [
-								"VisualOnly"
-							],
-							"__tile": null,
-							"__smartColor": "#AC789F",
-							"iid": "3f128727-c345-4e53-875a-5ee31826c218",
-							"width": 16,
-							"height": 16,
-							"defUid": 1000,
-							"px": [
-								136,
-								488
-							],
-							"fieldInstances": [],
-							"__worldX": 136,
-							"__worldY": 488
-						},
-						{
-							"__identifier": "Scarecrow",
-							"__grid": [
 								12,
 								30
 							],
@@ -654,60 +627,6 @@
 							"fieldInstances": [],
 							"__worldX": 200,
 							"__worldY": 488
-						},
-						{
-							"__identifier": "Scarecrow",
-							"__grid": [
-								15,
-								32
-							],
-							"__pivot": [
-								0.5,
-								0.5
-							],
-							"__tags": [
-								"VisualOnly"
-							],
-							"__tile": null,
-							"__smartColor": "#AC789F",
-							"iid": "9c7c693a-f34f-4c42-a9b4-da1f27fee765",
-							"width": 16,
-							"height": 16,
-							"defUid": 1000,
-							"px": [
-								248,
-								520
-							],
-							"fieldInstances": [],
-							"__worldX": 248,
-							"__worldY": 520
-						},
-						{
-							"__identifier": "Scarecrow",
-							"__grid": [
-								14,
-								29
-							],
-							"__pivot": [
-								0.5,
-								0.5
-							],
-							"__tags": [
-								"VisualOnly"
-							],
-							"__tile": null,
-							"__smartColor": "#AC789F",
-							"iid": "8b5a4651-6cb6-4fe2-8981-5a26e9698aaf",
-							"width": 16,
-							"height": 16,
-							"defUid": 1000,
-							"px": [
-								232,
-								472
-							],
-							"fieldInstances": [],
-							"__worldX": 232,
-							"__worldY": 472
 						},
 						{
 							"__identifier": "Scarecrow",
@@ -739,33 +658,6 @@
 						{
 							"__identifier": "Scarecrow",
 							"__grid": [
-								12,
-								24
-							],
-							"__pivot": [
-								0.5,
-								0.5
-							],
-							"__tags": [
-								"VisualOnly"
-							],
-							"__tile": null,
-							"__smartColor": "#AC789F",
-							"iid": "b8ff3879-c5f7-423f-9c32-a5f21598aed7",
-							"width": 16,
-							"height": 16,
-							"defUid": 1000,
-							"px": [
-								200,
-								392
-							],
-							"fieldInstances": [],
-							"__worldX": 200,
-							"__worldY": 392
-						},
-						{
-							"__identifier": "Scarecrow",
-							"__grid": [
 								15,
 								22
 							],
@@ -789,33 +681,6 @@
 							"fieldInstances": [],
 							"__worldX": 248,
 							"__worldY": 360
-						},
-						{
-							"__identifier": "Scarecrow",
-							"__grid": [
-								21,
-								24
-							],
-							"__pivot": [
-								0.5,
-								0.5
-							],
-							"__tags": [
-								"VisualOnly"
-							],
-							"__tile": null,
-							"__smartColor": "#AC789F",
-							"iid": "c159fb30-2b7b-486f-946b-b3f3ff9bead8",
-							"width": 16,
-							"height": 16,
-							"defUid": 1000,
-							"px": [
-								344,
-								392
-							],
-							"fieldInstances": [],
-							"__worldX": 344,
-							"__worldY": 392
 						},
 						{
 							"__identifier": "Scarecrow",
