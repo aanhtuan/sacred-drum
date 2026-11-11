@@ -74,6 +74,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7233889183510168038, guid: 4cff01ca7a0b2f3e4abbe85beb490acc, type: 3}
       insertIndex: -1
       addedObject: {fileID: 451146816928085655}
+    - targetCorrespondingSourceObject: {fileID: 7233889183510168038, guid: 4cff01ca7a0b2f3e4abbe85beb490acc, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5601285839916360848}
   m_SourcePrefab: {fileID: 100100000, guid: 4cff01ca7a0b2f3e4abbe85beb490acc, type: 3}
 --- !u!1 &7404809493509485623 stripped
 GameObject:
@@ -114,3 +117,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 515f144a907bf1447a870453502fe6e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SacredDrum.Gameplay.MinhSpriteAnimation
+--- !u!114 &5601285839916360848
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7404809493509485623}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88821df6a073b80a48d25d2507895148, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SacredDrum.Gameplay.PrototypeDepthSort

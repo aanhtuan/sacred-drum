@@ -1,0 +1,14 @@
+{
+  "version": "6000.5.10f1",
+  "playing": true,
+  "props": 36,
+  "solid": 29,
+  "scarecrows": 5,
+  "players": 1,
+  "missingScripts": 0,
+  "missingSprites": 0,
+  "minOrder": 120,
+  "maxOrder": 443,
+  "fogOrder": 1000,
+  "compilationFailed": false
+}

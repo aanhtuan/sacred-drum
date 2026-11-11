@@ -1,0 +1,71 @@
+{
+  "Rects": [
+    {
+      "x": 27,
+      "y": 103,
+      "w": 387,
+      "h": 314
+    },
+    {
+      "x": 485,
+      "y": 196,
+      "w": 357,
+      "h": 221
+    },
+    {
+      "x": 919,
+      "y": 243,
+      "w": 371,
+      "h": 174
+    },
+    {
+      "x": 1357,
+      "y": 176,
+      "w": 389,
+      "h": 241
+    },
+    {
+      "x": 13,
+      "y": 647,
+      "w": 417,
+      "h": 188
+    },
+    {
+      "x": 498,
+      "y": 660,
+      "w": 333,
+      "h": 184
+    },
+    {
+      "x": 946,
+      "y": 548,
+      "w": 297,
+      "h": 296
+    },
+    {
+      "x": 1356,
+      "y": 652,
+      "w": 395,
+      "h": 187
+    }
+  ],
+  "Def": {
+    "__cWid": 6,
+    "__cHei": 3,
+    "identifier": "TerrainRelief",
+    "uid": 1001,
+    "relPath": "../DarkFields/TerrainRelief/ReliefProps.png",
+    "embedAtlas": null,
+    "pxWid": 1774,
+    "pxHei": 887,
+    "tileGridSize": 256,
+    "spacing": 0,
+    "padding": 0,
+    "tags": [],
+    "tagsSourceEnumUid": null,
+    "enumTags": [],
+    "customData": [],
+    "savedSelections": [],
+    "cachedPixelData": null
+  }
+}

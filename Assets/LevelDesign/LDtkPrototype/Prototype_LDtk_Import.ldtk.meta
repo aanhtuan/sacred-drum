@@ -29,6 +29,22 @@ ScriptedImporter:
     _asset: {fileID: 7404809493509485623, guid: f9186c8ec9364173996dbcf667bcefcf, type: 3}
   - _key: Scarecrow
     _asset: {fileID: 5879585907412930923, guid: bf59e97021407fad781f3221580daf92, type: 3}
+  - _key: Relief_Boulder
+    _asset: {fileID: 9101720831359233427, guid: 1ba43cf059cb9b276bb304c0a7874821, type: 3}
+  - _key: Relief_RockCluster
+    _asset: {fileID: 3607078713077778511, guid: 567a1b3448d9ed23b99de8b00a23694f, type: 3}
+  - _key: Relief_SplitSlab
+    _asset: {fileID: 7240185846846734584, guid: 298a2f680b566527494438b5c1c50dd9, type: 3}
+  - _key: Relief_Mound
+    _asset: {fileID: 3648823504976665300, guid: e16e79be82d7e4c0a8bec10ee80a115e, type: 3}
+  - _key: Relief_BankLong
+    _asset: {fileID: 277445402778480471, guid: 2a38f7a79c58c5c4c94bc2b805e071c2, type: 3}
+  - _key: Relief_BankCorner
+    _asset: {fileID: 5672527352958098508, guid: 6d874e47cd3aba6d4a71ff7ec8cc8963, type: 3}
+  - _key: Relief_Reeds
+    _asset: {fileID: 6430919844866541146, guid: 50fa05ad00d4f3e6eb34bcb399f6fa8f, type: 3}
+  - _key: Relief_Log
+    _asset: {fileID: 5261017154602055718, guid: c81415b61e9ea21808f7b63e473c1bd7, type: 3}
   _enumGenerate: 0
   _enumPath: 
   _enumNamespace: 

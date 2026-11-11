@@ -1,0 +1,286 @@
+fileFormatVersion: 2
+guid: f20905dacc2aaa26792d78e97376d097
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: f3268c876daf4890b6af6cd462063137, type: 3}
+  _reimportOnDependencyChange: 1
+  _pixelsPerUnit: 16
+  _overrideTexture: {instanceID: 0}
+  _sprites:
+  - name: TerrainRelief_0
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 631
+      width: 256
+      height: 256
+    spriteID: fb833486dc6dedb74a00fd90881eeb98
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: TerrainRelief_1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 631
+      width: 256
+      height: 256
+    spriteID: 0c6b948fabf7ca57b8f838482bc8f4af
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: TerrainRelief_2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 512
+      y: 631
+      width: 256
+      height: 256
+    spriteID: d8ad50f487d22495c8a0121c6042d874
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: TerrainRelief_3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 768
+      y: 631
+      width: 256
+      height: 256
+    spriteID: 8cf4d362a9f8c5e67bd90e7a95033698
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: TerrainRelief_4
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 1024
+      y: 631
+      width: 256
+      height: 256
+    spriteID: 2bd6ce54aca164fc0bb28ec6c8f399cf
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: TerrainRelief_5
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 1280
+      y: 631
+      width: 256
+      height: 256
+    spriteID: 05c5e3ad79d915526a789c80cecb99d3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: TerrainRelief_6
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 375
+      width: 256
+      height: 256
+    spriteID: 3dbbd651cc1297cb2917dc8fbfcc3480
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: TerrainRelief_7
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 375
+      width: 256
+      height: 256
+    spriteID: 30d58807f956a850d97ca569935e8608
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: TerrainRelief_8
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 512
+      y: 375
+      width: 256
+      height: 256
+    spriteID: 270da32b73dfac4ec9ca8e4a514de636
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: TerrainRelief_9
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 768
+      y: 375
+      width: 256
+      height: 256
+    spriteID: a4123b70ec74324ba919e455a5925904
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: TerrainRelief_10
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 1024
+      y: 375
+      width: 256
+      height: 256
+    spriteID: 379e2bedc58d100778552e1581974d8b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: TerrainRelief_11
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 1280
+      y: 375
+      width: 256
+      height: 256
+    spriteID: 006e461f84309df899134dcc26d83d7d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: TerrainRelief_12
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 119
+      width: 256
+      height: 256
+    spriteID: e7521510f55a5d645aa06eb26aa25106
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: TerrainRelief_13
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 119
+      width: 256
+      height: 256
+    spriteID: f0987e8e11633f308a3af581fdaf6d1d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: TerrainRelief_14
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 512
+      y: 119
+      width: 256
+      height: 256
+    spriteID: b1ebda50103447f94a7f5da73eaf3bc1
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: TerrainRelief_15
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 768
+      y: 119
+      width: 256
+      height: 256
+    spriteID: 802c68472dbe7d94b9b5c6c97decb8f1
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: TerrainRelief_16
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 1024
+      y: 119
+      width: 256
+      height: 256
+    spriteID: ca9df5d5ea0202ba29008655e1184d41
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: TerrainRelief_17
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 1280
+      y: 119
+      width: 256
+      height: 256
+    spriteID: 198a5e7b39bca6d1cb0371801dc9b78b
+    spriteOutline: []
+    tessellationDetail: 0
+  _secondaryTextures: []
+  _artifacts: {instanceID: 0}

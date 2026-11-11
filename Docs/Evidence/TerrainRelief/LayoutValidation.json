@@ -1,0 +1,307 @@
+{
+  "props": [
+    {
+      "kind": "Boulder",
+      "x": 26,
+      "y": 7.8,
+      "width": 2.1,
+      "collider": true
+    },
+    {
+      "kind": "Boulder",
+      "x": 5.8,
+      "y": 19.5,
+      "width": 2.1,
+      "collider": true
+    },
+    {
+      "kind": "Boulder",
+      "x": 33.5,
+      "y": 26.2,
+      "width": 2.1,
+      "collider": true
+    },
+    {
+      "kind": "Boulder",
+      "x": 15.2,
+      "y": 33.5,
+      "width": 2.1,
+      "collider": true
+    },
+    {
+      "kind": "RockCluster",
+      "x": 32.8,
+      "y": 11,
+      "width": 1.8,
+      "collider": true
+    },
+    {
+      "kind": "RockCluster",
+      "x": 44,
+      "y": 19.8,
+      "width": 1.8,
+      "collider": true
+    },
+    {
+      "kind": "RockCluster",
+      "x": 3,
+      "y": 29.5,
+      "width": 1.8,
+      "collider": true
+    },
+    {
+      "kind": "RockCluster",
+      "x": 14.7,
+      "y": 28.8,
+      "width": 1.8,
+      "collider": true
+    },
+    {
+      "kind": "SplitSlab",
+      "x": 28.5,
+      "y": 26,
+      "width": 1.65,
+      "collider": true
+    },
+    {
+      "kind": "SplitSlab",
+      "x": 44,
+      "y": 33.3,
+      "width": 1.65,
+      "collider": true
+    },
+    {
+      "kind": "Mound",
+      "x": 4.8,
+      "y": 3.2,
+      "width": 1.9,
+      "collider": true
+    },
+    {
+      "kind": "Mound",
+      "x": 22.5,
+      "y": 3.2,
+      "width": 1.9,
+      "collider": true
+    },
+    {
+      "kind": "Mound",
+      "x": 4.6,
+      "y": 21.3,
+      "width": 1.9,
+      "collider": true
+    },
+    {
+      "kind": "Mound",
+      "x": 30.5,
+      "y": 20,
+      "width": 1.9,
+      "collider": true
+    },
+    {
+      "kind": "Mound",
+      "x": 35.2,
+      "y": 29.8,
+      "width": 1.9,
+      "collider": true
+    },
+    {
+      "kind": "BankLong",
+      "x": 7,
+      "y": 7.3,
+      "width": 2.6,
+      "collider": true
+    },
+    {
+      "kind": "BankLong",
+      "x": 10.5,
+      "y": 16.8,
+      "width": 2.6,
+      "collider": true
+    },
+    {
+      "kind": "BankLong",
+      "x": 31,
+      "y": 16.5,
+      "width": 2.6,
+      "collider": true
+    },
+    {
+      "kind": "BankLong",
+      "x": 6,
+      "y": 25.5,
+      "width": 2.6,
+      "collider": true
+    },
+    {
+      "kind": "BankLong",
+      "x": 24,
+      "y": 25.8,
+      "width": 2.6,
+      "collider": true
+    },
+    {
+      "kind": "BankLong",
+      "x": 9.5,
+      "y": 34.3,
+      "width": 2.6,
+      "collider": true
+    },
+    {
+      "kind": "BankLong",
+      "x": 36,
+      "y": 33.3,
+      "width": 2.6,
+      "collider": true
+    },
+    {
+      "kind": "BankCorner",
+      "x": 29,
+      "y": 11,
+      "width": 2,
+      "collider": true
+    },
+    {
+      "kind": "BankCorner",
+      "x": 44,
+      "y": 28.5,
+      "width": 2,
+      "collider": true
+    },
+    {
+      "kind": "BankCorner",
+      "x": 13.5,
+      "y": 32.3,
+      "width": 2,
+      "collider": true
+    },
+    {
+      "kind": "Reeds",
+      "x": 7.2,
+      "y": 16.2,
+      "width": 1.1,
+      "collider": false
+    },
+    {
+      "kind": "Reeds",
+      "x": 39,
+      "y": 15.8,
+      "width": 1.1,
+      "collider": false
+    },
+    {
+      "kind": "Reeds",
+      "x": 22,
+      "y": 28.5,
+      "width": 1.1,
+      "collider": false
+    },
+    {
+      "kind": "Reeds",
+      "x": 25.6,
+      "y": 34,
+      "width": 1.1,
+      "collider": false
+    },
+    {
+      "kind": "Reeds",
+      "x": 31,
+      "y": 31.5,
+      "width": 1.1,
+      "collider": false
+    },
+    {
+      "kind": "Reeds",
+      "x": 12.8,
+      "y": 29,
+      "width": 1.1,
+      "collider": false
+    },
+    {
+      "kind": "Reeds",
+      "x": 32,
+      "y": 21.5,
+      "width": 1.1,
+      "collider": false
+    },
+    {
+      "kind": "Log",
+      "x": 35,
+      "y": 2,
+      "width": 2,
+      "collider": true
+    },
+    {
+      "kind": "Log",
+      "x": 11.5,
+      "y": 19.8,
+      "width": 2,
+      "collider": true
+    },
+    {
+      "kind": "Log",
+      "x": 40,
+      "y": 26,
+      "width": 2,
+      "collider": true
+    },
+    {
+      "kind": "Log",
+      "x": 43,
+      "y": 7.5,
+      "width": 2,
+      "collider": true
+    }
+  ],
+  "rejected": [
+    [
+      "Boulder",
+      3,
+      8,
+      "route/wall"
+    ],
+    [
+      "RockCluster",
+      11.5,
+      7.2,
+      "route/wall"
+    ],
+    [
+      "SplitSlab",
+      20.5,
+      17,
+      "route/wall"
+    ],
+    [
+      "SplitSlab",
+      29,
+      33.5,
+      "route/wall"
+    ],
+    [
+      "BankLong",
+      21.5,
+      7.2,
+      "route/wall"
+    ],
+    [
+      "BankCorner",
+      32,
+      4,
+      "route/wall"
+    ],
+    [
+      "BankCorner",
+      9,
+      11.7,
+      "route/wall"
+    ]
+  ],
+  "total": 36,
+  "solid": 29,
+  "originalReachablePathCells": 340,
+  "retainedReachablePathCells": 340,
+  "originalReachableCells": 1311,
+  "newReachableCells": 1219,
+  "allOriginalPathCellsRemainReachable": true
+}

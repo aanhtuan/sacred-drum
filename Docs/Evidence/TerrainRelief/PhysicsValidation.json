@@ -1,0 +1,24 @@
+[
+  {
+    "test": "blocked_by_boulder",
+    "distance": 0.8050022,
+    "touching": true,
+    "pass": true,
+    "position": "(14.18, -33.60)"
+  },
+  {
+    "test": "clear_route_below",
+    "distance": 3.199998,
+    "touching": false,
+    "pass": true,
+    "position": "(16.57, -34.32)"
+  },
+  {
+    "test": "depth_sorting",
+    "rock": 435,
+    "behind": 429,
+    "front": 441,
+    "pass": true,
+    "method": "Temporary visible Transform positions; Rigidbody interpolation requires this for immediate renderer checks."
+  }
+]
