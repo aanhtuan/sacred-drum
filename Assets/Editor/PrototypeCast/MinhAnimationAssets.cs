@@ -24,7 +24,7 @@ namespace SacredDrum.EditorTools
             AddState(machine, "IdleUp", "Up", 0, new[] { 28, 22, 24, 22, 28, 22, 22, 28 }, true);
             AddState(machine, "RunUp", "Up", 8, new[] { 9, 8, 9, 8, 9, 8, 9, 8 }, true);
             AddState(machine, "IdleSide", "Side", 0, new[] { 28, 22, 24, 22, 28, 22, 22, 28 }, true);
-            AddState(machine, "RunSide", "Side", 8, new[] { 9, 8, 9, 8, 9, 8, 9, 8 }, true);
+            AddState(machine, "RunSide", "Run", 0, new[] { 9, 8, 9, 8, 9, 8, 9, 8 }, true);
             AddState(machine, "Jump", "Jump", 0, new[] { 24, 18, 10, 13, 20, 12, 18, 26 }, false);
             AddState(machine, "StaffAttack", "StaffAttack", 0, new[] { 26, 18, 20, 8, 10, 12, 20, 26 }, false);
             AddState(machine, "CrouchDown", "Crouch", 0, new[] { 26, 16, 18, 24 }, false);
@@ -67,7 +67,7 @@ namespace SacredDrum.EditorTools
         }
 
         static Sprite[] LoadFrames(string sheet) => AssetDatabase.LoadAllAssetsAtPath(Root + "Sources/MinhChibi/" + sheet + ".png")
-            .OfType<Sprite>().OrderBy(s => s.name).ToArray();
+            .OfType<Sprite>().OrderBy(s => int.Parse(s.name.Substring(s.name.LastIndexOf('_') + 1))).ToArray();
 
         static void ImportFrames(string sheet)
         {

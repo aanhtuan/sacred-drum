@@ -8,7 +8,7 @@ Sources: `Assets/Art/Characters/PrototypeCast/Sources/MinhChibi/`.
 
 The approved no-hat farmer replaces the older conical-hat sprite: tied dark hair, earth-brown patched shirt, charcoal-indigo trousers, red-brown sash, wicker rice backpack and wooden staff. Standing sprite height is approximately 1.85 world units, reduced from 2.2. Illustrated art uses Bilinear filtering, no mipmaps and uncompressed textures.
 
-- WASD: original PlayerController and input asset unchanged, speed4. W uses a true back-view RunUp/IdleUp, S uses the approved front three-quarter view, D uses right profile and A mirrors it.
+- WASD: original PlayerController and input asset unchanged, speed4. W uses a true back-view RunUp/IdleUp, S uses the approved front three-quarter view. A/D running reuses the originally approved Run sheet (mirrored for A); stationary A/D keeps the profile breathing animation. Releasing W keeps the back-view breathing animation rather than running in place.
 - Space: one-shot visual jump, then idle/run.
 - Hold C or left Ctrl: crouch down, stay low, release to stand back up.
 - J or left mouse: one-shot two-handed martial staff sweep, then idle/run.
@@ -16,6 +16,10 @@ The approved no-hat farmer replaces the older conical-hat sprite: tied dark hair
 - Jump/crouch/attack currently use the approved front three-quarter sheets; separate directional art is available for idle/run only.
 
 Seven source sheets contain72 drawn frames. Eleven clips cover the five action groups and directional idle/run variants; crouch is split into Down/Hold/Up. Clip timing follows the preview GIF timing, with Unity's final sample interval included. Runtime action timers read actual clip lengths, so one-shots do not get cut off by hard-coded durations.
+
+Follow-up correction: directional sprites are sorted by numeric frame index. IdleUp uses Up_0–Up_7, RunUp uses Up_8–Up_15, and IdleSide uses Side_0–Side_7. This prevents lexicographic ordering (0, 1, 10, …) from mixing running frames into breathing clips. RunSide reuses the approved original Run_0–Run_7 frames.
+
+Follow-up Play Mode validation on 2026-11-11: isolated D → W → release input observed all eight original Run frames, all eight back-running frames, then all eight back-breathing frames with no running frames during IdleUp. Native keyboard/mouse and Dynamic Input System updates restored after the check. Compilation succeeded and Console returned zero errors.
 
 Minh remains a variant of the original Player prefab. The prefab, controller and script GUIDs were retained. LDtk PlayerSpawn mapping continues using the same prefab GUID. The existing feet collider, movement, camera, scarecrows and map layout were preserved.
 
