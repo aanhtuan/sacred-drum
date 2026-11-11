@@ -9,89 +9,101 @@ namespace SacredDrum.EditorTools
     public static class MinhAnimationAssets
     {
         const string Root = "Assets/Art/Characters/PrototypeCast/";
-        const string Sheet = Root + "Sources/Minh_Animations.png";
-        static readonly string[] Directions = { "Down", "Side", "Up" };
-        static readonly string[] Actions = { "Idle", "Run", "Attack" };
+        static readonly string[] Sheets = { "Idle", "Run", "Jump", "Crouch", "StaffAttack", "Up", "Side" };
 
         [MenuItem("SacredDrum/Prototype Cast/Build Minh Animations")]
         public static void Build()
         {
             if (EditorApplication.isPlaying) throw new System.InvalidOperationException("Exit Play Mode first.");
-            if (!AssetDatabase.IsValidFolder(Root + "Animations"))
-                AssetDatabase.CreateFolder(Root.TrimEnd('/'), "Animations");
-            ImportFrames();
-            var frames = AssetDatabase.LoadAllAssetsAtPath(Sheet).OfType<Sprite>().ToDictionary(s => s.name);
-            string controllerPath = Root + "Animations/Minh.controller";
-            var controller = AssetDatabase.LoadAssetAtPath<AnimatorController>(controllerPath);
-            if (controller == null) controller = AnimatorController.CreateAnimatorControllerAtPath(controllerPath);
+            foreach (string sheet in Sheets) ImportFrames(sheet);
+            var controller = AssetDatabase.LoadAssetAtPath<AnimatorController>(Root + "Animations/Minh.controller");
             var machine = controller.layers[0].stateMachine;
-            for (int row = 0; row < 9; row++)
-            {
-                string name = Actions[row % 3] + "_" + Directions[row / 3];
-                string clipPath = Root + "Animations/" + name + ".anim";
-                var clip = AssetDatabase.LoadAssetAtPath<AnimationClip>(clipPath);
-                if (clip == null) { clip = new AnimationClip(); AssetDatabase.CreateAsset(clip, clipPath); }
-                float fps = row % 3 == 0 ? 5 : row % 3 == 1 ? 12 : 10;
-                clip.frameRate = fps;
-                var keys = new ObjectReferenceKeyframe[7];
-                for (int f = 0; f < 6; f++) keys[f] = new ObjectReferenceKeyframe { time = f / fps, value = frames[name + "_" + f] };
-                keys[6] = new ObjectReferenceKeyframe { time = 6 / fps, value = frames[name + (row % 3 == 2 ? "_5" : "_0")] };
-                AnimationUtility.SetObjectReferenceCurve(clip, EditorCurveBinding.PPtrCurve("", typeof(SpriteRenderer), "m_Sprite"), keys);
-                var settings = AnimationUtility.GetAnimationClipSettings(clip);
-                settings.loopTime = row % 3 != 2;
-                AnimationUtility.SetAnimationClipSettings(clip, settings);
-                var state = machine.states.Select(s => s.state).FirstOrDefault(s => s.name == name) ?? machine.AddState(name);
-                state.motion = clip;
-                if (row == 0) machine.defaultState = state;
-                EditorUtility.SetDirty(clip);
-            }
+            foreach (var state in machine.states) machine.RemoveState(state.state);
+            AddState(machine, "Idle", "Idle", 0, new[] { 28, 22, 24, 22, 28, 22, 22, 28 }, true);
+            AddState(machine, "Run", "Run", 0, new[] { 9, 8, 9, 8, 9, 8, 9, 8 }, true);
+            AddState(machine, "IdleUp", "Up", 0, new[] { 28, 22, 24, 22, 28, 22, 22, 28 }, true);
+            AddState(machine, "RunUp", "Up", 8, new[] { 9, 8, 9, 8, 9, 8, 9, 8 }, true);
+            AddState(machine, "IdleSide", "Side", 0, new[] { 28, 22, 24, 22, 28, 22, 22, 28 }, true);
+            AddState(machine, "RunSide", "Side", 8, new[] { 9, 8, 9, 8, 9, 8, 9, 8 }, true);
+            AddState(machine, "Jump", "Jump", 0, new[] { 24, 18, 10, 13, 20, 12, 18, 26 }, false);
+            AddState(machine, "StaffAttack", "StaffAttack", 0, new[] { 26, 18, 20, 8, 10, 12, 20, 26 }, false);
+            AddState(machine, "CrouchDown", "Crouch", 0, new[] { 26, 16, 18, 24 }, false);
+            AddState(machine, "CrouchHold", "Crouch", 4, new[] { 25 }, true);
+            AddState(machine, "CrouchUp", "Crouch", 5, new[] { 18, 16, 26 }, false);
+            machine.defaultState = machine.states.First(s => s.state.name == "Idle").state;
             string prefabPath = Root + "Prefabs/Minh_Farmer.prefab";
             var player = PrefabUtility.LoadPrefabContents(prefabPath);
             try
             {
-                player.GetComponent<SpriteRenderer>().sprite = frames["Idle_Down_0"];
+                player.GetComponent<SpriteRenderer>().sprite = LoadFrames("Idle")[0];
                 var animator = player.GetComponent<Animator>();
-                if (animator == null) animator = player.AddComponent<Animator>();
                 animator.runtimeAnimatorController = controller;
                 animator.applyRootMotion = false;
-                animator.cullingMode = AnimatorCullingMode.AlwaysAnimate;
-                if (player.GetComponent<SacredDrum.Gameplay.MinhSpriteAnimation>() == null)
-                    player.AddComponent<SacredDrum.Gameplay.MinhSpriteAnimation>();
                 PrefabUtility.SaveAsPrefabAsset(player, prefabPath);
             }
             finally { PrefabUtility.UnloadPrefabContents(player); }
-            EditorUtility.SetDirty(controller);
-            AssetDatabase.SaveAssets();
+            EditorUtility.SetDirty(controller); AssetDatabase.SaveAssets();
         }
 
-        static void ImportFrames()
+        static void AddState(AnimatorStateMachine machine, string name, string sheet, int first, int[] delays, bool loop)
         {
-            var importer = (TextureImporter)AssetImporter.GetAtPath(Sheet);
-            importer.textureType = TextureImporterType.Sprite;
-            importer.spriteImportMode = SpriteImportMode.Multiple;
-            importer.spritePixelsPerUnit = 70;
-            importer.filterMode = FilterMode.Point;
-            importer.mipmapEnabled = false;
-            importer.alphaIsTransparency = true;
-            importer.textureCompression = TextureImporterCompression.Uncompressed;
-            importer.npotScale = TextureImporterNPOTScale.None;
-            importer.maxTextureSize = 2048;
-            importer.SaveAndReimport();
+            string path = Root + "Animations/Minh_" + name + ".anim";
+            var clip = AssetDatabase.LoadAssetAtPath<AnimationClip>(path);
+            if (clip == null) { clip = new AnimationClip(); AssetDatabase.CreateAsset(clip, path); }
+            clip.name = name; clip.frameRate = 100;
+            var frames = LoadFrames(sheet);
+            var keys = new ObjectReferenceKeyframe[delays.Length + 1];
+            int tick = 0;
+            for (int i = 0; i < delays.Length; i++)
+            {
+                keys[i] = new ObjectReferenceKeyframe { time = tick / 100f, value = frames[first + i] };
+                tick += delays[i];
+            }
+            keys[delays.Length] = new ObjectReferenceKeyframe { time = tick / 100f, value = frames[first + (loop ? 0 : delays.Length - 1)] };
+            AnimationUtility.SetObjectReferenceCurve(clip, EditorCurveBinding.PPtrCurve("", typeof(SpriteRenderer), "m_Sprite"), keys);
+            var settings = AnimationUtility.GetAnimationClipSettings(clip); settings.loopTime = loop;
+            AnimationUtility.SetAnimationClipSettings(clip, settings);
+            machine.AddState(name).motion = clip; EditorUtility.SetDirty(clip);
+        }
+
+        static Sprite[] LoadFrames(string sheet) => AssetDatabase.LoadAllAssetsAtPath(Root + "Sources/MinhChibi/" + sheet + ".png")
+            .OfType<Sprite>().OrderBy(s => s.name).ToArray();
+
+        static void ImportFrames(string sheet)
+        {
+            string path = Root + "Sources/MinhChibi/" + sheet + ".png";
+            var importer = (TextureImporter)AssetImporter.GetAtPath(path);
+            importer.textureType = TextureImporterType.Sprite; importer.spriteImportMode = SpriteImportMode.Multiple;
+            importer.isReadable = true; importer.filterMode = FilterMode.Bilinear; importer.mipmapEnabled = false;
+            importer.alphaIsTransparency = true; importer.textureCompression = TextureImporterCompression.Uncompressed;
+            importer.npotScale = TextureImporterNPOTScale.None; importer.maxTextureSize = 2048; importer.SaveAndReimport();
+            var texture = AssetDatabase.LoadAssetAtPath<Texture2D>(path); var pixels = texture.GetPixels32();
             var factories = new SpriteDataProviderFactories(); factories.Init();
             var provider = factories.GetSpriteEditorDataProviderFromObject(importer); provider.InitSpriteEditorDataProvider();
             var old = provider.GetSpriteRects().ToDictionary(s => s.name);
-            // Hand-audited transparent row boundaries; attack poses extend above their heads.
-            int[] top = { 0, 181, 350, 523, 684, 840, 1003, 1165, 1328, 1536 };
-            int[] baseline = { 173, 350, 519, 681, 838, 994, 1158, 1327, 1508 };
             var rects = new System.Collections.Generic.List<SpriteRect>();
-            for (int row = 0; row < 9; row++) for (int f = 0; f < 6; f++)
+            float baselineFromTop = 0;
+            int rows = sheet == "Up" || sheet == "Side" ? 4 : 2;
+            for (int row = 0; row < rows; row++) for (int col = 0; col < 4; col++)
             {
-                string name = Actions[row % 3] + "_" + Directions[row / 3] + "_" + f;
-                int left = Mathf.RoundToInt(f * 1024f / 6), right = Mathf.RoundToInt((f + 1) * 1024f / 6);
-                int height = top[row + 1] - top[row];
+                int left = Mathf.RoundToInt(col * texture.width / 4f), right = Mathf.RoundToInt((col + 1) * texture.width / 4f);
+                int bottom = Mathf.RoundToInt((rows - row - 1) * texture.height / (float)rows);
+                int top = Mathf.RoundToInt((rows - row) * texture.height / (float)rows);
+                int x0 = right, x1 = left, y0 = top, y1 = bottom;
+                for (int y = bottom; y < top; y++) for (int x = left; x < right; x++)
+                    if (pixels[y * texture.width + x].a > 102)
+                    { x0 = Mathf.Min(x0, x); x1 = Mathf.Max(x1, x + 1); y0 = Mathf.Min(y0, y); y1 = Mathf.Max(y1, y + 1); }
+                if (x1 <= x0 || y1 <= y0) throw new System.InvalidOperationException("Empty Minh sprite: " + sheet);
+                if (row == 0 && col == 0)
+                {
+                    baselineFromTop = texture.height - y0;
+                    importer.spritePixelsPerUnit = (y1 - y0) / 1.85f;
+                }
+                string name = sheet + "_" + (row * 4 + col);
+                float baseline = top - baselineFromTop;
                 rects.Add(new SpriteRect { name = name, spriteID = old.ContainsKey(name) ? old[name].spriteID : GUID.Generate(),
-                    rect = new Rect(left, 1536 - top[row + 1], right - left, height), alignment = SpriteAlignment.Custom,
-                    pivot = new Vector2(.5f, (top[row + 1] - baseline[row]) / (float)height) });
+                    rect = new Rect(x0, bottom, x1 - x0, top - bottom), alignment = SpriteAlignment.Custom,
+                    pivot = new Vector2(((left + right) * .5f - x0) / (x1 - x0), (baseline - bottom) / (top - bottom)) });
             }
             provider.SetSpriteRects(rects.ToArray());
             provider.GetDataProvider<ISpriteNameFileIdDataProvider>().SetNameFileIdPairs(rects.Select(s => new SpriteNameFileIdPair(s.name, s.spriteID)));

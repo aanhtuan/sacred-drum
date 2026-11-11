@@ -1,0 +1,479 @@
+fileFormatVersion: 2
+guid: c1d15c9c2d725eae2a5d99d4163cc28c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3292132840425912280
+    second: StaffAttack_0
+  - first:
+      213: -2223571653950951409
+    second: StaffAttack_1
+  - first:
+      213: -4573912912415978851
+    second: StaffAttack_2
+  - first:
+      213: 8511208561132844827
+    second: StaffAttack_3
+  - first:
+      213: 1844839386823414002
+    second: StaffAttack_4
+  - first:
+      213: 7437021968653247068
+    second: StaffAttack_5
+  - first:
+      213: -5319873483873025720
+    second: StaffAttack_6
+  - first:
+      213: 936955009010141089
+    second: StaffAttack_7
+  - first:
+      213: 6094300508081863871
+    second: StaffAttack_8
+  - first:
+      213: -4152214260038532536
+    second: StaffAttack_9
+  - first:
+      213: -1748249539345325207
+    second: StaffAttack_10
+  - first:
+      213: -2568448610055252362
+    second: StaffAttack_11
+  - first:
+      213: -4531927412946692796
+    second: StaffAttack_12
+  - first:
+      213: -7972198874786676118
+    second: StaffAttack_13
+  - first:
+      213: 7551258134581018042
+    second: StaffAttack_14
+  - first:
+      213: 8224580024684062250
+    second: StaffAttack_15
+  - first:
+      213: -7343277507827805477
+    second: StaffAttack_16
+  - first:
+      213: -6529047560895735849
+    second: StaffAttack_17
+  - first:
+      213: 2965038982163458285
+    second: StaffAttack_18
+  - first:
+      213: -8769308162363668088
+    second: StaffAttack_19
+  - first:
+      213: -8298419436093524952
+    second: StaffAttack_20
+  - first:
+      213: 736222234403497891
+    second: StaffAttack_21
+  - first:
+      213: 1920936576705933843
+    second: StaffAttack_22
+  - first:
+      213: -1797393488029804851
+    second: StaffAttack_23
+  - first:
+      213: -3417644441122105921
+    second: StaffAttack_24
+  - first:
+      213: 3490015525026922156
+    second: StaffAttack_25
+  - first:
+      213: 6965892728271823595
+    second: StaffAttack_26
+  - first:
+      213: 6247436336549880245
+    second: StaffAttack_27
+  - first:
+      213: 5225461944640256919
+    second: StaffAttack_28
+  - first:
+      213: 2759287306813589613
+    second: StaffAttack_29
+  - first:
+      213: -2895953356389840099
+    second: StaffAttack_30
+  - first:
+      213: -3118368658078018726
+    second: StaffAttack_31
+  - first:
+      213: -5616539480501220605
+    second: StaffAttack_32
+  - first:
+      213: -4890596613380107836
+    second: StaffAttack_33
+  - first:
+      213: 2924611319378701148
+    second: StaffAttack_34
+  - first:
+      213: -7620814514654658531
+    second: StaffAttack_35
+  - first:
+      213: -2151250383365167042
+    second: StaffAttack_36
+  - first:
+      213: -2679309928872976958
+    second: StaffAttack_37
+  - first:
+      213: -232413966853907549
+    second: StaffAttack_38
+  - first:
+      213: -1436590986324975076
+    second: StaffAttack_39
+  - first:
+      213: 5849718373117516968
+    second: StaffAttack_40
+  - first:
+      213: 2010259835723928617
+    second: StaffAttack_41
+  - first:
+      213: 5503783101317358892
+    second: StaffAttack_42
+  - first:
+      213: 1627955499853368974
+    second: StaffAttack_43
+  - first:
+      213: -468859706422931108
+    second: StaffAttack_44
+  - first:
+      213: -1535833717576140806
+    second: StaffAttack_45
+  - first:
+      213: -532315077390363256
+    second: StaffAttack_46
+  - first:
+      213: -3422218382203791986
+    second: StaffAttack_47
+  - first:
+      213: 1578247588020117650
+    second: StaffAttack_48
+  - first:
+      213: -4035038162536575972
+    second: StaffAttack_49
+  - first:
+      213: 3636283009180565691
+    second: StaffAttack_50
+  - first:
+      213: -7513053834427004476
+    second: StaffAttack_51
+  - first:
+      213: 1871055329544390620
+    second: StaffAttack_52
+  - first:
+      213: 4668578042505109658
+    second: StaffAttack_53
+  - first:
+      213: -210371505755652071
+    second: StaffAttack_54
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 204.86487
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: StaffAttack_0
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 444
+        width: 249
+        height: 443
+      alignment: 9
+      pivot: {x: 0.45381525, y: 0.047404062}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d7fbfa306100bd20800000000000000
+      internalID: 3292132840425912280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StaffAttack_1
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 444
+        width: 256
+        height: 443
+      alignment: 9
+      pivot: {x: 0.5214844, y: 0.047404062}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0030a99c594421e0800000000000000
+      internalID: -2223571653950951409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StaffAttack_2
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 444
+        width: 268
+        height: 443
+      alignment: 9
+      pivot: {x: 0.5988806, y: 0.047404062}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9a8fd590723680c0800000000000000
+      internalID: -4573912912415978851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StaffAttack_3
+      rect:
+        serializedVersion: 2
+        x: 1416
+        y: 444
+        width: 273
+        height: 443
+      alignment: 9
+      pivot: {x: 0.4981685, y: 0.047404062}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b17369f8713ed1670800000000000000
+      internalID: 8511208561132844827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StaffAttack_4
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 374
+        height: 444
+      alignment: 9
+      pivot: {x: 0.4224599, y: 0.04954955}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f0524fd5af2a9910800000000000000
+      internalID: 1844839386823414002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StaffAttack_5
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 0
+        width: 356
+        height: 444
+      alignment: 9
+      pivot: {x: 0.4002809, y: 0.04954955}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c526a54d31c953760800000000000000
+      internalID: 7437021968653247068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StaffAttack_6
+      rect:
+        serializedVersion: 2
+        x: 987
+        y: 0
+        width: 267
+        height: 444
+      alignment: 9
+      pivot: {x: 0.4550562, y: 0.04954955}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8418ab790430c26b0800000000000000
+      internalID: -5319873483873025720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StaffAttack_7
+      rect:
+        serializedVersion: 2
+        x: 1442
+        y: 0
+        width: 250
+        height: 444
+      alignment: 9
+      pivot: {x: 0.44, y: 0.04954955}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a78292dd9bb00d00800000000000000
+      internalID: 936955009010141089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 4d1fe6f554f27ee02934aeab34f52f4f
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      StaffAttack_0: 3292132840425912280
+      StaffAttack_1: -2223571653950951409
+      StaffAttack_2: -4573912912415978851
+      StaffAttack_3: 8511208561132844827
+      StaffAttack_4: 1844839386823414002
+      StaffAttack_5: 7437021968653247068
+      StaffAttack_6: -5319873483873025720
+      StaffAttack_7: 936955009010141089
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

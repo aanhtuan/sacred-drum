@@ -1,3 +1,5 @@
+> Superseded for Minh: see [Minh_Chibi_Integration.md](Minh_Chibi_Integration.md) for the current no-hat character and removed old art/animations. Historical validation below is retained.
+
 # Minh art and animation provenance
 
 Generated with the built-in `image_gen` tool, transparent_background=true. Original generated files remain under the Codex generated_images directory. Selected PNGs were copied unchanged into the Unity project; Unity Sprite Editor rectangles slice the animation sheet without modifying its pixels.

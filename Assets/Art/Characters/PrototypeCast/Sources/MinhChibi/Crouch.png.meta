@@ -1,0 +1,521 @@
+fileFormatVersion: 2
+guid: d0bb17590c8ce805fa4222b8ec3f35f6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -9111046860271459987
+    second: Crouch_0
+  - first:
+      213: -2502152054627867837
+    second: Crouch_1
+  - first:
+      213: 6538706784403912789
+    second: Crouch_2
+  - first:
+      213: 1760784323390296859
+    second: Crouch_3
+  - first:
+      213: -4442351845777215166
+    second: Crouch_4
+  - first:
+      213: -8237024526970820776
+    second: Crouch_5
+  - first:
+      213: 9151943686912766832
+    second: Crouch_6
+  - first:
+      213: -8880403593031007145
+    second: Crouch_7
+  - first:
+      213: 4664763874008540575
+    second: Crouch_8
+  - first:
+      213: 4894707257399992365
+    second: Crouch_9
+  - first:
+      213: 8237782936042958683
+    second: Crouch_10
+  - first:
+      213: 3680974891593608856
+    second: Crouch_11
+  - first:
+      213: -2989083244610464523
+    second: Crouch_12
+  - first:
+      213: -5664160503332107786
+    second: Crouch_13
+  - first:
+      213: -7050219246112703234
+    second: Crouch_14
+  - first:
+      213: -5340762407885336474
+    second: Crouch_15
+  - first:
+      213: -2127513979474603926
+    second: Crouch_16
+  - first:
+      213: 8817073410022511108
+    second: Crouch_17
+  - first:
+      213: 930778423759359765
+    second: Crouch_18
+  - first:
+      213: -1987806830432734274
+    second: Crouch_19
+  - first:
+      213: -91774714173863759
+    second: Crouch_20
+  - first:
+      213: 1936739070682278599
+    second: Crouch_21
+  - first:
+      213: -4849824464403846484
+    second: Crouch_22
+  - first:
+      213: 4889612187670590349
+    second: Crouch_23
+  - first:
+      213: 5487641694437697874
+    second: Crouch_24
+  - first:
+      213: 5450967614368743076
+    second: Crouch_25
+  - first:
+      213: -6306257422045895635
+    second: Crouch_26
+  - first:
+      213: -4101160937494388381
+    second: Crouch_27
+  - first:
+      213: -603963989740058706
+    second: Crouch_28
+  - first:
+      213: -337107318219166857
+    second: Crouch_29
+  - first:
+      213: -6128779012173260818
+    second: Crouch_30
+  - first:
+      213: 8271712153347569297
+    second: Crouch_31
+  - first:
+      213: 2216768918656737598
+    second: Crouch_32
+  - first:
+      213: -4210517408713254186
+    second: Crouch_33
+  - first:
+      213: 6721756351957406254
+    second: Crouch_34
+  - first:
+      213: 4702705808502823726
+    second: Crouch_35
+  - first:
+      213: -5104969762979166933
+    second: Crouch_36
+  - first:
+      213: 2477165565144150070
+    second: Crouch_37
+  - first:
+      213: -8865802789627627006
+    second: Crouch_38
+  - first:
+      213: -8348767719421052532
+    second: Crouch_39
+  - first:
+      213: -6862351540551929037
+    second: Crouch_40
+  - first:
+      213: -5123890860586146944
+    second: Crouch_41
+  - first:
+      213: -5288038553659103440
+    second: Crouch_42
+  - first:
+      213: 4575437666849102668
+    second: Crouch_43
+  - first:
+      213: -384857612912276773
+    second: Crouch_44
+  - first:
+      213: -3302500440829826496
+    second: Crouch_45
+  - first:
+      213: 1412192486978236300
+    second: Crouch_46
+  - first:
+      213: 4942762365114044014
+    second: Crouch_47
+  - first:
+      213: 2426067574331228471
+    second: Crouch_48
+  - first:
+      213: -1481671978060925334
+    second: Crouch_49
+  - first:
+      213: -5634403188814364564
+    second: Crouch_50
+  - first:
+      213: 4833210802688189073
+    second: Crouch_51
+  - first:
+      213: 2097576586435818052
+    second: Crouch_52
+  - first:
+      213: -517241444534980345
+    second: Crouch_53
+  - first:
+      213: -483016550094287927
+    second: Crouch_54
+  - first:
+      213: -8659619691917017896
+    second: Crouch_55
+  - first:
+      213: -8867441633918165198
+    second: Crouch_56
+  - first:
+      213: 1569100695702498237
+    second: Crouch_57
+  - first:
+      213: -1475719496246853966
+    second: Crouch_58
+  - first:
+      213: 5222148087557667050
+    second: Crouch_59
+  - first:
+      213: -3931297543771750273
+    second: Crouch_60
+  - first:
+      213: 6647877271774765301
+    second: Crouch_61
+  - first:
+      213: -5070342595410669626
+    second: Crouch_62
+  - first:
+      213: 4040046245846406202
+    second: Crouch_63
+  - first:
+      213: 8743789158022436152
+    second: Crouch_64
+  - first:
+      213: 8613496860477195280
+    second: Crouch_65
+  - first:
+      213: 930371102980217834
+    second: Crouch_66
+  - first:
+      213: 224644409505896311
+    second: Crouch_67
+  - first:
+      213: -4559933919778103513
+    second: Crouch_68
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 212.43243
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Crouch_0
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 444
+        width: 206
+        height: 443
+      alignment: 9
+      pivot: {x: 0.56796116, y: 0.07674944}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d61e499272f0f8180800000000000000
+      internalID: -9111046860271459987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crouch_1
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 444
+        width: 214
+        height: 443
+      alignment: 9
+      pivot: {x: 0.5537383, y: 0.07674944}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34364e996f1964dd0800000000000000
+      internalID: -2502152054627867837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crouch_2
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 444
+        width: 238
+        height: 443
+      alignment: 9
+      pivot: {x: 0.5021008, y: 0.07674944}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 558f4d64d272eba50800000000000000
+      internalID: 6538706784403912789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crouch_3
+      rect:
+        serializedVersion: 2
+        x: 1436
+        y: 444
+        width: 257
+        height: 443
+      alignment: 9
+      pivot: {x: 0.45136186, y: 0.07674944}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1351c953009f6810800000000000000
+      internalID: 1760784323390296859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crouch_4
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 0
+        width: 250
+        height: 444
+      alignment: 9
+      pivot: {x: 0.464, y: 0.07882883}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 241f52968889952c0800000000000000
+      internalID: -4442351845777215166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crouch_5
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 0
+        width: 231
+        height: 444
+      alignment: 9
+      pivot: {x: 0.508658, y: 0.07882883}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85769b795d530bd80800000000000000
+      internalID: -8237024526970820776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crouch_6
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 0
+        width: 220
+        height: 444
+      alignment: 9
+      pivot: {x: 0.5386364, y: 0.07882883}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07370de4b4c320f70800000000000000
+      internalID: 9151943686912766832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crouch_7
+      rect:
+        serializedVersion: 2
+        x: 1433
+        y: 0
+        width: 209
+        height: 444
+      alignment: 9
+      pivot: {x: 0.569378, y: 0.07882883}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 754c8478bf772c480800000000000000
+      internalID: -8880403593031007145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 0a1bb71a649c5e236a894456eb527ca8
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Crouch_0: -9111046860271459987
+      Crouch_1: -2502152054627867837
+      Crouch_2: 6538706784403912789
+      Crouch_3: 1760784323390296859
+      Crouch_4: -4442351845777215166
+      Crouch_5: -8237024526970820776
+      Crouch_6: 9151943686912766832
+      Crouch_7: -8880403593031007145
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
