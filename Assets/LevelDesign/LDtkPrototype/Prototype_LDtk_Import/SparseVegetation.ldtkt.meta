@@ -1,0 +1,256 @@
+fileFormatVersion: 2
+guid: a02a3695ee475fe5eb61ea86c47ac804
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: f3268c876daf4890b6af6cd462063137, type: 3}
+  _reimportOnDependencyChange: 1
+  _pixelsPerUnit: 16
+  _overrideTexture: {instanceID: 0}
+  _sprites:
+  - name: SparseVegetation_0
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 998
+      width: 256
+      height: 256
+    spriteID: f8dde98bc1b35bcdab8c78cd0b20b00d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SparseVegetation_1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 998
+      width: 256
+      height: 256
+    spriteID: b9fc73e9a9a6f2bed9ba9090e863f918
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SparseVegetation_2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 512
+      y: 998
+      width: 256
+      height: 256
+    spriteID: 13a74f1af2faf11329fbe057bbcdd5d0
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SparseVegetation_3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 768
+      y: 998
+      width: 256
+      height: 256
+    spriteID: 3da0a7f04cab0d3c38d7023c899db702
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SparseVegetation_4
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 742
+      width: 256
+      height: 256
+    spriteID: 6d3688ff970e8c9b6a852c97fd9fb878
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SparseVegetation_5
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 742
+      width: 256
+      height: 256
+    spriteID: b2ca1ab3e084495c2b93efea3b863667
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SparseVegetation_6
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 512
+      y: 742
+      width: 256
+      height: 256
+    spriteID: 0a255904486b6272bb82a487131f1051
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SparseVegetation_7
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 768
+      y: 742
+      width: 256
+      height: 256
+    spriteID: 361abeffc8abb6deaae5b44cb67b9ded
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SparseVegetation_8
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 486
+      width: 256
+      height: 256
+    spriteID: a65fb9c7faf949cc99634b25b41b5c14
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SparseVegetation_9
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 486
+      width: 256
+      height: 256
+    spriteID: cbc2652eebeb75a839154a97508f7851
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SparseVegetation_10
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 512
+      y: 486
+      width: 256
+      height: 256
+    spriteID: 5c507e649e1e2717d9e010a280c9c600
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SparseVegetation_11
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 768
+      y: 486
+      width: 256
+      height: 256
+    spriteID: de87bde7673a0489583271ab3946ffed
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SparseVegetation_12
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 230
+      width: 256
+      height: 256
+    spriteID: 1b3764b7cb43086e2ac2c85ecb71270c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SparseVegetation_13
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 230
+      width: 256
+      height: 256
+    spriteID: 8ff21e88c8fc32f66b1184be41437dbb
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SparseVegetation_14
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 512
+      y: 230
+      width: 256
+      height: 256
+    spriteID: 97258ca3305a6eb48accc80e97339f2e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SparseVegetation_15
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 768
+      y: 230
+      width: 256
+      height: 256
+    spriteID: 5ceeada902e8a64e985f7026b006e494
+    spriteOutline: []
+    tessellationDetail: 0
+  _secondaryTextures: []
+  _artifacts: {instanceID: 0}

@@ -8,14 +8,14 @@ namespace SacredDrum.EditorTools
     public static class TerrainReliefAssets
     {
         const string Root = "Assets/LevelDesign/DarkFields/TerrainRelief/";
-        public static readonly string[] Names = { "Boulder", "RockCluster", "SplitSlab", "Mound", "BankLong", "BankCorner", "Reeds", "Log" };
-        static readonly float[] Widths = { 2.1f, 1.8f, 1.65f, 1.9f, 2.6f, 2f, 1.1f, 2f };
+        public static readonly string[] Names = { "BranchCrooked", "BranchFork", "WeedsDry", "WeedsLow" };
+        static readonly float[] Widths = { 1.1f, .95f, .65f, .75f };
 
         [MenuItem("SacredDrum/Dark Fields/Build Terrain Relief Prefabs")]
         public static void Build()
         {
             if (EditorApplication.isPlaying) throw new System.InvalidOperationException("Exit Play Mode first.");
-            string atlas = Root + "ReliefProps.png";
+            string atlas = Root + "VegetationProps.png";
             var importer = (TextureImporter)AssetImporter.GetAtPath(atlas);
             importer.textureType = TextureImporterType.Sprite;
             importer.spriteImportMode = SpriteImportMode.Multiple;
@@ -40,12 +40,12 @@ namespace SacredDrum.EditorTools
             provider.InitSpriteEditorDataProvider();
             var old = provider.GetSpriteRects().ToDictionary(r => r.name);
             var rects = new System.Collections.Generic.List<SpriteRect>();
-            for (int i = 0; i < 8; i++)
+            for (int i = 0; i < Names.Length; i++)
             {
-                int left = Mathf.RoundToInt(i % 4 * texture.width / 4f);
-                int right = Mathf.RoundToInt((i % 4 + 1) * texture.width / 4f);
-                int bottom = Mathf.RoundToInt((1 - i / 4) * texture.height / 2f);
-                int top = Mathf.RoundToInt((2 - i / 4) * texture.height / 2f);
+                int left = Mathf.RoundToInt(i % 2 * texture.width / 2f);
+                int right = Mathf.RoundToInt((i % 2 + 1) * texture.width / 2f);
+                int bottom = Mathf.RoundToInt((1 - i / 2) * texture.height / 2f);
+                int top = Mathf.RoundToInt((2 - i / 2) * texture.height / 2f);
                 int x0 = right, x1 = left, y0 = top, y1 = bottom;
                 for (int y = bottom; y < top; y++) for (int x = left; x < right; x++)
                     if (pixels[y * texture.width + x].a > 90)
@@ -75,14 +75,7 @@ namespace SacredDrum.EditorTools
                     float scale = Widths[i] / renderer.sprite.bounds.size.x;
                     root.transform.localScale = new Vector3(scale, scale, 1);
                     if (root.GetComponent<SacredDrum.Gameplay.PrototypeDepthSort>() == null) root.AddComponent<SacredDrum.Gameplay.PrototypeDepthSort>();
-                    if (i != 6)
-                    {
-                        var collider = root.GetComponent<CapsuleCollider2D>();
-                        if (collider == null) collider = root.AddComponent<CapsuleCollider2D>();
-                        collider.direction = CapsuleDirection2D.Horizontal;
-                        collider.size = new Vector2(Widths[i] * .68f / scale, .34f / scale);
-                        collider.offset = new Vector2(0, .12f / scale);
-                    }
+                    // Small branches and weeds are decorative and leave movement unobstructed.
                     PrefabUtility.SaveAsPrefabAsset(root, path);
                 }
                 finally

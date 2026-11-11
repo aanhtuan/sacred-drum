@@ -1,0 +1,47 @@
+{
+  "Rects": [
+    {
+      "x": 120,
+      "y": 265,
+      "w": 425,
+      "h": 185
+    },
+    {
+      "x": 780,
+      "y": 274,
+      "w": 311,
+      "h": 176
+    },
+    {
+      "x": 187,
+      "y": 854,
+      "w": 277,
+      "h": 187
+    },
+    {
+      "x": 780,
+      "y": 825,
+      "w": 290,
+      "h": 211
+    }
+  ],
+  "Def": {
+    "__cWid": 4,
+    "__cHei": 4,
+    "identifier": "SparseVegetation",
+    "uid": 1010,
+    "relPath": "../DarkFields/TerrainRelief/VegetationProps.png",
+    "embedAtlas": null,
+    "pxWid": 1254,
+    "pxHei": 1254,
+    "tileGridSize": 256,
+    "spacing": 0,
+    "padding": 0,
+    "tags": [],
+    "tagsSourceEnumUid": null,
+    "enumTags": [],
+    "customData": [],
+    "savedSelections": [],
+    "cachedPixelData": null
+  }
+}

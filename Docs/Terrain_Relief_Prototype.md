@@ -1,5 +1,7 @@
 # Terrain relief in the LDtk prototype
 
+> Historical pass. The owner subsequently requested only sparse dry branches/weeds and removal of rocks. See [current map dressing](Sparse_Vegetation_Prototype.md). The old terrain instances and their importer mappings are no longer used by the prototype.
+
 Scene: Assets/Scenes/Prototype_LDtk_Import.unity.
 Source: Assets/LevelDesign/LDtkPrototype/Prototype_LDtk_Import.ldtk.
 Art: Assets/LevelDesign/DarkFields/TerrainRelief/ReliefProps.png.

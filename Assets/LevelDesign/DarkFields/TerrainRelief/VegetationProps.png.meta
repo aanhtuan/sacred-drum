@@ -1,0 +1,429 @@
+fileFormatVersion: 2
+guid: 4750f3053b85babcb9931666eeb004ab
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6122481740994715220
+    second: VegetationProps_0
+  - first:
+      213: -8458695997663053934
+    second: VegetationProps_1
+  - first:
+      213: -6504887347575773339
+    second: VegetationProps_2
+  - first:
+      213: 7296089235117879629
+    second: VegetationProps_3
+  - first:
+      213: -6805109884909956512
+    second: VegetationProps_4
+  - first:
+      213: -3483621376197773298
+    second: VegetationProps_5
+  - first:
+      213: 6360391244308762257
+    second: VegetationProps_6
+  - first:
+      213: 8141511598730291131
+    second: VegetationProps_7
+  - first:
+      213: 3012358605493334715
+    second: VegetationProps_8
+  - first:
+      213: -3291751024953140301
+    second: VegetationProps_9
+  - first:
+      213: 8343734542193100174
+    second: VegetationProps_10
+  - first:
+      213: -8648187766117855092
+    second: VegetationProps_11
+  - first:
+      213: -3463348139718371895
+    second: VegetationProps_12
+  - first:
+      213: 1619211867323908764
+    second: VegetationProps_13
+  - first:
+      213: -6364247135439208151
+    second: VegetationProps_14
+  - first:
+      213: 3784591444090685364
+    second: VegetationProps_15
+  - first:
+      213: -6074824941046165362
+    second: VegetationProps_16
+  - first:
+      213: 7736073393537695229
+    second: VegetationProps_17
+  - first:
+      213: -8244248172149766760
+    second: VegetationProps_18
+  - first:
+      213: -239559246300073249
+    second: VegetationProps_19
+  - first:
+      213: 3299269132935670845
+    second: VegetationProps_20
+  - first:
+      213: 3613494163142143658
+    second: VegetationProps_21
+  - first:
+      213: 3432552708312692609
+    second: VegetationProps_22
+  - first:
+      213: 5286681840615077280
+    second: VegetationProps_23
+  - first:
+      213: 5302661010013603626
+    second: VegetationProps_24
+  - first:
+      213: -2972857458676171298
+    second: VegetationProps_25
+  - first:
+      213: -7089030160535908364
+    second: VegetationProps_26
+  - first:
+      213: -2735130203887385756
+    second: VegetationProps_27
+  - first:
+      213: -625140151669065023
+    second: VegetationProps_28
+  - first:
+      213: 3887136990933533661
+    second: VegetationProps_29
+  - first:
+      213: 1019380638170481268
+    second: VegetationProps_30
+  - first:
+      213: -1202050736580374237
+    second: VegetationProps_31
+  - first:
+      213: 423135148258105721
+    second: VegetationProps_32
+  - first:
+      213: 283488698422024975
+    second: VegetationProps_33
+  - first:
+      213: 4446484364679933894
+    second: VegetationProps_34
+  - first:
+      213: -5348939124287531267
+    second: VegetationProps_35
+  - first:
+      213: 2575191730386495930
+    second: VegetationProps_36
+  - first:
+      213: 7805859376122824423
+    second: VegetationProps_37
+  - first:
+      213: -223166690362058862
+    second: VegetationProps_38
+  - first:
+      213: 4293711089261537702
+    second: VegetationProps_39
+  - first:
+      213: -1690004016535514920
+    second: VegetationProps_40
+  - first:
+      213: 5922755537832753194
+    second: VegetationProps_41
+  - first:
+      213: -513931373658298743
+    second: VegetationProps_42
+  - first:
+      213: 8314025292296002870
+    second: VegetationProps_43
+  - first:
+      213: 2890497764568290566
+    second: VegetationProps_44
+  - first:
+      213: 2938131821191918268
+    second: VegetationProps_45
+  - first:
+      213: -2969777740386774354
+    second: VegetationProps_46
+  - first:
+      213: -1727654388302519784
+    second: VegetationProps_47
+  - first:
+      213: -7965479836587336715
+    second: VegetationProps_48
+  - first:
+      213: 8954857407421204558
+    second: VegetationProps_49
+  - first:
+      213: -8927842869061279438
+    second: VegetationProps_50
+  - first:
+      213: -5820123596304347226
+    second: VegetationProps_51
+  - first:
+      213: 5516531366002314030
+    second: VegetationProps_52
+  - first:
+      213: -4053927322645745109
+    second: VegetationProps_53
+  - first:
+      213: 238460878958011436
+    second: VegetationProps_54
+  - first:
+      213: 2044617529884897575
+    second: VegetationProps_55
+  - first:
+      213: 5469473446771848424
+    second: VegetationProps_56
+  - first:
+      213: 4058279164956459634
+    second: VegetationProps_57
+  - first:
+      213: -8785966961230387507
+    second: VegetationProps_58
+  - first:
+      213: -2818826298535709488
+    second: VegetationProps_59
+  - first:
+      213: -3353508662134133967
+    second: VegetationProps_60
+  - first:
+      213: 3608415561584583428
+    second: VegetationProps_61
+  - first:
+      213: 787986791578020280
+    second: VegetationProps_62
+  - first:
+      213: 2840341080025314138
+    second: VegetationProps_63
+  - first:
+      213: 4717880313217120598
+    second: VegetationProps_64
+  - first:
+      213: -3426570550715966583
+    second: VegetationProps_65
+  - first:
+      213: -5334156777115280061
+    second: VegetationProps_66
+  - first:
+      213: 8405687603303936092
+    second: VegetationProps_67
+  - first:
+      213: -7371031887263441948
+    second: VegetationProps_68
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 200
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BranchCrooked
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 804
+        width: 425
+        height: 185
+      alignment: 9
+      pivot: {x: 0.5, y: 0.015}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29016e1728eaf10528e78ea347aea9df
+      internalID: 116543926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BranchFork
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 804
+        width: 311
+        height: 176
+      alignment: 9
+      pivot: {x: 0.5, y: 0.015}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d719bcbe75df711db5aa18608b29f24
+      internalID: 1565643078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeedsDry
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 213
+        width: 277
+        height: 187
+      alignment: 9
+      pivot: {x: 0.5, y: 0.015}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bb9a863f3c61b9d9bd0b3465df851fe
+      internalID: -1218735082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeedsLow
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 218
+        width: 290
+        height: 211
+      alignment: 9
+      pivot: {x: 0.5, y: 0.015}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b6f02d8eb3a2afd6b92a436de962602
+      internalID: -568022544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: d1d011a852af7f36d875e9e7acfe6639
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      BranchCrooked: 116543926
+      BranchFork: 1565643078
+      WeedsDry: -1218735082
+      WeedsLow: -568022544
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

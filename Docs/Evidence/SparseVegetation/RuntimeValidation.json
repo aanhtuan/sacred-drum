@@ -1,0 +1,45 @@
+{
+  "playing": true,
+  "compilationFailed": false,
+  "decorations": 10,
+  "newColliders": 0,
+  "oldReliefProps": 0,
+  "scarecrows": 5,
+  "clearedRockLocations": [
+    {
+      "position": "(6.50, -6.50)",
+      "clear": true,
+      "hit": null
+    },
+    {
+      "position": "(28.50, -7.50)",
+      "clear": true,
+      "hit": null
+    },
+    {
+      "position": "(19.50, -16.50)",
+      "clear": true,
+      "hit": null
+    },
+    {
+      "position": "(4.50, -17.50)",
+      "clear": true,
+      "hit": null
+    },
+    {
+      "position": "(34.50, -20.50)",
+      "clear": true,
+      "hit": null
+    },
+    {
+      "position": "(13.50, -30.50)",
+      "clear": true,
+      "hit": null
+    },
+    {
+      "position": "(45.50, -31.50)",
+      "clear": true,
+      "hit": null
+    }
+  ]
+}
