@@ -795,7 +795,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 221.53847
+  spritePixelsToUnits: 198.62068
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -860,12 +860,12 @@ TextureImporter:
       name: Side_0
       rect:
         serializedVersion: 2
-        x: 80
+        x: 79
         y: 940
-        width: 148
+        width: 149
         height: 314
       alignment: 9
-      pivot: {x: 0.5202703, y: 0.044585988}
+      pivot: {x: 0.52348995, y: 0.044585988}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -904,12 +904,12 @@ TextureImporter:
       name: Side_2
       rect:
         serializedVersion: 2
-        x: 707
+        x: 708
         y: 940
-        width: 148
+        width: 147
         height: 314
       alignment: 9
-      pivot: {x: 0.5168919, y: 0.044585988}
+      pivot: {x: 0.5136054, y: 0.044585988}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -926,12 +926,12 @@ TextureImporter:
       name: Side_3
       rect:
         serializedVersion: 2
-        x: 1020
+        x: 1021
         y: 940
-        width: 148
+        width: 147
         height: 314
       alignment: 9
-      pivot: {x: 0.5202703, y: 0.044585988}
+      pivot: {x: 0.5170068, y: 0.044585988}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -948,12 +948,12 @@ TextureImporter:
       name: Side_4
       rect:
         serializedVersion: 2
-        x: 80
+        x: 79
         y: 627
-        width: 148
+        width: 149
         height: 313
       alignment: 9
-      pivot: {x: 0.5202703, y: 0.041533545}
+      pivot: {x: 0.52348995, y: 0.041533545}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1038,10 +1038,10 @@ TextureImporter:
         serializedVersion: 2
         x: 78
         y: 314
-        width: 157
+        width: 158
         height: 313
       alignment: 9
-      pivot: {x: 0.50318474, y: 0.041533545}
+      pivot: {x: 0.5, y: 0.041533545}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1102,12 +1102,12 @@ TextureImporter:
       name: Side_11
       rect:
         serializedVersion: 2
-        x: 1019
+        x: 1020
         y: 314
-        width: 163
+        width: 162
         height: 313
       alignment: 9
-      pivot: {x: 0.4785276, y: 0.041533545}
+      pivot: {x: 0.47530866, y: 0.041533545}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1124,12 +1124,12 @@ TextureImporter:
       name: Side_12
       rect:
         serializedVersion: 2
-        x: 78
+        x: 77
         y: 0
         width: 166
         height: 314
       alignment: 9
-      pivot: {x: 0.4759036, y: 0.044585988}
+      pivot: {x: 0.48192772, y: 0.044585988}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1148,10 +1148,10 @@ TextureImporter:
         serializedVersion: 2
         x: 391
         y: 0
-        width: 161
+        width: 160
         height: 314
       alignment: 9
-      pivot: {x: 0.4937888, y: 0.044585988}
+      pivot: {x: 0.496875, y: 0.044585988}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1170,10 +1170,10 @@ TextureImporter:
         serializedVersion: 2
         x: 705
         y: 0
-        width: 159
+        width: 160
         height: 314
       alignment: 9
-      pivot: {x: 0.4937107, y: 0.044585988}
+      pivot: {x: 0.490625, y: 0.044585988}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1190,12 +1190,12 @@ TextureImporter:
       name: Side_15
       rect:
         serializedVersion: 2
-        x: 1020
+        x: 1021
         y: 0
-        width: 163
+        width: 162
         height: 314
       alignment: 9
-      pivot: {x: 0.47239265, y: 0.044585988}
+      pivot: {x: 0.4691358, y: 0.044585988}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []

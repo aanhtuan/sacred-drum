@@ -1,0 +1,37 @@
+[
+  {
+    "sheet": "Idle",
+    "sameCanvas": true,
+    "silhouetteIoU": 0.97067
+  },
+  {
+    "sheet": "Run",
+    "sameCanvas": true,
+    "silhouetteIoU": 0.9718
+  },
+  {
+    "sheet": "Jump",
+    "sameCanvas": true,
+    "silhouetteIoU": 0.97052
+  },
+  {
+    "sheet": "Crouch",
+    "sameCanvas": true,
+    "silhouetteIoU": 0.97982
+  },
+  {
+    "sheet": "StaffAttack",
+    "sameCanvas": true,
+    "silhouetteIoU": 0.98258
+  },
+  {
+    "sheet": "Up",
+    "sameCanvas": true,
+    "silhouetteIoU": 0.97338
+  },
+  {
+    "sheet": "Side",
+    "sameCanvas": true,
+    "silhouetteIoU": 0.97659
+  }
+]

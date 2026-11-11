@@ -213,7 +213,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 291.53845
+  spritePixelsToUnits: 262.06897
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -283,7 +283,7 @@ TextureImporter:
         width: 249
         height: 443
       alignment: 9
-      pivot: {x: 0.45381525, y: 0.047404062}
+      pivot: {x: 0.45381525, y: 0.045146726}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -305,7 +305,7 @@ TextureImporter:
         width: 256
         height: 443
       alignment: 9
-      pivot: {x: 0.5214844, y: 0.047404062}
+      pivot: {x: 0.5214844, y: 0.045146726}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -322,12 +322,12 @@ TextureImporter:
       name: StaffAttack_2
       rect:
         serializedVersion: 2
-        x: 948
+        x: 949
         y: 444
         width: 268
         height: 443
       alignment: 9
-      pivot: {x: 0.5988806, y: 0.047404062}
+      pivot: {x: 0.5951493, y: 0.045146726}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -344,12 +344,12 @@ TextureImporter:
       name: StaffAttack_3
       rect:
         serializedVersion: 2
-        x: 1416
+        x: 1418
         y: 444
         width: 273
         height: 443
       alignment: 9
-      pivot: {x: 0.4981685, y: 0.047404062}
+      pivot: {x: 0.4908425, y: 0.045146726}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -366,12 +366,12 @@ TextureImporter:
       name: StaffAttack_4
       rect:
         serializedVersion: 2
-        x: 64
+        x: 65
         y: 0
         width: 374
         height: 444
       alignment: 9
-      pivot: {x: 0.4224599, y: 0.04954955}
+      pivot: {x: 0.4197861, y: 0.0472973}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -393,7 +393,7 @@ TextureImporter:
         width: 356
         height: 444
       alignment: 9
-      pivot: {x: 0.4002809, y: 0.04954955}
+      pivot: {x: 0.4002809, y: 0.0472973}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -410,12 +410,12 @@ TextureImporter:
       name: StaffAttack_6
       rect:
         serializedVersion: 2
-        x: 987
+        x: 988
         y: 0
-        width: 267
+        width: 266
         height: 444
       alignment: 9
-      pivot: {x: 0.4550562, y: 0.04954955}
+      pivot: {x: 0.45300752, y: 0.0472973}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -432,12 +432,12 @@ TextureImporter:
       name: StaffAttack_7
       rect:
         serializedVersion: 2
-        x: 1442
+        x: 1443
         y: 0
-        width: 250
+        width: 249
         height: 444
       alignment: 9
-      pivot: {x: 0.44, y: 0.04954955}
+      pivot: {x: 0.437751, y: 0.0472973}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []

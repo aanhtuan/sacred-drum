@@ -255,7 +255,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 302.30768
+  spritePixelsToUnits: 271.72412
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -320,12 +320,12 @@ TextureImporter:
       name: Crouch_0
       rect:
         serializedVersion: 2
-        x: 105
+        x: 104
         y: 444
-        width: 206
+        width: 207
         height: 443
       alignment: 9
-      pivot: {x: 0.56796116, y: 0.07674944}
+      pivot: {x: 0.57004833, y: 0.0744921}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -342,12 +342,12 @@ TextureImporter:
       name: Crouch_1
       rect:
         serializedVersion: 2
-        x: 547
+        x: 546
         y: 444
-        width: 214
+        width: 216
         height: 443
       alignment: 9
-      pivot: {x: 0.5537383, y: 0.07674944}
+      pivot: {x: 0.5532407, y: 0.0744921}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -369,7 +369,7 @@ TextureImporter:
         width: 238
         height: 443
       alignment: 9
-      pivot: {x: 0.5021008, y: 0.07674944}
+      pivot: {x: 0.5021008, y: 0.0744921}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -391,7 +391,7 @@ TextureImporter:
         width: 257
         height: 443
       alignment: 9
-      pivot: {x: 0.45136186, y: 0.07674944}
+      pivot: {x: 0.45136186, y: 0.0744921}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -413,7 +413,7 @@ TextureImporter:
         width: 250
         height: 444
       alignment: 9
-      pivot: {x: 0.464, y: 0.07882883}
+      pivot: {x: 0.464, y: 0.076576576}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -435,7 +435,7 @@ TextureImporter:
         width: 231
         height: 444
       alignment: 9
-      pivot: {x: 0.508658, y: 0.07882883}
+      pivot: {x: 0.508658, y: 0.076576576}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -452,12 +452,12 @@ TextureImporter:
       name: Crouch_6
       rect:
         serializedVersion: 2
-        x: 990
+        x: 989
         y: 0
-        width: 220
+        width: 221
         height: 444
       alignment: 9
-      pivot: {x: 0.5386364, y: 0.07882883}
+      pivot: {x: 0.540724, y: 0.076576576}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -479,7 +479,7 @@ TextureImporter:
         width: 209
         height: 444
       alignment: 9
-      pivot: {x: 0.569378, y: 0.07882883}
+      pivot: {x: 0.569378, y: 0.076576576}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []

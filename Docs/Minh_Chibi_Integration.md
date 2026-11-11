@@ -6,7 +6,7 @@ Sources: `Assets/Art/Characters/PrototypeCast/Sources/MinhChibi/`.
 
 ## Result and controls
 
-The approved no-hat farmer replaces the older conical-hat sprite: tied dark hair, earth-brown patched shirt, charcoal-indigo trousers, red-brown sash, wicker rice backpack and wooden staff. Standing sprite height is approximately 1.3 world units (1.3 map tiles), increased 8.3% from 1.2 at the owner's request. All seven sheets use the same relative reduction; the movement and feet collider are unchanged. Illustrated art uses Bilinear filtering, no mipmaps and uncompressed textures.
+The approved no-hat farmer replaces the older conical-hat sprite: tied dark hair, indigo blue-grey patched shirt, charcoal-indigo trousers, red-brown sash, wicker rice backpack and wooden staff. Standing sprite height is approximately 1.45 world units (1.45 map tiles), increased 11.5% from 1.3 at the owner's request. All seven sheets use the same relative reduction; the movement and feet collider are unchanged. Illustrated art uses Bilinear filtering, no mipmaps and uncompressed textures.
 
 - WASD: original PlayerController and input asset unchanged, speed4. W uses a true back-view RunUp/IdleUp, S uses the approved front three-quarter view. A/D running reuses the originally approved Run sheet (mirrored for A); stationary A/D keeps the profile breathing animation. Releasing W keeps the back-view breathing animation rather than running in place.
 - Space: one-shot visual jump, then idle/run.
@@ -57,3 +57,5 @@ The five approved source sheets were copied unchanged from the preview folder. T
 Size follow-up: all seven source-sheet import scales were reduced proportionally from a 1.65-unit standing height to 1.2 units. Existing sprite GUIDs, pivots, clips, movement and feet collider were retained.
 
 Final size tuning: increased all seven sheets proportionally from 1.2 to 1.3 world units (+8.3%). Movement, collider and sprite pivots remain unchanged.
+
+Current readability pass: the seven sheets now have blue-grey cloth, pale cuffs and an earthy red sash to separate Minh from the dirt path. See [Minh_Readability.md](Minh_Readability.md) for current evidence and exact prompts.

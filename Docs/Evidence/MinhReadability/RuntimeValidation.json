@@ -1,0 +1,10 @@
+{
+  "attack": "[\"J:StaffAttack:Run_4:cache=11\",\"Press:0:j=True:mouse=False\",\"J:StaffAttack:StaffAttack_0:cache=11\",\"J:StaffAttack:StaffAttack_1:cache=11\",\"J:StaffAttack:StaffAttack_2:cache=11\",\"J:StaffAttack:StaffAttack_3:cache=11\",\"J:StaffAttack:StaffAttack_4:cache=11\",\"J:StaffAttack:StaffAttack_5:cache=11\",\"J:StaffAttack:StaffAttack_6:cache=11\",\"J:StaffAttack:StaffAttack_7:cache=11\",\"J:IdleSide:StaffAttack_7:cache=11\",\"J:IdleSide:Side_0:cache=11\",\"J:IdleSide:Side_1:cache=11\",\"J:IdleSide:Side_2:cache=11\",\"J:IdleSide:Side_3:cache=11\",\"Mouse:StaffAttack:Side_3:cache=11\",\"Press:1:j=False:mouse=True\",\"Mouse:StaffAttack:StaffAttack_0:cache=11\",\"Mouse:StaffAttack:StaffAttack_1:cache=11\",\"Mouse:StaffAttack:StaffAttack_2:cache=11\",\"Mouse:StaffAttack:StaffAttack_3:cache=11\",\"Mouse:StaffAttack:StaffAttack_4:cache=11\",\"Mouse:StaffAttack:StaffAttack_5:cache=11\",\"Mouse:StaffAttack:StaffAttack_6:cache=11\",\"Mouse:StaffAttack:StaffAttack_7:cache=11\",\"Mouse:IdleSide:StaffAttack_7:cache=11\",\"Mouse:IdleSide:Side_0:cache=11\",\"Mouse:IdleSide:Side_1:cache=11\",\"Mouse:IdleSide:Side_2:cache=11\",\"Mouse:IdleSide:Side_3:cache=11\"]",
+  "height": 1.45,
+  "position": "(18.07, -17.91, 0.00)",
+  "clips": 11,
+  "missingSprites": 0,
+  "keyboard": "Keyboard",
+  "enabled": true,
+  "mode": "ProcessEventsInDynamicUpdate"
+}

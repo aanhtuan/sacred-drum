@@ -1,0 +1,93 @@
+[
+  {
+    "sheet": "Idle",
+    "dimensions": [
+      1774,
+      887
+    ],
+    "frames": 8,
+    "allFramesNonempty": true,
+    "alphaRange": [
+      0,
+      255
+    ]
+  },
+  {
+    "sheet": "Run",
+    "dimensions": [
+      1774,
+      887
+    ],
+    "frames": 8,
+    "allFramesNonempty": true,
+    "alphaRange": [
+      0,
+      255
+    ]
+  },
+  {
+    "sheet": "Jump",
+    "dimensions": [
+      1774,
+      887
+    ],
+    "frames": 8,
+    "allFramesNonempty": true,
+    "alphaRange": [
+      0,
+      255
+    ]
+  },
+  {
+    "sheet": "Crouch",
+    "dimensions": [
+      1774,
+      887
+    ],
+    "frames": 8,
+    "allFramesNonempty": true,
+    "alphaRange": [
+      0,
+      255
+    ]
+  },
+  {
+    "sheet": "StaffAttack",
+    "dimensions": [
+      1774,
+      887
+    ],
+    "frames": 8,
+    "allFramesNonempty": true,
+    "alphaRange": [
+      0,
+      255
+    ]
+  },
+  {
+    "sheet": "Up",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "frames": 16,
+    "allFramesNonempty": true,
+    "alphaRange": [
+      0,
+      255
+    ]
+  },
+  {
+    "sheet": "Side",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "frames": 16,
+    "allFramesNonempty": true,
+    "alphaRange": [
+      0,
+      255
+    ]
+  }
+]
