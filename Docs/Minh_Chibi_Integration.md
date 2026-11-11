@@ -6,7 +6,7 @@ Sources: `Assets/Art/Characters/PrototypeCast/Sources/MinhChibi/`.
 
 ## Result and controls
 
-The approved no-hat farmer replaces the older conical-hat sprite: tied dark hair, earth-brown patched shirt, charcoal-indigo trousers, red-brown sash, wicker rice backpack and wooden staff. Standing sprite height is approximately 1.65 world units, reduced another 10.8% from 1.85 at the owner's request. All seven sheets use the same relative reduction; the movement and feet collider are unchanged. Illustrated art uses Bilinear filtering, no mipmaps and uncompressed textures.
+The approved no-hat farmer replaces the older conical-hat sprite: tied dark hair, earth-brown patched shirt, charcoal-indigo trousers, red-brown sash, wicker rice backpack and wooden staff. Standing sprite height is approximately 1.2 world units (1.2 map tiles), reduced another 27.3% from 1.65 at the owner's request. All seven sheets use the same relative reduction; the movement and feet collider are unchanged. Illustrated art uses Bilinear filtering, no mipmaps and uncompressed textures.
 
 - WASD: original PlayerController and input asset unchanged, speed4. W uses a true back-view RunUp/IdleUp, S uses the approved front three-quarter view. A/D running reuses the originally approved Run sheet (mirrored for A); stationary A/D keeps the profile breathing animation. Releasing W keeps the back-view breathing animation rather than running in place.
 - Space: one-shot visual jump, then idle/run.
@@ -53,3 +53,5 @@ The retained Minh.controller was rebuilt with new states and sprite references. 
 ## Art provenance
 
 The five approved source sheets were copied unchanged from the preview folder. Two additional directional atlases were generated with the built-in image_gen tool using the approved four-view no-hat farmer as reference. [Exact prompts](Minh_Chibi_Art_Prompts.md). All runtime source textures and .meta files are inside the Unity project; no machine-specific file paths are needed at runtime.
+
+Size follow-up: all seven source-sheet import scales were reduced proportionally from a 1.65-unit standing height to 1.2 units. Existing sprite GUIDs, pivots, clips, movement and feet collider were retained.
