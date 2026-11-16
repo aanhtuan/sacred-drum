@@ -39,3 +39,8 @@ sysinfo.txt
 *.aab
 *.unitypackage
 crashlytics-build.properties
+
+# Local Unity crash dumps and recovered scenes (back up outside the repository)
+/mono_crash.*
+/Assets/_Recovery/
+/Assets/_Recovery.meta

@@ -2,6 +2,29 @@
 
 SacredDrum là game 2D top-down action adventure, đồ họa pixel art, lấy cảm hứng từ văn hóa Việt cổ và trống đồng Đông Sơn. Ngôn ngữ lập trình: C#. Môi trường phát triển: Linux. Nền tảng đích: Windows x64.
 
+## Prototype LDtk hiện tại
+
+Bản map và nhân vật mới nằm trên branch `codex/minh-farmer-preview`.
+
+```sh
+git clone --branch codex/minh-farmer-preview https://github.com/aanhtuan/sacred-drum.git
+cd sacred-drum
+git lfs pull
+```
+
+Mở bằng Unity **6000.5.10f1**, chờ Package Manager và import hoàn tất, sau đó mở
+`Assets/Scenes/Prototype_LDtk_Import.unity` và bấm Play. LDtkToUnity **6.12.4**
+và OpenUPM đã có trong cấu hình Packages; không cần cài LDtk để chạy scene.
+
+- Map nguồn: `Assets/LevelDesign/LDtkPrototype/Prototype_LDtk_Import.ldtk`.
+- Minh và người rơm: `Assets/Art/Characters/PrototypeCast/` (prefab, sprite và animation).
+- WASD: di chuyển; J hoặc chuột trái: animation đánh gậy; Space: animation nhảy; giữ C: cúi người.
+- Người rơm hiện có animation minh họa, chưa có AI hoặc sát thương.
+- Chỉnh map bằng LDtk 1.5.3 rồi lưu để Unity reimport; tileset dùng đường dẫn tương đối trong repository.
+
+Xem [Minh hiện tại](Docs/Minh_Readability.md), [người rơm](Docs/Scarecrow_Straw_Integration.md),
+[vật trang trí hiện tại](Docs/Sparse_Vegetation_Prototype.md). Các báo cáo cũ là lịch sử kiểm chứng.
+
 ## Level 1 map prototype
 
 Bản layout hiện hành đã thu hẹp đường, tạo ruộng và sông có đường viền cong, gom cụm cảnh vật, chuyển spawn tới chòi và bố trí lại ba đèn. Xem [báo cáo refinement cùng ảnh trước/sau](Docs/Level1_Refinement_Report.md).
